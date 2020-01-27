@@ -32,11 +32,14 @@ apsc_collab_css/
 ## Workflow
 To make changes to apcs collab base css code (i.e any piece of code on this repository)
 1. Clone the repository to your local environment using HTTPS or SSH
-   ``` git clone https://github.com/apsc-web/collab-css.git ``` 
-2. Checkout a feature branch on the local repository.
-   ```git checkout -b <new-branch>```
-3. Commit your changes and push to staging/feature branch on github.
-   ``` git commit -m "message" ```
+   ```markdown
+   git clone https://github.com/apsc-web/collab-css.git ``` 
+2. Checkout a feature branch on the local repository
+   ```markdown 
+   git checkout -b <new-branch>```
+3. Commit your changes and push to staging/feature branch on github
+   ```markdown 
+   git commit -m "message" ```
 4. Create a pull request to merge staging/master
 5. Merge the changes to master
 
