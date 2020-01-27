@@ -6,7 +6,7 @@ Apsc collab css is hosted on [github pages](https://apsc-web.github.io/collab-cs
 
 ## Apsc Collab Directory Structure
 ```markdown
-apsc_collab_css/
+apsc-collab-css/
 |
 |-- modules/                    # for code that is reused often; this includes variables, mixins etc
 |   |-- colors.scss
@@ -16,10 +16,10 @@ apsc_collab_css/
 |-- partials/                   # for code that doesn't need to be compiled to css; e.g buttons, grids
 |   |-- _base.scss              # import all variables, mixins etc from modules;
 |   |-- _buttons.scss           
-|   |-- _nav.scss
 |   |-- _headings.scss
-|   |-- _sidebar.scss
 |   |-- _layout.scss
+|   |-- _nav.scss
+|   |-- _sidebar.scss
 |   ...
 |
 |-- vendors/                    #external css or sass from other projects or vendors
