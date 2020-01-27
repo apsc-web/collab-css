@@ -1,6 +1,6 @@
 ## Welcome to Collab CSS
 
-**Purpose:** Base css for all apsc collab sites. It is referenced by all apsc collab sites in production
+**Purpose:** Base css for all apsc collab sites. It is referenced by all apsc collab sites in production.
 
 Apsc collab css is hosted on [github pages](https://apsc-web.github.io/collab-css/). This allows us to remotely reference the repo's css files from github. 
 
@@ -46,7 +46,7 @@ To make changes to apcs collab base css code (i.e any piece of code on this repo
 
 ## Additional Notes
 While git version control is meant to alievate the pain of accidentaly loosing important code by allowing us to revert dangerous changes, please refrain from editing code on this repository unless your goal is to change the base css code of all collab sites in production.
-If your change is site specific, please consider making those changes through the site's custom css
+If your change is site specific, please consider making those changes through the site's custom css.
 
 ## FAQ's
 Why is apsc collab css hosted on github pages? 
