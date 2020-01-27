@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+## Welcome to Collab CSS
 
-You can use the [editor on GitHub](https://github.com/apsc-web/collab-css/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Purpose:** Base css for all apsc collab sites. It is referenced by all apsc collab sites in production
+**collab css Github Pages: [https://apsc-web.github.io/collab-css/](https://apsc-web.github.io/collab-css/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Apsc collab cs is hosted on github pages. This allows us to reference the repository directly from github. 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+## Apsc Collab Directory Structure
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+apsc_collab_css/
+|
+|-- modules/                    # for code that is reused often; this includes variables, mixins etc
+|   |-- colors.scss
+|   |-- fonts.scss
+|   ...
+|
+|-- partials/                   # for code that doesn't need to be compiled to css; e.g buttons, grids
+|   |-- _base.scss              # import all variables, mixins etc from modules; do not import these into main css files
+|   |-- _buttons.scss           
+|   |-- _nav.scss
+|   |-- _headings.scss
+|   |-- _sidebar.scss
+|   |-- _layout.scss
+|   ...
+|
+|-- vendors/                    #external css or sass from other projects or vendors
+|   ...
+|
+|-- main.css                    #main css file; import all partials using @use rule
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Workflow
+To make changes to apcs collab base css code (i.e any piece of code on this repository)
+1. Clone the repository to your local environment using SSH or HTTPS
+2. Checkout a staging branch on the local repository. If adding completely new css code (e.g a new layout), please create a new feature branch instead. Once you have made changes on the staging/feature branch, please commit your changes and push to staging/feature branch on github.
+3. Create a pull request to merge staging/master
+4. Merge the changes to master
+5. If all is well, you can safely delete the feature branch
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/apsc-web/collab-css/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Additional Notes
+While github exists for version control which is meant to alievate the pain of having to revert dangerous changes, please refrain from editing code on this repository unless your goal is to change the base css code of all collab sites in production.
+If your change is site specific, please consider making those changes through custom css
 
-### Support or Contact
+## FAQ's
+Why is apsc collab css hosted on github pages? 
+This allows us to reference the css directly from github. Doing this allows us to reap the numerous benefits of version control.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+## Support
+Having trouble? Send an email to web-apsc@ubc.ca and someone will help you sort it out.
