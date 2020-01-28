@@ -3,17 +3,21 @@
         max-width:770px;  
         margin-left:auto;
         margin-right:auto;
-        padding-left:20px;
-        padding-right:20px;
+        @media only screen and (min-width: $break-mobile) {
+            padding-left:20px;
+            padding-right:20px;    
+        }
     }
 }
 
 h1 {
-    .page-title {
+    &.page-title {
         max-width:770px;  
         margin-left:auto;
         margin-right:auto;
-        padding-left:20px;
-        padding-right:20px;
+        @media only screen and (min-width: $break-mobile) {
+            padding-left:20px;
+            padding-right:20px;
+        }
     }
 }
