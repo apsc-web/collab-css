@@ -37,7 +37,7 @@ To make changes to apcs collab base css code (i.e any piece of code on this repo
 2. Navigate to the root of the cloned directory
 3. Set up sass to automatically watch and compile main.scss to a minified version of css
    ```markdown
-   sass --watch main.scss main.min.css --style compressed```
+   sass --watch main.scss main.min.css --style compressed ```
 4. Checkout a feature branch on the local repository
    ```markdown 
    git checkout -b <new-branch>```
