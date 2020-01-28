@@ -1,0 +1,13 @@
+entry-content {
+    a, a:hover {
+        color:$link-color;
+        container_button {
+            color: $link-color;
+            a {
+                color:white;
+                background-color: $link-color;
+            }
+        }
+    }
+}
+
