@@ -34,14 +34,18 @@ To make changes to apcs collab base css code (i.e any piece of code on this repo
 1. Clone the repository to your local environment using HTTPS or SSH
    ```markdown
    git clone https://github.com/apsc-web/collab-css.git ``` 
-2. Checkout a feature branch on the local repository
+2. Navigate to the root of the cloned directory
+3. Set up sass to automatically watch and compile main.scss to a minified version of css
+   ```markdown
+   sass --watch main.scss main.min.css --style compressed```
+4. Checkout a feature branch on the local repository
    ```markdown 
    git checkout -b <new-branch>```
-3. Commit your changes and push to staging/feature branch on github
+5. Commit your changes and push to staging/feature branch on github
    ```markdown 
    git commit -m "message" ```
-4. Create a pull request to merge staging/master
-5. Merge the changes to master
+6. Create a pull request to merge staging/master
+7. Merge the changes to master
 
 
 ## Additional Notes
