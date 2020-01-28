@@ -1,8 +1,11 @@
 .entry-content {
-    a, a:hover {
+    a {
         color:$link-color;
+        &:hover {
+            color:$link-color;
+        }
         &.container_button {
-            color: $link-color;
+            display: inline-block;
             background-color: white;
             border-color: $link-color;
             border-width: 1px;
@@ -15,4 +18,5 @@
             }
         }
     }
+    
 }
