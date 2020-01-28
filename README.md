@@ -34,7 +34,7 @@ To make changes to apcs collab base css code (i.e any piece of code on this repo
 1. Clone the repository to your local environment using HTTPS or SSH
    ```markdown
    git clone https://github.com/apsc-web/collab-css.git 
-2. Navigate to the root of the cloned directory
+2. Navigate to the apsc-collab-css directory
 3. Set up sass to automatically watch and compile main.scss to a minified version of css
    ```markdown
    sass --watch main.scss main.min.css --style compressed
