@@ -1,20 +1,18 @@
 .entry-content {
     a, a:hover {
         color:$link-color;
+        &.container_button {
+            color: $link-color;
+            background-color: white;
+            border-color: $link-color;
+            border-width: 1px;
+            border-style: solid;
+            text-decoration: none;
+            padding: 8px 6px;
+            &:hover {
+                color:white;
+                background-color: $link-color;
+            }
+        }
     }
 }
-
-.container_button {
-    color: $link-color;
-    background-color: white;
-    border-color: $link-color;
-    border-width: 1px;
-    border-style: solid;
-    text-decoration: none;
-    padding: 8px 6px;
-    &:hover {
-        color:white;
-        background-color: $link-color;
-    }
-}
-
