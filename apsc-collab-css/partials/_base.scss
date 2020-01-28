@@ -11,14 +11,14 @@ blockquote {
         font-style:italic;
         margin-bottom:0.5em;
     }
-    quotee {
-        font-weight:600; 
-    }
+    .quotee {
+            font-weight:600; 
+        }
 }
 
 /*how do to direct child >? */
-entry-content {
-    p, ul, ol, table {
+.entry-content  {
+     p, ul, ol, table {
         font-size:1.3em;
     }
     p {
@@ -57,32 +57,32 @@ td {
     padding: 10px;
    }
 
-iso {
-    header-tags, date {
+.iso {
+    .header-tags, .date {
         display:none;
     }
-    boxey {
+    .boxey {
         max-width:240px;
         height:200px; /*doesn't work*/
-        launch-btn {
+        .launch-btn {
             display:none;
         }
     }
 }
 
-iso-title {
+.iso-title {
     font-size:0.8em;   
     font-weight:bold;
     line-height:1.4em;
 }
 
-iso-links {
+.iso-links {
     a {
         text-transform:uppercase;
     }
 }
 
-iso-description {
+.iso-description {
     margin:0 5px 5px;
     padding-bottom:5px;
 }
