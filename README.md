@@ -25,7 +25,7 @@ apsc-collab-css/
 |-- vendors/                    #external css or sass from other projects or vendors
 |   ...
 |
-|-- main.sass                   #main css file; import all partials using @use rule
+|-- main.scss                   #main css file; import all partials using @use rule
 ```
 **Note**: Import variables, mixins etc on _base.css. Do not import these modules on main.css
 
