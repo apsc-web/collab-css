@@ -17,16 +17,16 @@
                 background-color: $link-color;
             }
         }
-        .button-start {
+        &.button-start {
             float:right;
             content: "Start reading >";
         }
         }
-        .button-next {
+        &.button-next {
             float:right;
             content: "Next >";
         }
-        .button-prev {
+        &.button-prev {
             float:right;
             content: "< Previous";
         }
