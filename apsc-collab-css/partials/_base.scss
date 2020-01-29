@@ -40,10 +40,11 @@ blockquote {
         }*/
     }
     ul {
-        li {
+        &> li {
             list-style-type:disc;
-            ul {
+            &> ul {
                 list-style-type:circle;
+                font-size:1.3em;
             }
         }
     }
