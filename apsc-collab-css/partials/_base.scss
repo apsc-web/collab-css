@@ -32,13 +32,13 @@ blockquote {
        }
     }
     ul, ol {
-        li {
+        &> li {
             line-height:1.8em;
             margin-left:20px; /*why do i need to add this?*/
             margin-bottom:10px;
-            ul {
+            &> ul {
                 list-style-type:circle;
-                font-size:1.3em;
+                font-size:1em;
             }
         }
         /*not sure if this is needed
