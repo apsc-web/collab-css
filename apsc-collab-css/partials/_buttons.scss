@@ -17,6 +17,19 @@
                 background-color: $link-color;
             }
         }
+        .button-start {
+            float:right;
+            content: "Start reading >";
+        }
+        }
+        .button-next {
+            float:right;
+            content: "Next >";
+        }
+        .button-prev {
+            float:right;
+            content: "< Previous";
+        }
     }
     
 }

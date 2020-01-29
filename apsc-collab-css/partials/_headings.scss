@@ -1,6 +1,11 @@
 h1, h2, h3, h4, h5 {
     margin-top:2em; 
 }
+h1 {
+    @media only screen and (min-width: $break-mobile) { 
+        margin-top:1em;
+    }
+}
     
 h2 {
       color: $accent-color; 
