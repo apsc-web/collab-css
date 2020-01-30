@@ -9,22 +9,6 @@
     margin-left: auto;
 }
 
-blockquote {
-    margin-top:4em;
-    margin-bottom:4em;
-    background-color:$block-quote-background-color;
-    padding:20px;
-    p {
-        line-height:1.8em;
-        font-style:italic;
-        margin-top:0;
-        margin-bottom:0.5em;
-    }
-    .quotee {
-            font-weight:600; 
-        }
-}
-
 /*how do to direct child >? */
 .entry-content  {
      p, ul, ol, table {
@@ -79,6 +63,22 @@ td {
             display:none;
         }
     }
+}
+
+blockquote {
+    margin-top:4em;
+    margin-bottom:4em;
+    background-color:$block-quote-background-color;
+    padding:20px;
+    p {
+        line-height:1.8em;
+        font-style:italic;
+        margin-top:0;
+        margin-bottom:0.5em;
+    }
+    .quotee {
+            font-weight:600; 
+        }
 }
 
 .iso-title {
