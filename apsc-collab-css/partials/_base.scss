@@ -29,6 +29,9 @@
             > ul {
                 list-style-type:circle;
                 font-size:1em;
+                > li {
+                    margin-bottom: 0px;
+                }
             }
         }
         /*not sure if this is needed
