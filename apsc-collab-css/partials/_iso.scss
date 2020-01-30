@@ -1,0 +1,23 @@
+.filter-wrapper {
+	width: 100%;
+	overflow: hidden;
+
+	li {
+		display: inline-block;
+		margin: 4px;
+
+		a {
+			color: #666;
+		    font-size: 20px;
+		    font-weight: 400;
+		    letter-spacing: 2px;
+		    padding: 8px 17px;
+		    margin-right: 2px;
+		    margin-left: 2px;
+		    text-transform: uppercase;
+		    display: block;
+		    text-decoration: none;
+		    transition: all 0.4s ease-in-out;
+		}
+	}
+}
