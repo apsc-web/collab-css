@@ -1,6 +1,13 @@
 @import '../modules/breakpoints';
 @import '../modules/colors';
 @import '../modules/fonts';
+@import '../modules/container';
+
+.breadcrumb {
+    max-width: $container-size;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 blockquote {
     margin-top:4em;
