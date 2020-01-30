@@ -27,7 +27,7 @@ apsc-collab-css/
 |
 |-- main.scss                   #main css file; import all partials using @use rule
 ```
-**Note**: Import variables, mixins etc on _base.css. Do not import these modules on main.css
+**Note**: Import variables, mixins etc on _base.css. Do not import these modules on main.scss
 
 ## Workflow
 To make changes to apcs collab base css code (i.e any piece of code on this repository)
@@ -41,11 +41,12 @@ To make changes to apcs collab base css code (i.e any piece of code on this repo
 4. Checkout a feature branch on the local repository
    ```markdown 
    git checkout -b <new-branch>
-5. Commit your changes and push to staging/feature branch on github
+5. Make required changes
+6. Commit your changes and push to staging/feature branch on github
    ```markdown 
    git commit -m "message"
-6. Create a pull request to merge staging/master
-7. Merge the changes to master
+7. Create a pull request to merge staging/master
+8. Merge the changes to master
 
 
 ## Additional Notes
@@ -53,7 +54,7 @@ While git version control is meant to alievate the pain of accidentaly loosing i
 If your change is site specific, please consider making those changes through the site's custom css.
 
 ## FAQ's
-Why is apsc collab css hosted on github pages? 
+###Why is apsc collab css hosted on github pages? 
 This allows us to reference the css directly from github. Doing this allows us to reap the numerous benefits of version control.
 
 ## Support
