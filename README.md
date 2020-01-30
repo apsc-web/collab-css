@@ -54,7 +54,7 @@ While git version control is meant to alievate the pain of accidentaly loosing i
 If your change is site specific, please consider making those changes through the site's custom css.
 
 ## FAQ's
-###Why is apsc collab css hosted on github pages? 
+**Why is apsc collab css hosted on github pages?**
 This allows us to reference the css directly from github. Doing this allows us to reap the numerous benefits of version control.
 
 ## Support
