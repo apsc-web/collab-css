@@ -9,7 +9,7 @@
 
 		a {
 			color: #666;
-		    font-size: 20px;
+		    font-size: 12px;
 		    font-weight: 400;
 		    letter-spacing: 2px;
 		    padding: 8px 17px;
@@ -19,6 +19,26 @@
 		    display: block;
 		    text-decoration: none;
 		    transition: all 0.4s ease-in-out;
+		}
+	}
+}
+
+.iso-box-section {
+	width: 100%;
+
+	.iso-box-wrapper {
+		width: 100%;
+		padding: 0;
+		clear: both;
+
+		.iso-box {
+			position: relative;
+			min-height: 50px;
+			float: left;
+			overflow: hidden;
+			margin-bottom: 25px;
+			box-sizing: border-box;
+			padding: 0 30px;
 		}
 	}
 }
