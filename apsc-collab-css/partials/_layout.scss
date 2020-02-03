@@ -1,6 +1,8 @@
+@import '../modules/container';
+
 .entry-content > {
     * {
-        max-width:770px;  
+        max-width: $content-width;  
         margin-left:auto;
         margin-right:auto;
         @media only screen and (min-width: $break-mobile) {
@@ -10,7 +12,7 @@
     }
 
     .iso {
-        max-width: 1800px;
+        max-width: $container-size;
         @media only screen and (min-width: $break-mobile) {
             padding-left: 0px;
             padding-right: 0px;   
@@ -20,28 +22,31 @@
 
 h1 {
     &.page-title {
-        max-width:770px;  
-        margin-left:auto;
-        margin-right:auto;
+        max-width: $content-width;  
+        margin-left: auto;
+        margin-right: auto;
         @media only screen and (min-width: $break-mobile) {
-            padding-left:20px;
-            padding-right:20px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
     }
 }
 
 .featured-header-photo {
-    height: 500px;
+    height: $cover-photo-height;
     overflow: hidden;
+    @media only screen and (max-width: $break-mobile) {
+        height: 200px;
+    }  
 }
 
 .cover-photo {
-    height: 500px;
-    margin:0;
+    height: $cover-photo-height;
+    margin: 0;
     background-position: 50% 50%; /*does not work*/
     background-size: cover;
     position: relative;
     @media only screen and (max-width: $break-mobile) {
-        height:200px;
+        height: 200px;
     }    
 }
