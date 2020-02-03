@@ -11,6 +11,10 @@
 
     .iso {
         max-width: 1800px;
+        @media only screen and (min-width: $break-mobile) {
+            padding-left: 0px;
+            padding-right: 0px;   
+        }
     }
 }
 
