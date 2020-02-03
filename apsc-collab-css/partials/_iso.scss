@@ -1,3 +1,36 @@
+.iso {
+    .header-tags, .date {
+        display:none;
+    }
+    .boxey {
+    /*
+        max-width:240px;
+        height:200px; doesn't work
+
+    */
+        .launch-btn {
+            display:none;
+        }
+    }
+}
+
+.iso-title {
+    font-size:0.8em;   
+    font-weight:bold;
+    line-height:1.4em;
+}
+
+.iso-links {
+    a {
+        text-transform:uppercase;
+    }
+}
+
+.iso-description {
+    margin:0 5px 5px;
+    padding-bottom:5px;
+}
+
 .filter-wrapper {
 	width: 100%;
 	overflow: hidden;
