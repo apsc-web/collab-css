@@ -7,6 +7,11 @@
     max-width: $container-size;
     margin-right: auto;
     margin-left: auto;
+
+    @media only screen and (min-width: $break-mobile) {
+        margin-right: -20px;
+        margin-left: -20px;   
+    }
 }
 
 /*how do to direct child >? */
