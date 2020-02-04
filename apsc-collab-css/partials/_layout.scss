@@ -52,3 +52,10 @@ h1 {
         height: 200px;
     }    
 }
+
+#section-5 {
+    @media only screen and (max-width: $break-laptop) {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
