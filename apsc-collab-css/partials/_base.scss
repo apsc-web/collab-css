@@ -3,17 +3,6 @@
 @import '../modules/fonts';
 @import '../modules/container';
 
-.full-width .full-width-container .breadcrumb {
-    max-width: $container-size;
-    margin-right: auto;
-    margin-left: auto;
-
-    @media only screen and (max-width: $break-mobile) {
-        margin-right: -20px;
-        margin-left: -20px;   
-    }
-}
-
 /*how do to direct child >? */
 .entry-content  {
      p, ul, ol, table {

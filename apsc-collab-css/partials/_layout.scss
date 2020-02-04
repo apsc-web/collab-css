@@ -11,12 +11,8 @@
         }
     }
 
-    .iso {
-        max-width: 1800px;
-        @media only screen and (min-width: $break-mobile) {
-            padding-left: 0px;
-            padding-right: 0px;   
-        }
+    .iso-container {
+        max-width: $container-size;
     }
 }
 
@@ -29,6 +25,17 @@ h1 {
             padding-left: 20px;
             padding-right: 20px;
         }
+    }
+}
+
+.full-width .full-width-container .breadcrumb {
+    max-width: $container-size;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media only screen and (max-width: $break-mobile) {
+        margin-right: -20px;
+        margin-left: -20px;   
     }
 }
 
