@@ -14,9 +14,13 @@
     }
     .boxey-inner {
     	h1, h2, h3, h4, h5, h6 {
-    		font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif; 
+    		font-family: $brand-font; 
     		margin-top: 20px;
-    	}
+		}
+			&.post-title {
+				line-height:1em;
+				margin-bottom:0;
+			}
     	.iso-description p {
     		margin-top: 0px;
     	}
@@ -29,9 +33,26 @@
     }
 }
 
+.iso-title {
+	font-family: $brand-font;
+	font-size:0.7em;
+	font-weight:600;
+	.strat-label {
+		&::previous {
+			content:"Strategy #";
+		}
+		font-size:0.5em;
+		font-weight:100;
+		text-transform: uppercase;
+		color:$brand-color;
+	}
+
+}
+
 .iso-description {
-    margin:0 5px 5px;
-    padding-bottom:5px;
+    /*margin:0 5px 5px;*/
+	padding-bottom:5px;
+	font-size:0.8em;
 }
 
 .filter-wrapper {

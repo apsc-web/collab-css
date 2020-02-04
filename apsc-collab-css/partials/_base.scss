@@ -3,6 +3,11 @@
 @import '../modules/fonts';
 @import '../modules/container';
 
+
+body {
+    font-family: $brand-font;
+    }
+
 /*how do to direct child >? */
 .entry-content  {
      p, ul, ol, table {
