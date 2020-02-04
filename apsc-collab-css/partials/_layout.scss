@@ -42,9 +42,13 @@ h1 {
 }
 
 .featured-image {
+    @media only screen and (max-width: $break-tablet) {
+        object-fit: cover;
+        height: 500px;
+    } 
+
     @media only screen and (max-width: $break-mobile) {
         height: 200px;
-        object-fit: cover;
     } 
 }
 
@@ -60,7 +64,7 @@ h1 {
 }
 
 #section-5 {
-    @media only screen and (max-width: $break-laptop) {
+    @media only screen and (max-width: $break-tablet) {
         margin-left: -20px;
         margin-right: -20px;
     }
