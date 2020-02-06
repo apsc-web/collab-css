@@ -12,8 +12,11 @@
             border-style: solid;
             text-decoration: none;
             padding: 8px 6px;
+            background-size: 0px;
+            transition: .6s ease;
             background-image: none;
             &:hover {
+                background-size: auto;
                 color:white;
                 /*background-color: $link-color;*/
             }
@@ -26,14 +29,14 @@
             float:right;
             content: "Next >";
             &:hover {
-                background-image: linear-gradient(to bottom right, $brand-color, $link-color);
+                background-image: linear-gradient(to bottom left, $brand-color, $link-color);
             }
         }
         &.button-prev {
             float:left;
             content: "< Previous";
             &:hover {
-                background-image: linear-gradient(to bottom left, $brand-color, $link-color);
+                background-image: linear-gradient(to bottom right, $brand-color, $link-color);
             }
         }
     }
