@@ -15,12 +15,13 @@
         }
 
         .boxey-inner {
-        	height: 250px;
-        	
+        	height: 226px;
+
 			/*border-top:5px #ccc solid*/
 	    	h1, h2, h3, h4, h5, h6 {
 	    		font-family: $brand-font; 
 	    		margin-top: 20px;
+
 				&.post-title.media-title {
 					line-height:1em;
 					margin-bottom:0;
@@ -62,7 +63,7 @@
 		&:before {
 			content:"Strategy #";
 		}
-		font-size:0.6em;
+		font-size:0.55em;
 		font-weight:100;
 		text-transform: uppercase;
 		color:$brand-color;
