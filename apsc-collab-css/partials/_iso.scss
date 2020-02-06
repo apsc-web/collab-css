@@ -1,3 +1,5 @@
+@import '../modules/fonts';
+
 .iso {
     .header-tags, .date {
         display:none;
@@ -30,6 +32,12 @@
     		margin-top: 0px;
     	}
     }
+}
+
+.iso_shortcode {
+	h1, h2, h3, h4, h5, h6, p {
+		font-family: $brand-font;
+	}
 }
 
 .iso-links {
