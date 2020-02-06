@@ -13,30 +13,38 @@
         .launch-btn {
             display:none;
         }
-    }
-    .boxey-inner {
-		/*border-top:5px #ccc solid*/
-    	h1, h2, h3, h4, h5, h6 {
-    		font-family: $brand-font; 
-    		margin-top: 20px;
-			&.post-title.media-title {
-				line-height:1em;
-				margin-bottom:0;
-				a {
-					pointer-events:none;
+
+        .boxey-inner {
+        	height: 250px;
+        	
+			/*border-top:5px #ccc solid*/
+	    	h1, h2, h3, h4, h5, h6 {
+	    		font-family: $brand-font; 
+	    		margin-top: 20px;
+				&.post-title.media-title {
+					line-height:1em;
+					margin-bottom:0;
+					a {
+						pointer-events:none;
+					}
 				}
 			}
-		}
-			
-    	.iso-description p {
-    		margin-top: 0px;
+
+				
+	    	.iso-description p {
+	    		margin-top: 0px;
+	    	}
     	}
     }
 }
 
 .iso_shortcode {
-	h1, h2, h3, h4, h5, h6, p {
+	h1, h2, h3, h4, h5, h6 {
 		font-family: $brand-font;
+	}
+	p {
+		font-family: $brand-font;
+		font-size: 1.2em;
 	}
 }
 
