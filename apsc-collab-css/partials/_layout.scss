@@ -22,6 +22,14 @@
     }
 }
 
+.single-post {
+    .post-title, .navigation-links {
+        max-width: $content-width;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 h1 {
     &.page-title {
         max-width: $content-width;  
