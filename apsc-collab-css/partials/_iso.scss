@@ -1,4 +1,5 @@
 @import '../modules/fonts';
+@import '../modules/breakpoints';
 
 .iso {
     .header-tags, .date {
@@ -37,6 +38,14 @@
 	    	}
     	}
     }
+}
+
+.iso_nav {
+	.services-menu {
+		@media only screen and (min-width: $break-mobile) {
+            height: auto !important;
+        }
+	}
 }
 
 .iso_shortcode {
