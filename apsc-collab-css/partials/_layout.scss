@@ -12,6 +12,9 @@
     }
 
     .flexslider {
+        max-width: $container-size;
+        margin-top: 2em;
+        
         ul {
             list-style-type: none;
             font-size: 1em;
