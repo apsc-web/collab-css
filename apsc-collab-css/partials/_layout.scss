@@ -11,6 +11,20 @@
         }
     }
 
+    .flexslider {
+        ul {
+            list-style-type: none;
+            font-size: 1em;
+        }
+
+        ul, ol {
+            > li {
+                line-height: 1em;
+                margin-left: 0px; 
+                margin-bottom: 0px;
+            }
+        }
+    }
     .iso-container {
         max-width: $container-size;
         margin-top: 2em;
