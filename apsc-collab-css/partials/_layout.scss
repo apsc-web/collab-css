@@ -14,7 +14,7 @@
     .flexslider {
         max-width: $container-size;
         margin-top: 2em;
-        
+
         ul {
             list-style-type: none;
             font-size: 1em;
@@ -27,7 +27,16 @@
                 margin-bottom: 0px;
             }
         }
+
+        .carousel-caption {
+            background-image: linear-gradient(to borrom right, $brand-color, $accent-color);           
+
+            p {
+                max-width: 1000px;
+            }
+        }
     }
+
     .iso-container {
         max-width: $container-size;
         margin-top: 2em;
