@@ -63,6 +63,10 @@
             height: 160px !important;  
         }
 
+        @media only screen and (min-width: $break-desktop) {
+            height: 110px;
+        }
+
         p {
             max-width: 1000px;
 
