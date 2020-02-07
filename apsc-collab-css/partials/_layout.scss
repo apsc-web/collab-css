@@ -52,8 +52,11 @@
     .flex-direction-nav, .flex-pauseplay, .flex-counter {
         z-index: 10;
     }
-    
+
     .carousel-caption {
+        h4 a {
+            color: #ffffff;
+        }
         background-image: linear-gradient(to bottom right, $brand-color, $accent-color); 
 
         @media only screen and (max-width: $break-tablet) {
