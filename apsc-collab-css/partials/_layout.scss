@@ -50,6 +50,11 @@ h1 {
     .icon-label-set {
         img {
             margin-bottom: 20px;
+
+            @media only screen and (min-width: $break-mobile) {
+                width: 100px;
+                float: left;
+            }
         }
     }
     .span4 {
