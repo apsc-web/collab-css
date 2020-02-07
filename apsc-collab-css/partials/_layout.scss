@@ -49,12 +49,15 @@
 }
 
 .flexslider {
-
+    .flex-direction-nav, .flex-pauseplay, .flex-counter {
+        z-index: 10;
+    }
+    
     .carousel-caption {
         background-image: linear-gradient(to bottom right, $brand-color, $accent-color); 
 
         @media only screen and (max-width: $break-tablet) {
-            height: 180px !important;  
+            height: 160px !important;  
         }
 
         p {
