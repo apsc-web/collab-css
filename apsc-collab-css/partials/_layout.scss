@@ -54,10 +54,12 @@
     }
 
     .carousel-caption {
+        padding 20px: 
+        background-image: linear-gradient(to bottom right, $brand-color, $accent-color); 
+
         h4 a {
             color: #ffffff;
         }
-        background-image: linear-gradient(to bottom right, $brand-color, $accent-color); 
 
         @media only screen and (max-width: $break-tablet) {
             height: 160px !important;  
