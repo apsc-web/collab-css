@@ -13,7 +13,7 @@
             text-decoration: none;
             padding: 8px 6px;
             background-size: 0px;
-            transition: .6s ease;
+            transition: .2s ease;
             background-image: none;
             &:hover {
                 background-size: auto;
@@ -23,35 +23,35 @@
         }
         &.button-start {
             float:right;
-            content: "Start reading >";
+            /*content: "Start reading >";*/
             border-width: 2px;
-            border-image: linear-gradient(to top right, rgba($brand-color,0.5), rgba($brand-color,1));
+            border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
             border-image-slice: 1;
             color:$brand-color;
             &:hover {
-                background-image: linear-gradient(to top right, rgba($brand-color,0.5), rgba($brand-color,1));
+                background-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
             }
         }
         &.button-next {
             float:right;
             content: "Next >";
             border-width: 2px;
-            border-image: linear-gradient(to bottom left, $brand-color, $accent-color);
+            border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
             border-image-slice: 1;
             color:$brand-color;
             &:hover {
-                background-image: linear-gradient(to bottom left, $brand-color, $accent-color);
+                background-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
             }
         }
         &.button-prev {
             float:left;
             content: "< Previous";
             border-width: 2px;
-            border-image: linear-gradient(to bottom right, $brand-color, $accent-color);
+            border-image: linear-gradient(to left, rgba($link-color,0.3), rgba($link-color,1));
             border-image-slice: 1;
             color:$brand-color; 
             &:hover {
-                background-image: linear-gradient(to bottom right, $brand-color, $accent-color);
+                background-image: linear-gradient(to left, rgba($link-color,0.3), rgba($link-color,1));
             }
         }
     }
