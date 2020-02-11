@@ -1,5 +1,9 @@
 @import '../modules/container';
 
+.breadcrumb {
+    display:none;
+}
+
 .entry-content > {
     * {
         max-width: $content-width;  

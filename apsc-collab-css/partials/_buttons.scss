@@ -25,11 +25,11 @@
             float:right;
             content: "Start reading >";
             border-width: 2px;
-            border-image: linear-gradient(to bottom left, $brand-color, $accent-color);
+            border-image: linear-gradient(to top right, rgba($brand-color,0.5), rgba($brand-color,1));
             border-image-slice: 1;
             color:$brand-color;
             &:hover {
-                background-image: linear-gradient(to bottom left, $brand-color, $accent-color);
+                background-image: linear-gradient(to top right, rgba($brand-color,0.5), rgba($brand-color,1));
             }
         }
         &.button-next {
