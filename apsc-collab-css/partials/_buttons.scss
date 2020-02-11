@@ -18,7 +18,7 @@
             &:hover {
                 background-size: auto;
                 color:white;
-                /*background-color: $link-color;*/
+                background-color: $link-color;
             }
         }
         &.button-start {
@@ -26,9 +26,10 @@
             /*content: "Start reading >";*/
             border-width: 2px;
             border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
-            border-image-slice: 1;
-            color:$brand-color;
+            /*border-image-slice: 1;*/
+            color:$link-color;
             &:hover {
+                border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
                 background-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
             }
         }
@@ -37,9 +38,10 @@
             content: "Next >";
             border-width: 2px;
             border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
-            border-image-slice: 1;
-            color:$brand-color;
+            /*border-image-slice: 1;*/
+            color:$link-color;
             &:hover {
+                border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
                 background-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
             }
         }
@@ -48,9 +50,10 @@
             content: "< Previous";
             border-width: 2px;
             border-image: linear-gradient(to left, rgba($link-color,0.3), rgba($link-color,1));
-            border-image-slice: 1;
-            color:$brand-color; 
+            /*border-image-slice: 1;*/
+            color:$link-color; 
             &:hover {
+                border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
                 background-image: linear-gradient(to left, rgba($link-color,0.3), rgba($link-color,1));
             }
         }
