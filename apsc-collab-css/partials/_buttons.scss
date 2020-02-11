@@ -6,7 +6,7 @@
         }
         &.container_button {
             display: inline-block;
-            background-color: white;
+            // background-color: white;
             border-color: $link-color;
             border-width: 1px;
             border-style: solid;
@@ -24,19 +24,34 @@
         &.button-start {
             float:right;
             content: "Start reading >";
+            border-width: 2px;
+            border-image: linear-gradient(to bottom left, $brand-color, $accent-color);
+            border-image-slice: 1;
+            color:$brand-color;
+            &:hover {
+                background-image: linear-gradient(to bottom left, $brand-color, $accent-color);
+            }
         }
         &.button-next {
             float:right;
             content: "Next >";
+            border-width: 2px;
+            border-image: linear-gradient(to bottom left, $brand-color, $accent-color);
+            border-image-slice: 1;
+            color:$brand-color;
             &:hover {
-                background-image: linear-gradient(to bottom left, $brand-color, $link-color);
+                background-image: linear-gradient(to bottom left, $brand-color, $accent-color);
             }
         }
         &.button-prev {
             float:left;
             content: "< Previous";
+            border-width: 2px;
+            border-image: linear-gradient(to bottom right, $brand-color, $accent-color);
+            border-image-slice: 1;
+            color:$brand-color; 
             &:hover {
-                background-image: linear-gradient(to bottom right, $brand-color, $link-color);
+                background-image: linear-gradient(to bottom right, $brand-color, $accent-color);
             }
         }
     }
