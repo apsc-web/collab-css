@@ -18,7 +18,7 @@
             &:hover {
                 background-size: auto;
                 color:white;
-                background-color: $link-color;
+                background-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
             }
             &.button-start {
                 float:right;
@@ -30,6 +30,7 @@
                 &:hover {
                     border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
                     background-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
+                    color:white;
                 }
             }
             &.button-next {
@@ -42,6 +43,7 @@
                 &:hover {
                     border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
                     background-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
+                    color:white;
                 }
             }
             &.button-prev {
@@ -54,6 +56,7 @@
                 &:hover {
                     border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
                     background-image: linear-gradient(to left, rgba($link-color,0.3), rgba($link-color,1));
+                    color:white;
                 }
             }
         }
