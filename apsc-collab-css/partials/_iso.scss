@@ -109,9 +109,6 @@
 		    display: block;
 		    text-decoration: none;
 		    transition: all 0.4s ease-in-out;
-		    @media only screen and (min-width: $break-laptop) {
-            	font-size: 14px;
-        	}
 		}
 
 		a:active {
