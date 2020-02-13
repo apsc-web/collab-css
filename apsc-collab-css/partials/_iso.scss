@@ -1,5 +1,6 @@
 @import '../modules/fonts';
 @import '../modules/breakpoints';
+@import '../modules/container';
 
 .iso {
     .header-tags, .date {
@@ -41,7 +42,7 @@
 }
 
 .iso-container {
-	.iso_nav {
+	.iso-nav {
 		@media only screen and (min-width: $break-laptop) {
 	    	width: $content-width;
 			margin-left: auto;
