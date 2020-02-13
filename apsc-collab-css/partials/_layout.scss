@@ -96,10 +96,6 @@ h1 {
     }
 }
 
-[class^="icon-"], [class*=" icon-"] {
-    /*font-family: $brand-font; commented out as overwrites fontawesome in ubc-clf-full-bw.min.css */
-}
-
 .priority-icons {
     .icon-label-set {
         img {
@@ -109,6 +105,10 @@ h1 {
                 width: 100px;
                 float: left;
             }
+        }
+
+        .icon-label-text {
+            font-family: $brand-font;
         }
 
         @media only screen and (max-width: $break-mobile) {
