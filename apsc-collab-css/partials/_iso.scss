@@ -96,17 +96,22 @@
 		margin: 4px;
 
 		a {
-			color: #666;
+			color: #101010;
 		    font-size: 12px;
 		    font-weight: 400;
-		    letter-spacing: 2px;
-		    padding: 8px 17px;
+		    /*letter-spacing: 2px;*/
+		    padding: 10px;
+		    /*
 		    margin-right: 2px;
 		    margin-left: 2px;
+		    */
 		    text-transform: uppercase;
 		    display: block;
 		    text-decoration: none;
 		    transition: all 0.4s ease-in-out;
+		    @media only screen and (min-width: $break-laptop) {
+            	font-size: 14px;
+        	}
 		}
 
 		a:active {
