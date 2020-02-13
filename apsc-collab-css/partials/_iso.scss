@@ -49,6 +49,12 @@
 		@media only screen and (min-width: $break-mobile) {
             height: auto !important;
         }
+
+        a {
+        	@media only screen and (min-width: $break-laptop) {
+            	font-size: 12px;
+        	}
+        }
 	}
 }
 
