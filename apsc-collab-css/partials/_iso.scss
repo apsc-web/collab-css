@@ -145,7 +145,12 @@
 				text-align: center;
 				padding: 5px;
 				border-radius: 30%;
-				height: 95px;
+				/*height: 95px;*/
+				height: 110px;
+				width: 110px;
+				border-radius: 50%;
+				border-top-right-radius: 0;
+				transform: rotate(45deg);
 			}
 
 			.iso-trend {
