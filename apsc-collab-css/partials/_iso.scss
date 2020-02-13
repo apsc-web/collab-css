@@ -133,7 +133,7 @@
 			position: relative;
 			min-height: 50px;
 			float: left;
-			overflow: hidden;
+			/*overflow: hidden;*/
 			margin-bottom: 25px;
 			box-sizing: border-box;
 			padding: 0 15px;
@@ -151,6 +151,11 @@
 				border-radius: 50%;
 				border-top-right-radius: 0;
 				transform: rotate(45deg);
+
+				.iso-tear-title {
+					display: inline-block;
+					transform: rotate(-45deg);
+				}
 			}
 
 			.iso-trend {
