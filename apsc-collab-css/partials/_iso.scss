@@ -40,23 +40,26 @@
     }
 }
 
-.iso_nav {
-	width: $content-width;
-	margin-left: auto;
-	margin-right: auto;
+.iso-container {
+	.iso_nav {
+		@media only screen and (min-width: $break-laptop) {
+	    	width: $content-width;
+			margin-left: auto;
+			margin-right: auto;
 
-	.services-menu {
-		@media only screen and (min-width: $break-mobile) {
-            height: auto !important;
-        }
+			.services-menu a {
+				font-size: 12px;
+			}
+		}
 
-        a {
-        	@media only screen and (min-width: $break-laptop) {
-            	font-size: 12px;
-        	}
-        }
+		.services-menu {
+			@media only screen and (min-width: $break-mobile) {
+	            height: auto !important;
+	        }
+		}
 	}
 }
+
 
 .iso_shortcode {
 	a, h1, h2, h3, h4, h5, h6 {
