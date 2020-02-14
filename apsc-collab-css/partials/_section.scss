@@ -21,19 +21,18 @@
     line-height: 1.5em;
     font-weight: 600;
     color: $accent-color;
-    .statistic-title-digit {
-        width:50%;
-        float:left;
-        margin-right: -10%;
-    }
-    .statistic-title-text {
-        width:50%;
-        float:left;
-        font-size:45%;
-        text-align:left;
-    }
 }
-
+.statistic-title-digit {
+    width:50%;
+    float:left;
+    margin-right: -10%;
+}
+.statistic-title-text {
+    width:50%;
+    float:left;
+    font-size:45%;
+    text-align:left;
+}
 
 .statistic, .statistic-label {
     text-align: center;
