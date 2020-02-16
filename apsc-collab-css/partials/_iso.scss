@@ -57,6 +57,16 @@
 			@media only screen and (min-width: $break-mobile) {
 	            height: auto !important;
 	        }
+
+	        a:hover {
+				background: $brand-color;
+				color: #ffffff,
+			}
+
+			a.current, a:active, a:focus {
+				background: $diagonal-brand-to-accent-gradient;
+				color: #ffffff;
+			}
 		}
 	}
 }
@@ -137,7 +147,7 @@
 		}*/
 
 		a:hover {
-			background: $link-color;
+			background: $brand-color;
 			color: #ffffff,
 		}
 
