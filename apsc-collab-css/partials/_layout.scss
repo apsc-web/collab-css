@@ -70,7 +70,7 @@
 
     .carousel-caption {
         padding: 20px; 
-        background-image: linear-gradient(to bottom right, $brand-color, $accent-color); 
+        background-image: $diagonal-brand-to-accent-gradient; 
 
         h4 a {
             color: #ffffff;
