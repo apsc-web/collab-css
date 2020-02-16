@@ -124,9 +124,9 @@
 		    text-transform: uppercase;
 		    display: block;
 		    text-decoration: none;
-		    transition: all 0.4s ease-in-out;
+		    /*transition: all 0.4s ease-in-out;*/
 		}
-
+		/*
 		a:active {
 			background: #001245 !important;
 		}
@@ -134,6 +134,16 @@
 		a:hover, a:focus {
 			background: #001245;
 			color: #ffffff;
+		}*/
+
+		a.selected, a:active, a:focus {
+			background: $accent-color;
+			color: #ffffff;
+		}
+
+		a:hover {
+			background: $link-color;
+			color: #ffffff,
 		}
 	}
 }
