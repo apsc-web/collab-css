@@ -136,14 +136,14 @@
 			color: #ffffff;
 		}*/
 
-		a.selected, a:active, a:focus {
-			background: $diagonal-brand-to-accent-gradient;
-			color: #ffffff;
-		}
-
 		a:hover {
 			background: $link-color;
 			color: #ffffff,
+		}
+
+		a.selected, a:active, a:focus {
+			background: $diagonal-brand-to-accent-gradient;
+			color: #ffffff;
 		}
 	}
 }
