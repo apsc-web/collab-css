@@ -16,23 +16,29 @@
     background-color: $block-quote-background-color; 
 }
 
+.bg-brand-gradient{
+    background-image: linear-gradient(to bottom left, #0c2344, #0055b7);
+    color:#fff;
+}
+
 .statistic {
     font-size: 4em;
     line-height: 1.5em;
     font-weight: 600;
     color: $accent-color;
+    .statistic-title-digit {
+         width:45%; 
+         float:left;
+         margin-right: -10%;
+    }
+    .statistic-title-text {
+        width:60%;
+        float:left;
+        font-size:45%;
+        text-align:left;
+    }
+    .statistic, .statistic-label {
+        text-align: center;
+    }
 }
-.statistic-title-digit {
-    width:45%; 
-    float:left;
-    margin-right: -10%;
-}
-.statistic-title-text {
-    width:60%;
-    float:left;
-    font-size:45%;
-    text-align:left;
-}
-.statistic, .statistic-label {
-    text-align: center;
-}
+
