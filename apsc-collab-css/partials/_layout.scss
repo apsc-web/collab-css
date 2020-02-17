@@ -189,6 +189,6 @@ h1 {
 .alert, .alert-info {
     background-color: $block-quote-background-color;
     border: none;
-    border-left: $block-quote-border-color;
+    border-left: 5px solid $block-quote-border-color;
     padding: 20px;
 }
