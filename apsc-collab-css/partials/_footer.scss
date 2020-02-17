@@ -4,7 +4,28 @@
 
 	.footer-container {
 		max-width: $content-width;  
-        margin-left:auto;
-        margin-right:auto;
+        margin-left: auto;
+        margin-right: auto;
+
+        a {
+        	text-decoration: none;
+        	color: #ffffff;
+        }
+
+        .footer-button {
+        	border-color: $link-color;
+        	border-width: 1px;
+        	border-style: solid;
+        	padding: 8px 6px;
+
+        	&:hover {
+        		
+        	}
+        }
+
+
+        .footer-apsc {
+        	float: right;
+        }
 	}
 }
