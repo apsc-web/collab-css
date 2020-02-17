@@ -29,16 +29,15 @@
     line-height: 1.5em;
     font-weight: 600;
     color: $accent-color;
-    .statistic-title-digit {
-         width:45%; 
-         float:left;
-         margin-right: -10%;
-    }
     .statistic-title-text {
-        width:60%;
-        float:left;
-        font-size:45%;
-        text-align:left;
+        font-size: 0.4em;
+        vertical-align: middle;
+        margin-left:2%;
+    }
+    .statistic-title-text__line-break{
+        width: 40%;
+        line-height: normal;
+        vertical-align:baseline;
     }
     .statistic, .statistic-label {
         text-align: center;
