@@ -37,16 +37,8 @@
                 float:right;
                 content: "Next >";
                 border-width: 2px;
-                /*
-                border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
-                border-image-slice: 1;
-                */
                 color:$link-color;
                 &:hover {
-                    /*
-                    border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
-                    background-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
-                    */
                     color:white;
                 }
             }
@@ -54,16 +46,8 @@
                 float:left;
                 content: "< Previous";
                 border-width: 2px;
-                /*
-                border-image: linear-gradient(to left, rgba($link-color,0.3), rgba($link-color,1));
-                border-image-slice: 1;
-                */
                 color:$link-color; 
                 &:hover {
-                    /*
-                    border-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
-                    background-image: linear-gradient(to left, rgba($link-color,0.3), rgba($link-color,1));
-                    */
                     color:white;
                 }
             }
