@@ -192,3 +192,8 @@ h1 {
     border-left: 5px solid $block-quote-border-color;
     padding: 20px;
 }
+
+.icon-alert:before {
+    content: "\f0f3";
+    font-family: FontAwesome;
+}
