@@ -10,22 +10,28 @@
         a {
         	text-decoration: none;
         	color: #ffffff;
+        	font-size: 1.3em;
         }
 
         .footer-button {
-        	border-color: $link-color;
+        	border-color: $brand-color;
         	border-width: 1px;
         	border-style: solid;
         	padding: 8px 6px;
 
         	&:hover {
-        		
+        		color: $link-color;
         	}
         }
 
-
         .footer-apsc {
-        	float: right;
+        	@media only screen and (min-width: $break-laptop) {
+	            float: right;    
+	        }
+
+	        &:hover {
+        		color: $link-color;
+        	}
         }
 	}
 }
