@@ -31,11 +31,12 @@
     color: $accent-color;
     .statistic-title-text {
         font-size: 0.4em;
-        vertical-align: middle;
-        margin-left:2%;
+        vertical-align: bottom;
+        margin-left:4%;
     }
     .statistic-title-text__line-break{
-        width: 40%;
+        display:inline-block;
+        width: 30%;
         line-height: normal;
         vertical-align:baseline;
     }
