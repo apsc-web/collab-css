@@ -17,10 +17,11 @@
                 	border-color: $brand-color;
                 	border-width: 1px;
                 	border-style: solid;
-                	padding: 8px 6px;
+                        border-color: #ffffff;
+                	padding: 12px 24px;
 
                 	&:hover {
-                		color: $link-color;
+                		background-image: linear-gradient(to right, rgba($link-color,0.3), rgba($link-color,1));
                 	}
                 }
 
