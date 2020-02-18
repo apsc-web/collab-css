@@ -72,8 +72,12 @@
         padding: 20px; 
         background-image: $diagonal-brand-to-accent-gradient; 
 
-        h4 a {
-            color: #ffffff;
+        h4 {
+            margin-top: 0px;
+
+            a {
+                color: #ffffff;
+            }
         }
 
         @media only screen and (max-width: $break-tablet) {
