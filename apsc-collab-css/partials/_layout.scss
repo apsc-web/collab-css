@@ -136,6 +136,10 @@ h1 {
         }
     }
 }
+.full-width-container {
+    margin-right:auto;
+    margin-left:auto;
+}
 
 .full-width .full-width-container .breadcrumb {
     max-width: $container-size;
