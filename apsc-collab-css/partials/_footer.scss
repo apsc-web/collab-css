@@ -4,42 +4,42 @@
 
 	.footer-container {
 		max-width: $container-size;  
-        margin-left: auto;
-        margin-right: auto;
+                margin-left: auto;
+                margin-right: auto;
 
-        a {
-        	text-decoration: none;
-        	color: #ffffff;
-        	font-size: 1.3em;
+                a {
+                	text-decoration: none;
+                	color: #ffffff;
+                	font-size: 1.3em;
+                }
+
+                .footer-button {
+                	border-color: $brand-color;
+                	border-width: 1px;
+                	border-style: solid;
+                	padding: 8px 6px;
+
+                	&:hover {
+                		color: $link-color;
+                	}
+                }
+
+                .footer-apsc {
+                	@media only screen and (min-width: $break-laptop) {
+        	            float: right;    
+        	        }
+
+        	        &:hover {
+                		color: $link-color;
+                	}
+                }
         }
-
-        .footer-button {
-        	border-color: $brand-color;
-        	border-width: 1px;
-        	border-style: solid;
-        	padding: 8px 6px;
-
-        	&:hover {
-        		color: $link-color;
-        	}
-        }
-
-        .footer-apsc {
-        	@media only screen and (min-width: $break-laptop) {
-	            float: right;    
-	        }
-
-	        &:hover {
-        		color: $link-color;
-        	}
-        }
-	}
 }
 
 #ubc7-unit-footer {
         display: none;
         border: none;
-        padding: 0px;        
+        padding: 0px;       
 }
 
 footer .ubc7-back-to-top {
