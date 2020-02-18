@@ -28,6 +28,8 @@
 					line-height:1em;
 					margin-bottom:0;
 					a {
+						color:$accent-color;
+						cursor: default;
 						pointer-events:none;
 					}
 				}
