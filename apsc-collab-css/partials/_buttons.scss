@@ -50,3 +50,14 @@
         }
     }
 }
+
+.btn-next {
+    float: right;
+    text-decoration: none;
+
+    .btn-label {
+        color: $brand-color;
+        font-size: 0.8em;
+        font-weight: 800;
+    }
+}
