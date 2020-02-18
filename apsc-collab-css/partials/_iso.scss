@@ -22,7 +22,8 @@
 			/*border-top:5px #ccc solid*/
 	    	h1, h2, h3, h4, h5, h6 {
 	    		font-family: $brand-font; 
-	    		margin-top: 20px;
+				margin-top: 20px;
+				text-transform: capitalize;
 
 				&.post-title.media-title {
 					line-height:1em;
