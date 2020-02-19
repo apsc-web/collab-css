@@ -12,24 +12,17 @@
     background-color: $grid-tile-background-color;
     float:left;
     height: 226px;
-    margin-right: 1.5em;
-    margin-bottom: 1.5em;
+    /*margin-right: 1.5em;
+    margin-bottom: 1.5em;*/
     padding: 15px;
 
      h3.strategy-title-grid {
         margin-top:1em;
         margin-bottom:0.8em;
+        line-height:1.4em;
+        font-size:1.7em;
         .strat-label {
             font-size:0.6em;
         }
     }
-}
-
-h3 {
-    &.strategy-title-grid {
-        margin-top:0;
-        font-size:2em;
-
-    }
-
 }
