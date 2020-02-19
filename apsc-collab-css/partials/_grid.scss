@@ -16,9 +16,20 @@
     margin-bottom: 1.5em;
     padding: 15px;
 
-    h1, h2, h3, h4, h5, h6{
-        line-height:1em;
+     h3.strategy-title-grid {
         margin-top:1em;
-        margin-bottom:1em;
+        margin-bottom:0.8em;
+        .strat-label {
+            font-size:0.6em;
+        }
     }
+}
+
+h3 {
+    &.strategy-title-grid {
+        margin-top:0;
+        font-size:2em;
+
+    }
+
 }
