@@ -4,6 +4,10 @@
     display:none;
 }
 
+.center {
+    text-align:center;
+}
+
 .entry-content > {
     * {
         max-width: $content-width;  
@@ -218,7 +222,14 @@ h1 {
     font-family: FontAwesome;
 }
 
-.arrow-down:before {
+
+
+.arrow-down{
+    color:$brand-color;
+    font-size:3em;
+    padding: 1em 0 0.7em;
+    &:before {
     content: "\f063";
     font-family: FontAwesome;
+    }
 }
