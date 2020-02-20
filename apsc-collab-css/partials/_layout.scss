@@ -225,11 +225,11 @@ h1 {
 
 
 .arrow-down{
-    color:$brand-color;
-    font-size:5em;
+    color:rgba($accent-color,0.5);
+    font-size:6em;
     padding: 1em 0 0.7em;
     &:before {
-    content: "\f063";
+    content: "\f103";
     font-family: FontAwesome;
     }
 }
