@@ -31,7 +31,20 @@
     text-transform: uppercase;
     font-size: 1.3em;
     font-weight: 600;
-    .title{
-        border-bottom: 2px solid;
-    }
+}
+
+.title-lead-by-example__underline{
+    border:2px solid $lead-by-example-color;
+}
+.title-embrace-ambiguity__underline{
+    border:2px solid $embrace-ambiguity-color;
+}
+.title-act-with-intention__underline{
+    border:2px solid $act-with-intention-color;
+}
+.title-increase-impact__underline{
+    border:2px solid $increase-impact-color;
+}
+.title-accelerate-solutions__underline{
+    border:2px solid $accelerate-solutions-color;
 }
