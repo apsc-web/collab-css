@@ -45,6 +45,11 @@
 }
 
 .iso-container {
+	&.hidden-navbar, &.hide-navbar {
+		.navbar {
+			display:none;
+		}
+	}
 	.iso-nav {
 		@media only screen and (min-width: $break-laptop) {
 	    	width: $content-width;
