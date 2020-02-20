@@ -28,20 +28,21 @@
 }
 
 .statistic {
-    font-size: 4em;
+    font-size: 5em;
     line-height: 1.5em;
     font-weight: 600;
     color: $accent-color;
     .statistic-title-text {
         font-size: 0.4em;
         vertical-align: bottom;
-        margin-left:4%;
+        /*margin-left:4%;*/
     }
     .statistic-title-text__line-break{
         display:inline-block;
         width: 30%;
         line-height: normal;
         vertical-align:baseline;
+        text-align:left;
     }
     .statistic, .statistic-label {
         text-align: center;
