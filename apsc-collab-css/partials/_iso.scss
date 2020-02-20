@@ -95,13 +95,13 @@
 
 .iso-title {
 	font-family: $brand-font;
-	font-size:0.8em;
+	font-size:0.7em;
 	font-weight:600;
 	.strat-label {
 		&:before {
 			content:"Strategy #";
 		}
-		font-size:0.55em;
+		font-size:0.65em;
 		font-weight:100;
 		text-transform: uppercase;
 		color:$brand-color;
