@@ -39,7 +39,11 @@
                 		background-image: $diagonal-link-gradient;
                                 color: $brand-color;
                                 border-color: $brand-color;
-                	}
+                        }
+                        
+                        @media only screen and (min-width: $break-mobile) {
+                                margin-bottom: 20px;  
+                            }
                 }
 
                 .footer-apsc {
