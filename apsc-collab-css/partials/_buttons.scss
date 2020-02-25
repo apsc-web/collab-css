@@ -78,31 +78,9 @@
 }
 
 .link-animation-5px {
-    /*text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    position: relative;*/
-
     &:after {
-        /*content: '';
-        position: absolute;
-        width: 0; 
-        display: block;
-        right: 0;
-        background: $link-color;
-        transition: width .2s ease;
-        -webkit-transition: width .2s ease;*/
-
         height: 5px;
     }
-
-    /*
-    &:hover {
-        &:after {
-            width: 100%;
-            left: 0;
-            background: $link-color;
-        }
-    }*/
 }
 
 .btn-next {
