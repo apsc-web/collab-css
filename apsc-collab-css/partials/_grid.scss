@@ -38,9 +38,16 @@
     width: 15%;
     float: left;
     margin-right: 5%;
+    margin-top:4%;
+    margin-bottom: 4%;
     &:hover{
         color: $link-color;
     }
+    @media only screen and (max-width: $break-mobile) {
+        width: 100%;
+        margin:0;  
+    }
+
 }
 .title-lead-by-example__underline{
     border-bottom:5px solid $lead-by-example-color;
