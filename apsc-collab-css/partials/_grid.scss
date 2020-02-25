@@ -33,11 +33,11 @@
     text-transform: uppercase;
     font-size: 1.3em;
     font-weight: 600;
-    width:15%;
-    float:left;
-    margin-right:5%;
 }
 .commitment-title{
+    width: 15%;
+    float: left;
+    margin-right: 5%;
     &:hover{
         color: $link-color;
     }
