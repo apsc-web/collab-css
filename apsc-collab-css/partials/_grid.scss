@@ -33,19 +33,23 @@
     text-transform: uppercase;
     font-size: 1.3em;
     font-weight: 600;
+    @media only screen and (max-width: $break-mobile) {
+        height:270px;
+        margin-top:10%;
+        margin-bottom: 10%;
+    }
 }
 .commitment-title{
     width: 15%;
     float: left;
     margin-right: 5%;
-    margin-top:4%;
-    margin-bottom: 4%;
+    margin-top:5%;
+    margin-bottom: 5%;
     &:hover{
         color: $link-color;
     }
     @media only screen and (max-width: $break-mobile) {
         width: 100%;
-        margin:0;  
     }
 
 }
