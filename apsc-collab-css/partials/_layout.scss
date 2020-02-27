@@ -129,36 +129,6 @@ h1 {
     text-transform: uppercase;
 }
 
-.priority-icons {
-    .icon-label-set {
-        img {
-            margin-bottom: 20px;
-
-            @media only screen and (max-width: $break-mobile) {
-                width: 100px;
-                float: left;
-            }
-        }
-
-        .icon-label-text {
-            font-family: $brand-font;
-        }
-
-        @media only screen and (max-width: $break-mobile) {
-            .icon-label-text {
-                padding-left: 10px;
-            }
-        }
-    }
-    .span4 {
-        text-align: center;
-
-        @media only screen and (max-width: $break-tablet) {
-            float: left;
-        }
-    }
-}
-
 .full-width .full-width-container .breadcrumb {
     max-width: $container-size;
     margin-right: auto;
@@ -246,6 +216,35 @@ h1 {
     overflow:auto;
     margin:0 auto 20px auto;
 
+    .icon-label-set {
+        img {
+            margin-bottom: 20px;
+
+            @media only screen and (max-width: $break-mobile) {
+                width: 100px;
+                float: left;
+            }
+        }
+
+        .icon-label-text {
+            font-family: $brand-font;
+        }
+
+        @media only screen and (max-width: $break-mobile) {
+            .icon-label-text {
+                padding-left: 10px;
+            }
+        }
+    }
+
+    .span4 {
+        text-align: center;
+
+        @media only screen and (max-width: $break-tablet) {
+            float: left;
+        }
+    }
+
     a {
         text-decoration: none;
 
@@ -291,5 +290,9 @@ h1 {
         left: 50%;
         top: 50%;
         margin: -50px 0 0 -75px;
+
+        @media only screen and (max-width: $break-mobile) {
+            width: 70%;
+        }
     }
 }
