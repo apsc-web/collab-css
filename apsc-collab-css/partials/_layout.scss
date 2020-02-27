@@ -239,3 +239,49 @@ h1 {
     //     width:17%; 
     // } 
 }
+
+.priority-icons {
+    max-width:770px;
+    clear:both;
+    overflow:auto;
+    margin:0 auto 20px auto;
+
+    .row {
+        margin: 0 auto;
+
+        .priority-icon:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left:50%;
+            margin-left:-25%;
+            border-bottom: 2px solid rgb(12, 35, 68);
+            width: 50%;
+        }
+    }
+
+    .row1 {
+        .priority-icon:before {
+            border-color: rgb(0, 167, 225);
+        }
+    }
+
+    .priority-icon {
+        padding:0;
+        margin: 20px 0 0 0;
+        height:220px;
+        text-align:center;
+        position:relative;
+
+        h5 {
+            margin-top: 0;
+        }
+    }
+
+    img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -50px 0 0 -75px;
+    }
+}
