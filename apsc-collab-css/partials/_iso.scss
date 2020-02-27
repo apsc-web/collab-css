@@ -6,18 +6,6 @@
     .header-tags, .date {
         display:none;
 	}
-	> .lead-by-example
-	{
-		&:before {
-			content: '';
-			position: absolute;
-			bottom: 15px;
-			left: 50%;
-			margin-left: -25%;
-			border-bottom: 2px solid $lead-by-example-color;
-			width: 50%;
-		}
-	}
     .boxey {
     /*
         max-width:240px;
