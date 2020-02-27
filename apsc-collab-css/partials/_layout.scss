@@ -246,6 +246,14 @@ h1 {
     overflow:auto;
     margin:0 auto 20px auto;
 
+    a {
+        text-decoration: none;
+
+        p {
+            display: none;
+        }
+    }
+
     .row {
         margin: 0 auto;
 
