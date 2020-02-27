@@ -1,71 +1,61 @@
 .footer-cta {
-	background-image: $diagonal-brand-to-accent-gradient;
-	padding: 40px 0;
-
-	.footer-container {
-		max-width: $container-size;  
-                margin-left: auto;
-                margin-right: auto;
-
-                .link-animation {
-                    &:after {
-                        background: #ffffff;
-                    }
-
-                    &:hover {
-                        &:after {
-                            background: #ffffff;
-                        }
-                    }
+    background-image: $diagonal-brand-to-accent-gradient;
+    padding: 40px 0;
+    .footer-container {
+        max-width: $container-size;
+        margin-left: auto;
+        margin-right: auto;
+        .link-animation {
+            &:after {
+                background: #ffffff;
+            }
+            &:hover {
+                &:after {
+                    background: #ffffff;
                 }
-
-
-                a {
-                	text-decoration: none;
-                	color: #ffffff;
-                	font-size: 1.3em;
-                        transition: all 0.2s ease-in-out;
-                }
-
-                .footer-button {
-                        display: inline-block;
-                	border-color: $brand-color;
-                	border-width: 1px;
-                	border-style: solid;
-                        border-color: #ffffff;
-                	padding: 12px 24px;
-
-                	&:hover {
-                		background: #fff;
-                                color: $link-color;
-                                border-color: $brand-color;
-                        }
-                        
-                        @media only screen and (max-width: $break-tablet) {
-                                margin-bottom: 20px;  
-                            }
-                }
-
-                .footer-apsc {
-                        display: inline-block;
-                        padding: 12px 0px;
-                	@media only screen and (min-width: $break-laptop) {
-        	            float: right;    
-        	        }
-
-        	        &:hover {
-                		/*color: $link-color;*/
-                	}
-                }
+            }
         }
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.3em;
+            transition: all 0.2s ease-in-out;
+        }
+        .footer-button {
+            display: inline-block;
+            border-color: $brand-color;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ffffff;
+            padding: 12px 24px;
+            &:hover {
+                background: #fff;
+                color: $link-color;
+                border-color: $brand-color;
+            }
+            @media only screen and (max-width: $break-tablet) {
+                margin-bottom: 20px;
+            }
+        }
+        .footer-apsc {
+            display: inline-block;
+            padding: 12px 0px;
+            @media only screen and (min-width: $break-laptop) {
+                float: right;
+            }
+            &:hover {
+                /*color: $link-color;*/
+            }
+        }
+    }
 }
 
 #ubc7-unit-footer {
-        display: none;
-        border: none;
-        padding: 0px;       
+    display: none;
+    border: none;
+    padding: 0px;
 }
 
 footer .ubc7-back-to-top {
-        display: none;
+    display: none;
 }
