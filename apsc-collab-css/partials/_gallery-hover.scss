@@ -4,20 +4,23 @@
     {
         div[id^="post"]:not(:hover)
         {
-            &:before
+            .boxey
             {
-                position: absolute;
-                top:0;
-                left:0;
-                background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
-                background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
-                background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
-                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
-                height: 100%;
-                width: 100%;
-                pointer-events: none;
-                z-index:1;
-                content:'';
+                &:before
+                {
+                    position: absolute;
+                    top:0;
+                    left:0;
+                    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+                    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+                    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+                    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+                    height: 100%;
+                    width: 100%;
+                    pointer-events: none;
+                    z-index:1;
+                    content:'';
+                }
             }
         }
         div[id^="post"]
@@ -185,7 +188,6 @@
                 {
                     .boxey-inner
                     {
-                        height:$LineHeightBase;
                         @media (min-width: 1200px) {
                             -webkit-transform: translate3d(0, -500%, 0);
                             transform: translate3d(0, -500%, 0);
