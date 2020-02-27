@@ -33,6 +33,7 @@
     text-transform: uppercase;
     font-size: 1.3em;
     font-weight: 600;
+    height:100px;
     @media only screen and (max-width: $break-mobile) {
         height:270px;
         margin-top:10%;
@@ -71,4 +72,25 @@
 
 .title__cursor-pointer{
     cursor:pointer;
+}
+
+/* Test CSS for commitments title grid*/
+.title-lead-by-example__left{
+    border-bottom:5px solid $lead-by-example-color;
+}
+.title-embrace-ambiguity__left{
+    border-bottom:5px solid $embrace-ambiguity-color;
+}
+.title-act-with-intention__left{
+    border-bottom:5px solid $act-with-intention-color;
+}
+.title-increase-impact__left{
+    border-bottom:5px solid $increase-impact-color;
+}
+.title-accelerate-solutions__left{
+    border-bottom:5px solid $accelerate-solutions-color; 
+}
+
+.commitment-title__margin-right-2p{
+    margin-right: 2%;
 }
