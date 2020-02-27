@@ -8,11 +8,24 @@
             margin-left:auto;
             margin-right:auto;
         }
-
         .column-header {
             margin-top: 1em;
         }
     }
+    .full-width-section__custom-width{
+        max-width: 100%;
+        padding: 1em;
+        margin: 4em -15px 4em -15px;
+        > * {
+            max-width: 810px; /* Adjust custom width */
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .column-header {
+            margin-top: 1em;
+        }
+    }
+   
 }
 
 .bg-grey{
@@ -22,7 +35,7 @@
 .bg-brand-gradient{
     background-image: linear-gradient(to bottom left, #0c2344, #0055b7);
     > * {
-        color:#fff;
+        color:#fff; 
     }
 
 }

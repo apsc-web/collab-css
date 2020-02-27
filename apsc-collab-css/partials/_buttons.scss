@@ -78,28 +78,8 @@
 }
 
 .link-animation-5px {
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    position: relative;
-
     &:after {
-        content: '';
-        position: absolute;
-        width: 0; 
         height: 5px;
-        display: block;
-        right: 0;
-        background: $link-color;
-        transition: width .2s ease;
-        -webkit-transition: width .2s ease;
-    }
-
-    &:hover {
-        &:after {
-            width: 100%;
-            left: 0;
-            background: $link-color;
-        }
     }
 }
 
@@ -112,37 +92,3 @@
         font-weight: 800;
     }
 }
-
-/*
-.btn-next {
-    float: right;
-    position: relative;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-
-    .btn-label {
-        color: $brand-color;
-        font-size: 0.8em;
-        font-weight: 800;
-    }
-
-    &:after {
-        content: '';
-        position: absolute;
-        width: 0; height: 3px;
-        display: block;
-        right: 0;
-        background: $link-color;
-        transition: width .2s ease;
-        -webkit-transition: width .2s ease;
-    }
-
-    &:hover {
-        &:after {
-            width: 100%;
-            left: 0;
-            background: $link-color;
-        }
-    }
-}
-*/

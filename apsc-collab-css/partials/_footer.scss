@@ -36,10 +36,14 @@
                 	padding: 12px 24px;
 
                 	&:hover {
-                		background-image: $diagonal-link-gradient;
-                                color: $brand-color;
+                		background: #fff;
+                                color: $link-color;
                                 border-color: $brand-color;
-                	}
+                        }
+                        
+                        @media only screen and (max-width: $break-tablet) {
+                                margin-bottom: 20px;  
+                            }
                 }
 
                 .footer-apsc {
