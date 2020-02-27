@@ -23,33 +23,40 @@
         div[id^="post"]
         {
             overflow: hidden;
-            height:218px;
             background-color: #f7f7f7;
             .boxey
             {
-                height:100%;
-                border: 3px solid #ffffff;
+                padding-top:100%; /* keep 1:1 aspect ration for the box */
+                margin:0;
                 .boxey-inside
                 {
-                    background: none;
+                    position: absolute;
+                    top:0;
+                    left:0;
+                    bottom: 0;
+                    right: 0;
+
                     .boxey-inner
                     {
                         -webkit-transform: translate3d(0, -0%, 0);
                         transform: translate3d(0, -0%, 0);
                         z-index: 1;
                         background: none;
-                        padding:0;
+                        padding:10% 10% 5% 10%;;
                         h3
                         {
                             color:#ffffff;
                             font-weight: $FontWeightMedium;
                             text-rendering: optimizeLegibility;
                             margin: 0;
-                            padding: 15px 10px 0 15px;
                         }
                         .iso-description
                         {
                             opacity: 0;
+                            p
+                            {
+                                margin:0;
+                            }
                             .iso-title
                             {
                                 height:90px;
@@ -87,15 +94,12 @@
             {
                 .boxey
                 {
-                    border: 3px solid #0055b7;
-                    background-image: url("data:image/svg+xml,%3Csvg width='275' height='275' viewBox='0 0 275 275' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M238.176 13H262.588V37.4118' stroke='%230055B7' stroke-width='3'/%3E%3Cpath d='M38 262H13L13 237' stroke='%230055B7' stroke-width='3'/%3E%3C/svg%3E");
-                    background-position: center;
-                    background-size: contain;
                     .boxey-inside
                     {
-                        margin-top: 10%;
-                        padding: 0 10%;
-                        background: none;
+                        border: 3px solid #0055b7;
+                        background-image: url("data:image/svg+xml,%3Csvg width='275' height='275' viewBox='0 0 275 275' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M238.176 13H262.588V37.4118' stroke='%230055B7' stroke-width='3'/%3E%3Cpath d='M38 262H13L13 237' stroke='%230055B7' stroke-width='3'/%3E%3C/svg%3E");
+                        background-position: center;
+                        background-size: contain;
                         .boxey-inner
                         {
                             .post-title
