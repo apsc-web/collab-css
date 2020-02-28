@@ -288,6 +288,12 @@ h1 {
             height: 180px;
             margin-top: 40px;
         }
+
+        &:hover {
+            h5 {
+                color: $link-color;
+            }
+        }
     }
 
     img {
