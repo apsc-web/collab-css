@@ -133,6 +133,28 @@
                                 opacity: 1;
                                 -webkit-transform: translate3d(0, 0, 0);
                                 transform: translate3d(0, 0, 0);
+
+                                .strategy-application {
+                                    p {
+                                        font-size: 1.2em;
+                                    }
+
+                                    ul {
+                                        font-size: 1.2em;
+
+                                        > li {
+                                            margin-bottom: 0px;
+                                            margin-left: 0px;
+                                        }
+                                    }
+
+                                    .strategy-application-title {
+                                        color: $link-color;
+                                        font-weight: 600; 
+                                        text-transform: uppercase;
+                                        font-size: 1.5em;
+                                    }
+                                }   
                             }
                             .launch-btn
                             {
