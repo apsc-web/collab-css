@@ -35,29 +35,6 @@
 					}
 				}
 			}
-
-	    	.iso-description {
-			    /*margin:0 5px 5px;*/
-				padding-bottom:5px;
-				font-size:0.8em;
-
-				.strategy-application {
-					display: none;
-				}
-
-				p {
-					margin-top: 0px;
-				}
-
-				&:hover {
-			        .strategy-application {
-						display: block;
-					}
-					.strategy-description {
-						display: none;
-					}
-			    }
-			}
     	}
     }
 }
@@ -92,6 +69,33 @@
 			a.current, a:active, a:focus {
 				background: $diagonal-brand-to-accent-gradient;
 				color: #ffffff;
+			}
+		}
+	}
+
+	.boxey {
+		.boxey-inner {
+			.iso-description {
+			    /*margin:0 5px 5px;*/
+				padding-bottom:5px;
+				font-size:0.8em;
+
+				.strategy-application {
+					display: none;
+				}
+
+				p {
+					margin-top: 0px;
+				}
+
+				&:hover {
+			        .strategy-application {
+						display: block;
+					}
+					.strategy-description {
+						display: none;
+					}
+			    }
 			}
 		}
 	}
