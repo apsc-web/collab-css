@@ -40,6 +40,19 @@
                     bottom: 0;
                     right: 0;
 
+                    .strategy-appliaction {
+                        display: none;
+                    }
+
+                    &:hover {
+                        .strategy-application {
+                            display: block;
+                        }
+                        .strategy-description {
+                            display: none;
+                        }
+                    }
+
                     .boxey-inner
                     {
                         -webkit-transform: translate3d(0, -0%, 0);
@@ -64,19 +77,6 @@
                             .iso-title
                             {
                                 height:90px;
-                            }
-
-                            .strategy-appliaction {
-                                display: none;
-                            }
-
-                            &:hover {
-                                .strategy-application {
-                                    display: block;
-                                }
-                                .strategy-description {
-                                    display: none;
-                                }
                             }
                         }
                         .launch-btn
