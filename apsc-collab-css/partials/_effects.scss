@@ -10,6 +10,14 @@
 .text-color__white{
     color:#fff;
 }
-.underline{
-    border-bottom:3px solid $link-color;
+
+%underline-shared {
+    border-bottom: 3px solid;
+  }
+.underline__link-color{
+    @extend %underline-shared;
+    border-color: $link-color;
+}
+.vertical-line__left{
+    border-left:3px solid $link-color;
 }
