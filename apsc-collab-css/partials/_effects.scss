@@ -18,6 +18,10 @@
     @extend %underline-shared;
     border-color: $link-color;
 }
+.underline__accent-color{
+    @extend %underline-shared;
+    border-color: $link-color;
+}
 .vertical-line__left{
     border-left:3px solid $link-color;
 }
