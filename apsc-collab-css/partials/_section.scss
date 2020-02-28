@@ -56,6 +56,10 @@
         line-height: normal;
         vertical-align:baseline;
         text-align:left;
+
+        @media (max-width: $break-mobile) {
+            width: 60%;
+        }
     }
     .statistic, .statistic-label {
         text-align: center;
