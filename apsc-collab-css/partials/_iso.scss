@@ -132,7 +132,7 @@
 	margin-left: 0px;
 
 	@media (max-width: $break-mobile) {
-        text-align: left;
+        text-align: left !important;
     }
 
 	li {
@@ -222,7 +222,7 @@
         		}
         		@media only screen and (max-width: 320px) {
             		height: 99px;
-            		font-size: 12px;
+            		font-size: 11px;
         		}
 			}
 
