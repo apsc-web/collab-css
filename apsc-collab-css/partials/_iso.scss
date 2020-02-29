@@ -46,6 +46,8 @@
 		}
 	}
 	.iso-nav {
+		padding: 0px;
+		
 		@media only screen and (min-width: $break-laptop) {
 	    	width: $content-width;
 			margin-left: auto;
