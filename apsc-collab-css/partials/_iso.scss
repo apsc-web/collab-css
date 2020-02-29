@@ -47,7 +47,7 @@
 	}
 	.iso-nav {
 		padding: 0px;
-		
+
 		@media only screen and (min-width: $break-laptop) {
 	    	width: $content-width;
 			margin-left: auto;
@@ -158,6 +158,11 @@
 		    text-transform: uppercase;
 		    display: block;
 		    text-decoration: none;
+		    
+		    @media (max-width: $break-mobile) {
+	            border-bottom: 1px solid #CCC;
+	        }
+		    
 		    /*transition: all 0.4s ease-in-out;*/
 		}
 		/*
