@@ -56,7 +56,34 @@
 			}
 		}
 
+		@media only screen and (max-width: $break-laptop) {
+            .btn.btn-navbar, .iso-nav .filter-title.brand {
+            	display:none;
+            }
+        }
+
 		.services-menu {
+			@media only screen and (max-width: $break-laptop) {
+	            .expand.nav-collapse.nav-collapse-iso {
+	            	background: white;
+	            	height:auto;
+	            	overflow:auto;
+
+	            	#menu-top-service-menu {
+	            		text-align: center;
+
+	            		a {
+			            	display: block;
+			            	margin:5px;
+			            }
+		            }
+	            }
+
+	            .services-menu.expand.nav-collapse.nav-collapse-iso  #menu-top-service-menu a {
+	            	display: block;
+	            	margin:5px;
+	            }
+	        }
 			@media only screen and (min-width: $break-mobile) {
 	            height: auto !important;
 	        }
