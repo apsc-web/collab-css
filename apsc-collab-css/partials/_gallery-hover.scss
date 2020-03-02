@@ -2,7 +2,7 @@
 {
     .gallery-hover
     {
-        div[id^="post"]:not(:hover)
+        /*div[id^="post"]:not(:hover)  // adds a gradient over the tile
         {
             .boxey
             {
@@ -22,7 +22,7 @@
                     content:'';
                 }
             }
-        }
+        }*/
         div[id^="post"]
         {
             overflow: hidden;
