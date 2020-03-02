@@ -20,7 +20,9 @@
 			height: 226px;
 			
 			a {
-				color:$accent-color;
+			   color:$accent-color;
+			   cursor: default;
+			   pointer-events:none;
 			}
 
 			/*border-top:5px #ccc solid*/
@@ -32,10 +34,6 @@
 					line-height:1em;
 					margin-top:1em;
 					margin-bottom:0;
-					a {
-						cursor: default;
-						pointer-events:none;
-					}
 				}
 			}
     	}
