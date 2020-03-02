@@ -117,6 +117,7 @@
 	font-family: $brand-font;
 	font-size:0.7em;
 	font-weight:600;
+	color:$accent-color;
 	.strat-label {
 		&:before {
 			content:"Strategy #";
