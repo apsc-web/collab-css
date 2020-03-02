@@ -17,7 +17,11 @@
         }
 
         .boxey-inner {
-        	height: 226px;
+			height: 226px;
+			
+			a {
+				color:$accent-color;
+			}
 
 			/*border-top:5px #ccc solid*/
 	    	h1, h2, h3, h4, h5, h6 {
@@ -29,7 +33,6 @@
 					margin-top:1em;
 					margin-bottom:0;
 					a {
-						color:$accent-color;
 						cursor: default;
 						pointer-events:none;
 					}
