@@ -69,9 +69,11 @@
 #mission-vision {
     .column-image {
         max-width: 115%;
-    }
 
-    @media (max-width: $break-tablet) {
-        max-width: 100%;
+        @media (max-width: $break-tablet) {
+            .column-image {
+                max-width: 100%;
+            }
+        }
     }
 }
