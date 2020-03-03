@@ -269,9 +269,11 @@ h1 {
             position: absolute;
             bottom: 0;
             left:50%;
-            margin-left:-25%;
+            //margin-left:-25%;
+            margin-left: -20%;
             border-bottom: 5px solid rgb(12, 35, 68);
-            width: 50%;
+            //width: 50%;
+            width: 39%;
         }
     }
 
@@ -288,8 +290,10 @@ h1 {
     .row2 {
         .priority-icon {
             margin: 3em 0 0 0;
+        }
 
-            @media only screen and (max-width: $break-mobile) {
+        @media only screen and (max-width: $break-mobile) {
+            .priority-icon {
                 margin: 2em 0 0 0;
             }
         }
