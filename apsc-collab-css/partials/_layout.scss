@@ -276,15 +276,26 @@ h1 {
     }
 
     .row1 {
+        .priority-icon {
+            margin: 2em 0 0 0;
+        }
+
         .priority-icon:before {
             border-color: rgb(0, 167, 225);
         }
     }
 
+    .row2 {
+        .priority-icon {
+            margin: 3em 0 0 0;
+        }
+    }
+
     .priority-icon {
         padding:0;
-        margin: 20px 0 0 0;
-        height:220px;
+        /*margin: 20px 0 0 0;
+        height:220px;*/
+        height:180px;
         text-align:center;
         position:relative;
 
@@ -308,7 +319,8 @@ h1 {
         position: absolute;
         left: 55%;
         top: 50%;
-        margin: -50px 0 0 -75px;
+        //margin: -50px 0 0 -75px;
+        margin: -45px 0 0 -75px;
 
         @media only screen and (max-width: $break-mobile) {
             width: 70%;
