@@ -66,3 +66,12 @@
     }
 }
 
+#mission-vision {
+    .column-image {
+        max-width: 115%;
+    }
+
+    @media (max-width: $break-tablet) {
+        max-width: 100%;
+    }
+}
