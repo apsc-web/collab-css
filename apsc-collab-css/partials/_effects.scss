@@ -25,3 +25,11 @@
 .vertical-line__left{
     border-left:3px solid $link-color;
 }
+
+.mission-border-color {
+    border-left: 5px solid $link-color;
+}
+
+.vision-border-color {
+    border-left: 5px solid $brand-color;
+}
