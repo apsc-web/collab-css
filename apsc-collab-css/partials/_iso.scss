@@ -82,6 +82,10 @@
 			    /*margin:0 5px 5px;*/
 				padding-bottom:5px;
 
+				.strategy-description {
+					color: #ffffff;
+				}
+
 				.strategy-application {
 					display: none;
 				}
@@ -90,6 +94,12 @@
 					margin-top: 0px;
 				}
 			}
+		}
+	}
+
+	.block {
+		.boxey-inside {
+			background-image: $diagonal-brand-to-accent-gradient;
 		}
 	}
 }
@@ -117,7 +127,7 @@
 	font-family: $brand-font;
 	font-size:0.7em;
 	font-weight:600;
-	color:$accent-color;
+	/*color:$accent-color;*/
 	.strat-label {
 		&:before {
 			content:"Strategy #";
@@ -125,7 +135,8 @@
 		font-size:0.65em;
 		font-weight:100;
 		text-transform: uppercase;
-		color:$accent-color;
+		/*color:$accent-color;*/
+		color: #ffffff;
 	}
 
 }
