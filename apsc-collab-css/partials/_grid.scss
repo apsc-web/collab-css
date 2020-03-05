@@ -111,3 +111,42 @@ p#increase-impact, p#accelerate-solutions{
     padding-left:15px;
     margin-left:-1%;
 }
+
+/* Priorities test CSS */
+.priority{
+    height:130px;
+    padding-top:4%;
+    padding-left:4%;
+    padding-right:4%;
+    padding-bottom:2%;
+    color:white;
+    background-image: linear-gradient(to bottom right, #0c2344, #0055b7);
+  }
+   .priority-icon{
+    width:15%;
+    float:left;
+  }
+  .priority-section{
+    width:80%;
+    float:left;
+    margin-left:5%;
+    font-size:0.9em;
+  }
+  h3.priority-title{
+    margin-top:0;
+    color:white;
+  }
+  p.priority-description{
+    margin-top:0;
+    margin-bottom:5%;
+  }
+  
+  .vertical-bar__darkgrey{
+    border-left:5px solid darkgrey;
+  }
+  
+  .vertical-bar__lightgrey{
+    border-left:5px solid lightgrey;
+  }
+  
+    
