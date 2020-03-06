@@ -125,6 +125,9 @@ p#increase-impact, p#accelerate-solutions{
     @media only screen and (max-width: $break-mobile) {
         height: 170px;
     }
+    @media only screen and (max-width: 320px) {
+        height: 200px;
+    }
   }
    .priority-icon{
     width:15%;
@@ -142,10 +145,21 @@ p#increase-impact, p#accelerate-solutions{
     @media only screen and (max-width: $break-mobile) {
         font-size: 16px;
     }
+    @media only screen and (max-width: $break-mobile) {
+        font-size: 16px;
+    }
   }
   p.priority-description{
     margin-top:0;
     margin-bottom:5%;
+    @media only screen and (max-width: $break-mobile) {
+        margin-top: 20px;
+        margin-left: -60px;
+    }
+    @media only screen and (max-width: 320px) {
+        margin-top: 15px;
+        margin-left: -50px;
+    }
   }
   
   .vertical-bar__darkgrey{
