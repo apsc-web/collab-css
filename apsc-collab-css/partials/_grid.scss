@@ -163,11 +163,11 @@ p#increase-impact, p#accelerate-solutions{
   }
   
   .vertical-bar__darkgrey{
-    border-left:10px solid #4d4d4d;
+    border-left:10px solid $priority-mission-color;
   }
   
   .vertical-bar__lightgrey{
-    border-left:10px solid lightgrey;
+    border-left:10px solid $priority-vision-color;
   }
   
     
