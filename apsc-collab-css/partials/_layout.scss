@@ -158,6 +158,7 @@ h1 {
 }
 
 .featured-image {
+    width: 100%;
     @media only screen and (max-width: $break-tablet) {
         object-fit: cover;
         height: 500px;
