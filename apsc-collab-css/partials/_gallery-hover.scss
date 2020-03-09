@@ -1,5 +1,13 @@
 .gallery-hover-effect
 {
+    /* add fade in effect, corrects ISO code display on page load
+       keyframes set at end of file
+     */
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
     .gallery-hover
     {
         /*div[id^="post"]:not(:hover)  // adds a gradient over the tile
@@ -265,5 +273,60 @@
             -webkit-transition: transform 3s cubic-bezier(0.01, 0.61, 0, 0.99),opacity 0.5s ease-out;
             transition: transform 3s cubic-bezier(0.01, 0.61, 0, 0.99),opacity 0.5s ease-out;
         }
+    }
+}
+@keyframes fadeIn{
+    0% {
+        opacity:0;
+    }
+    10% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}      
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    10% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}      
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    10% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}      
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    10% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}      
+@-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    10% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
     }
 }
