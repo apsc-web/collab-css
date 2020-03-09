@@ -8,6 +8,10 @@
             margin-left:auto;
             margin-right:auto;
         }
+        > .block--image-and-text-banner {
+            max-width: 1170px;
+        }
+
         .column-header {
             margin-top: 1em;
         }
@@ -75,3 +79,12 @@
         }
     }
 }
+
+.banner__image {
+    min-height: 400px;
+    /*width: 600px;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
