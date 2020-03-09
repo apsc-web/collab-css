@@ -358,3 +358,18 @@ h1 {
         width: 6% !important;
     }
 }
+
+.show-mobile {
+    display: none;
+
+    @media only screen and (max-width: $break-mobile) {
+        display: block;
+        margin-top: 2em;
+    }
+}
+
+.show-laptop {
+    @media only screen and (max-width: $break-mobile) {
+        display: none;
+    }
+}
