@@ -80,6 +80,16 @@
     }
 }
 
+.block--image-and-text-banner {
+    p:empty {
+        display: none;
+    }
+
+    br {
+        display: none;
+    }
+}
+
 .banner__image {
     min-height: 400px;
     /*width: 600px;*/
