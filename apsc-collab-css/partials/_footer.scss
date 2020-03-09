@@ -47,6 +47,16 @@
                 /*color: $link-color;*/
             }
         }
+
+        .brochure-wip {
+            display: inline-block;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .row-fluid .span6 p {
+            margin: 0;
+        }
     }
 }
 
@@ -60,6 +70,3 @@ footer .ubc7-back-to-top {
     display: none;
 }
 
-.brochure-wip {
-    display: inline-block;
-}
