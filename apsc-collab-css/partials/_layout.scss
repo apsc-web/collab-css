@@ -357,8 +357,15 @@ h1 {
 
 .menu-item {
     .priority-title-icon {
-        /*display: none;*/
-        width: 6% !important;
+        width: 6%;
+
+        @media only screen and (max-width: $break-laptop) {
+            width: 3%;
+        }
+
+        @media only screen and (max-width: $break-mobile) {
+            width: 6%;
+        }
     }
 }
 
