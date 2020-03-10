@@ -28,11 +28,13 @@
             border-style: solid;
             border-color: #ffffff;
             padding: 12px 24px;
+            /* commenting out hover until brochure is ready
             &:hover {
                 background: #fff;
                 color: $link-color;
                 border-color: $brand-color;
             }
+            */
             @media only screen and (max-width: $break-tablet) {
                 margin-bottom: 20px;
             }
