@@ -376,6 +376,12 @@ h1 {
     }
 }
 
+#post-715 .priority-title-icon {
+    @media only screen and (max-width: $break-mobile) {
+        margin-bottom: 70px;
+    }
+}
+
 .show-mobile {
     display: none;
 
