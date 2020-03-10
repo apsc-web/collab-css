@@ -369,6 +369,13 @@ h1 {
     }
 }
 
+/*adding extra padding to priority menu-items to account for the icon*/
+#menu-item-306 {
+    .dropdown-menu>li>a {
+        padding-right: 50px;
+    }
+}
+
 .show-mobile {
     display: none;
 
