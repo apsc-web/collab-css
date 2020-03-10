@@ -355,6 +355,12 @@ h1 {
     }
 }
 
+#post-369 .priority-title-icon {
+    @media only screen and (max-width: 353px) {
+        margin-bottom: 25px;
+    }
+}
+
 #post-715 .priority-title-icon {
     width: 9%;
 
