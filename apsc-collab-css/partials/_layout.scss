@@ -364,6 +364,15 @@ h1 {
     }
 }
 
+#post-722 .priority-title-icon {
+    @media only screen and (max-width: 355px) {
+        margin-right: 10px;
+    }
+    @media only screen and (max-width: 349px) {
+        margin-bottom: 30px;
+    }
+}
+
 .menu-item {
     .priority-title-icon {
         width: 6%;
@@ -383,10 +392,6 @@ h1 {
     .dropdown-menu>li>a {
         padding-right: 50px;
     }
-}
-
-#post-715 .priority-title-icon {
-    
 }
 
 .show-mobile {
