@@ -105,7 +105,7 @@
             }
         }
     }
-}
+} 
 
 h1 {
     &.page-title {
@@ -136,13 +136,12 @@ h1 {
 .subhead1 {
     text-transform: capitalize;
     font-size:2em;
-    color:$link-color;
+    line-height:1.6em;
+    color: $link-color;
+    font-weight:600;
     @media only screen and (max-width: $break-mobile) {
         line-height: 1em;
         font-size:1.3em;
-        p {
-            margin-bottom:2px;
-        }
     }
 }
 
@@ -185,6 +184,7 @@ h1 {
     background-position: 50% 50%; /*does not work*/
     background-size: cover;
     position: relative;
+    overflow:hidden;
     @media only screen and (max-width: $break-tablet) {
         height: 200px;
         margin-left: -20px;
@@ -194,13 +194,14 @@ h1 {
 
 .cover-photo-wrapper {
     position:relative;
+    margin-bottom:2em;
  }
 
  .cover-photo-wrapper .cover-title {
     position:absolute;
     bottom:20px;
     max-width:770px;
-    top:35%;
+    top:32%;
     left:0;
     right:0;
     margin-left:auto;
@@ -217,7 +218,8 @@ h1 {
     color:white;
     font-size:1.5em;
     @media only screen and (min-width: $break-tablet) {
-    font-size:50px;
+    /*font-size:50px; one line*/
+    font-size:60px;
     }
 
 }
