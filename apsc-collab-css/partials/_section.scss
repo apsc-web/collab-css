@@ -8,9 +8,6 @@
             margin-left:auto;
             margin-right:auto;
         }
-        > .block--image-and-text-banner {
-            max-width: 1170px;
-        }
 
         .column-header {
             margin-top: 1em;
@@ -106,7 +103,10 @@
 .callout-block {
     color: #fff;
     background-image: url(http://apsc-strategicplan2020.sites.olt.ubc.ca/files/2020/03/background-gradient-with-processing-image-1920x869-1.png);
-
+    background-repeat:no-repeat;
+    > .block--image-and-text-banner {
+        max-width: 1170px;
+    }
     .block-title {
         color: #fff;
     }
