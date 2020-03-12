@@ -96,8 +96,10 @@
         max-width: 1170px;
         margin: 0 auto;
 
-        .span5 p {
-            display: none;
+        .span5, .span7 {
+            p {
+                display: none;
+            } 
         }
 
         .banner__image {
