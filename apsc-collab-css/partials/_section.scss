@@ -113,6 +113,12 @@
             display: none;
         }
 
+        .banner__image {
+            @media (max-width: $break-mobile) {
+                margin: 0;
+            }
+        }
+
         .banner__content {
             @media (max-width: $break-mobile) {
                 padding: 0 10%;
