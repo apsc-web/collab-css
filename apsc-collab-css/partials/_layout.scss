@@ -160,6 +160,8 @@ h1 {
 .featured-header-photo {
     max-height: $cover-photo-height;
     overflow: hidden;
+    max-width: $break-hd;
+    margin: 0 auto;
     @media only screen and (max-width: $break-laptop) {
         margin-left: -20px;
         margin-right: -20px;
@@ -186,6 +188,8 @@ h1 {
     background-size: cover;
     position: relative;
     overflow:hidden;
+    max-width: $break-hd;
+    margin: 0 auto;
     @media only screen and (max-width: $break-tablet) {
         height: 200px;
         margin-left: -20px;
