@@ -131,6 +131,19 @@
             margin: 0 0 0 1.5em;
         }
     }
+
+    .callout-image-right {
+        .banner__content {
+            padding-right: 0;
+            margin-left: 1.5em;
+        }
+    }
+
+    .callout-image-left {
+        .span7 {
+            margin-left: 0;
+        }
+    }
     
     .block__title {
         color: #fff;
