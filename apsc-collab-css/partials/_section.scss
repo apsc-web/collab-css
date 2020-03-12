@@ -107,6 +107,10 @@
     .block--image-and-text-banner {
         max-width: 1170px;
         margin: 0 auto;
+
+        p:empty {
+            display: none;
+        }
     }
     .block__title {
         color: #fff;
@@ -119,6 +123,7 @@
 
 .entry-content .callout-block {
     max-width:1170px;
-   /* margin: 4em -15px 4em -15px;*/
-   padding-left:0;
+    /* margin: 4em -15px 4em -15px;*/
+    padding-left: 0;
+    padding-right: 0;
 }
