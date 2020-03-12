@@ -104,14 +104,26 @@
     color: #fff;
     background-image: url(http://apsc-strategicplan2020.sites.olt.ubc.ca/files/2020/03/background-gradient-with-processing-image-1920x869-1.png);
     background-repeat:no-repeat;
+    
     .block--image-and-text-banner {
         max-width: 1170px;
         margin: 0 auto;
 
-        p:empty {
+        .span5 p {
             display: none;
         }
+
+        .banner__content {
+            @media (max-width: $break-mobile) {
+                padding: 0 10%;
+            }
+        }
+
+        .show-mobile {
+            margin-top: 0;
+        }
     }
+    
     .block__title {
         color: #fff;
         font-size: 1.8em;
