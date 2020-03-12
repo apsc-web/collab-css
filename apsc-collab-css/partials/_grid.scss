@@ -177,6 +177,9 @@ p#increase-impact, p#accelerate-solutions{
 
   .link__underline{
       border-bottom:1px solid #fff;
+      &:hover {
+        border-bottom:none;
+    }
   }
 
   
