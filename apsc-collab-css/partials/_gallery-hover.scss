@@ -163,11 +163,11 @@
                                         color: $accent-color;
                                         font-weight: 600; 
                                         text-transform: uppercase;
-                                        font-size: 1.18em;
+                                        font-size: 1em;
                                         line-height: 30px;
                                         margin-bottom: 1em;
-                                        &:after {
-                                            content:"APPLICATIONS";
+                                        &:before {
+                                            content:"APPLICATIONS OF ";
                                         }
                                     }
                                 }   
