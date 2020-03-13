@@ -145,7 +145,7 @@
 
                                 .strategy-application {
                                     p {
-                                        font-size: 1em;
+                                        font-size: 0.9em;
                                     }
 
                                     ul {
@@ -166,13 +166,13 @@
                                         font-size: 1.18em;
                                         line-height: 30px;
                                         margin-bottom: 1em;
+                                        &:after {
+                                            content:"APPLICATIONS";
+                                        }
                                     }
                                 }   
                             }
-                            .launch-btn
-                            {
-                                /*display: inline-block;*/
-                            }
+                           
                         }
                     }
                 }
