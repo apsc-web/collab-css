@@ -162,6 +162,12 @@ p#increase-impact, p#accelerate-solutions{
         margin-left: -50px;
     }
   }
+
+  p.two-lined-priority-title{
+    @media only screen and (max-width: $break-mobile) {
+        margin-top: 1.5em;
+    }
+  }
   
   .vertical-bar__darkgrey{
     border-left:10px solid $priority-mission-color;
