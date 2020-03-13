@@ -53,8 +53,36 @@
                     }
 
                     &:hover {
+                        .iso-description {
+                            padding: 10px;
+                        }
                         .strategy-application {
                             display: block;
+                            min-height: 194px;
+
+                            &:after {
+                                display: block;
+                                content: "";
+                                width: 20px;
+                                height: 20px;
+                                position: absolute;
+                                top: -5px;
+                                right: -5px;
+                                border-top: 3px solid #0055b7;
+                                border-right: 3px solid #0055b7;
+                            }
+
+                            &:before {
+                                display: block;
+                                content: "";
+                                width: 20px;
+                                height: 20px;
+                                position: absolute;
+                                bottom: -5px;
+                                left: -5px;
+                                border-bottom: 3px solid #0055b7;
+                                border-left: 3px solid #0055b7;
+                            }
                         }
                         .strategy-description {
                             display: none;
@@ -63,11 +91,12 @@
 
                     .boxey-inner
                     {
+                        min-height: 275px;
                         -webkit-transform: translate3d(0, -0%, 0);
                         transform: translate3d(0, -0%, 0);
-                        z-index: 1;
+                        /*z-index: 1;*/
                         background: none;
-                        padding:10% 10% 5% 10%;;
+                        padding:10% 10% 10% 10%;;
                         h3
                         {
                             color:#ffffff;
