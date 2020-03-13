@@ -53,6 +53,7 @@
                     }
 
                     &:hover {
+                        z-index: 10;
                         .iso-description {
                             padding: 10px;
                         }
