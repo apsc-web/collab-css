@@ -190,3 +190,10 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+/* Custom to strat plan*/
+@media only screen and (max-width: $break-mobile) {
+    #outcomes1{
+        text-align:center;
+    }
+    }
