@@ -11,10 +11,7 @@ body {
 /*how do to direct child >? */
 .entry-content  {
      p, ul, ol, table-spacing {
-        font-size:1.3em;
-        @media only screen and (max-width: $break-mobile) {
-            font-size:1.2em;
-        }
+        font-size:1.2em;
     }
     p {
         line-height:1.7em;
