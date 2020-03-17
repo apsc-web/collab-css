@@ -75,9 +75,9 @@
 	height: 150px;
 }
 
-.s-icon-small{
-	zoom:0.1;
-	margin-right: 150px;
+.sprite-icon-large{
+	zoom:1;
+	margin-right: 15px;
 	float:left;
 }
 
@@ -87,9 +87,17 @@
 	float:left;
 }
 
-.sprite-icon-large{
-	zoom:1;
-	margin-right: 15px;
+.s-icon-small{
+	zoom:0.1;
+	margin-right: 150px;
 	float:left;
 }
+
+#menu-item-729 .s-icon-medium{
+	zoom:0.15;
+	margin-right: 80px;
+}
+
+
+
 
