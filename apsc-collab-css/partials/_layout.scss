@@ -241,8 +241,8 @@ h1 {
 }
 
 .alert, .alert-info {
-    background-color: $alert-color;
-    border: none;
+    background-color: #ffffff;
+    border: 1px solid $link-color;
     border-left: 5px solid $alert-border-color;
     padding: 20px;
     margin-top: 3em;
