@@ -88,6 +88,9 @@
                         .strategy-description {
                             display: none;
                         }
+                        .boxey-inner {
+                            padding: 6% 6% 6% 6%;
+                        }
                     }
 
                     .boxey-inner
@@ -96,7 +99,7 @@
                         -webkit-transform: translate3d(0, -0%, 0);
                         transform: translate3d(0, -0%, 0);
                         background: none;
-                        padding:6% 6% 6% 6%;;
+                        padding:10% 10% 10% 10%;
                         h3
                         {
                             color:#ffffff;
