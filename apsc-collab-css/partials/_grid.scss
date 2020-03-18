@@ -152,7 +152,7 @@ p#increase-impact, p#accelerate-solutions{
         font-size: 16px;
     }
   }
-  p.priority-description{
+  p.priority-description {
     margin-top:0;
     margin-bottom:5%;
     @media only screen and (max-width: $break-mobile) {
@@ -164,12 +164,18 @@ p#increase-impact, p#accelerate-solutions{
     }
   }
 
-  p.two-lined-priority-title{
-    @media only screen and (max-width: 375px) {
+  p.two-lined-priority-title {
+    @media only screen and (max-width: $break-mobile) {
         margin-top: 1em;
     }
   }
   
+  p.university-priority-title {
+    @media only screen and (max-width: 375px) {
+        margin-top: 1em;
+    }
+  }
+
   .vertical-bar__darkgrey{
     border-left:10px solid $priority-mission-color;
   }
