@@ -219,6 +219,7 @@
 			padding: 0 15px;
 			display: table;
 
+			/* used for the sideways teardrop
 			.iso-box-title {
 				display: table-cell;
 				vertical-align: middle;
@@ -244,15 +245,43 @@
             		height: 99px;
             		font-size: 11px;
         		}
-			}
+			}*/
 
 			.iso-trend {
-				background-color: #4fabb0;
+				background-color: $iso-trend-color;
+				color: #ffffff;
 			}
 
 			.iso-uncertainty {
-				background-color: #ace3c3;
+				background-color: $iso-uncertainty-color;
 			}
+		}
+	}
+}
+
+.iso-trends-uncertainties {
+	max-width: 1170px;
+
+	.iso-grid {
+		height: 180px;
+		width: 180px;
+		padding: 10%;
+
+		.iso-grid-title {
+			font-size: 1.2em;
+			font-weight: 600;
+		}
+	}
+
+	ul {
+		margin-top: 10px;
+		margin-left: 0;
+		margin-bottom: 0;
+
+		>li {
+			line-height: 24px;
+			font-size: 14px;
+			margin-bottom: 5px;
 		}
 	}
 }

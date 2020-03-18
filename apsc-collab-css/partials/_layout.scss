@@ -247,6 +247,20 @@ h1 {
     padding: 20px;
     margin-top: 3em;
     margin-bottom: 3em; 
+
+    .alert-trends {
+        border-left: 5px solid $iso-trend-color;
+        padding-left: 2px;
+        color: $iso-trend-color;
+        font-weight: 600;
+    }
+
+    .alert-uncertainties {
+        border-left: 5px solid $iso-uncertainty-color;
+        padding-left: 2px;
+        color: $iso-uncertainty-color;
+        font-weight: 600;
+    }
 }
 
 .icon-alert:before {
@@ -465,5 +479,44 @@ h1 {
 @media only screen and (max-width: $break-mobile) {
     #post-420 .row-fluid .span5 {
         display: none;
+    }
+}
+
+.drivers {
+    p {
+        line-height: 1.8em;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-borrom: 10px;
+    }
+
+    .trend-driver {
+        position: relative;
+        padding-left: 20px;
+
+        &:after {
+            content: "";
+            background: $iso-trend-color;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 30px;
+            width: 10px;
+        }
+    }
+
+    .uncertain-driver {
+        position: relative;
+        padding-left: 20px;
+
+        &:after {
+            content: "";
+            background: $iso-uncertainty-color;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 30px;
+            width: 10px;
+        }
     }
 }
