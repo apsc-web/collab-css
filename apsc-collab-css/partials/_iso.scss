@@ -239,6 +239,10 @@
 		width: 180px;
 		padding: 10%;
 
+		@media (max-width: $break-mobile) {
+            margin: 0 auto;
+        }
+
 		.iso-grid-title {
 			font-size: 1.2em;
 			font-weight: 600;
