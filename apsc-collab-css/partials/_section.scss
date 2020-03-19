@@ -115,9 +115,11 @@
 }
 
 .callout-block {
-    color: #fff;
-    background-image: url(https://apsc-strategicplan2020.sites.olt.ubc.ca/files/2020/03/background-gradient-with-processing-image-1920x869-1.png);
+    color: $accent-color;
+    background-color: $block-quote-background-color; 
+    background-image: url(https://apsc-strategicplan2020.sites.olt.ubc.ca/files/2020/03/quotes-background.png);
     background-repeat:no-repeat;
+    background-size: cover;
     
     @media (max-width: $break-mobile) {
         .row-fluid [class*="span"] {
@@ -176,7 +178,7 @@
     }
     
     .block__title {
-        color: #fff;
+        color: $accent-color;
         font-size: 1.8em;
         line-height: 1.2em;
         font-weight: 600;
