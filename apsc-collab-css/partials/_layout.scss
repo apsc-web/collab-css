@@ -525,11 +525,11 @@ h1 {
     max-width: 185px;
     margin-left: auto;
     margin-right: auto;
-    .s-icon-medium{
-        float:none;
-    }
     @media only screen and (max-width: $break-mobile) {
         max-width: 50px;
+    }
+    .s-icon-medium{
+        float:none;
     }
 }
 
