@@ -528,6 +528,9 @@ h1 {
     .s-icon-medium{
         float:none;
     }
+    @media only screen and (max-width: $break-mobile) {
+        max-width: 50px;
+    }
 }
 
 h1.priority-page-title {
