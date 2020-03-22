@@ -536,6 +536,20 @@ h1 {
     }
 }
 
-h1.priority-page-title {
-    margin-top: 10px;
+
+
+.priority-header-desktop {
+    h1.priority-page-title {
+        margin-top: 10px;
+    }
+    @media only screen and (min-width: $break-mobile) {
+    .center-position-icon {
+      max-width: $content-width;
+    }
+    }
+.center-position-icon {
+    .s-icon-medium{
+        float: left;
+    }
+  }
 }
