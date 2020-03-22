@@ -540,11 +540,6 @@ h1 {
      padding-top: 15px;
      padding-bottom: 15px;
     }
-    @media only screen and (max-width: $break-mobile) {
-        .priority-header-desktop{
-            display: none;
-        }
-    }
 }
 
 .priority-header-desktop {
@@ -557,13 +552,23 @@ h1 {
       padding-top: 30px;
       padding-bottom: 30px;
     }
-    .priority-header-mobile{
-        display: none;
-    }
     }
 .center-position-icon {
     .s-icon-medium{
         float: left;
     }
   }
+}
+
+
+@media only screen and (max-width: $break-mobile) {
+    .priority-header-desktop{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: $break-mobile) {
+    .priority-header-mobile{
+        display: none;
+    }
 }
