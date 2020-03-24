@@ -540,8 +540,12 @@ h1 {
         text-align: center;
     }
     .priority-page-icon{
+     max-width: 70px;
      margin-top: 15px;
      margin-bottom: -15px;
+     .s-icon-medium {
+         zoom: 0.5;
+     }
     }
 }
 
