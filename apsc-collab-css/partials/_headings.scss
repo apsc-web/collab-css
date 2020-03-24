@@ -11,10 +11,7 @@
     }
 }
     h2 {
-      margin-top: 1.5em;
-      @media only screen and (max-width: $break-mobile) { 
-        margin-top: 1em; 
-      }
+      margin-top: 1em;
       color: $accent-color; 
     }
     h3, h4, h5 {
