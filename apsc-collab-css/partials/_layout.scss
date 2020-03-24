@@ -525,13 +525,13 @@ h1 {
 }
 
 .priority-page-icon{
-    max-width: 80px;
+    // max-width: 80px;
     margin-left: auto;
     margin-right: auto;
-    .s-icon-medium{
-        zoom: 0.6;
-        float:none;
-    }
+    // .s-icon-medium{
+    //     zoom: 0.6;
+    //     float:none;
+    // }
 }
 
 
@@ -545,6 +545,7 @@ h1 {
      margin-bottom: -15px;
      .s-icon-medium {
          zoom: 0.5;
+         float: none;
      }
     }
 }
@@ -562,6 +563,7 @@ h1 {
     }
     .priority-page-icon {
     .s-icon-medium{
+        zoom: 0.6;
         float: left;
     }
   }
