@@ -301,13 +301,16 @@
 	}
 }
 
-.row {
+.entry-content > .iso-nav-row {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    max-width: 815px;
     padding-left: 0px;
     padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (min-width: 479px) {
