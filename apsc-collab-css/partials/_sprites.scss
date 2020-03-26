@@ -76,18 +76,21 @@
 }
 
 .sprite-icon-large {
+	-moz-transform: scale(1);
 	zoom:1;
 	margin-right: 15px;
 	float:left;
 }
 
 .s-icon-medium {
+	-moz-transform: scale(0.3);
 	zoom:0.3;
 	margin-right: 50px;
 	float:left;
 }
 
 .s-icon-small {
+	-moz-transform: scale(0.15);
 	zoom:0.15;
 	margin-right: 25px;
 	float:left;
@@ -95,12 +98,14 @@
 
 /* Priorities Menu */
 #menu-item-306 .s-icon-medium{
+	-moz-transform: scale(0.15);
 	zoom:0.15;
 	margin-right: 80px;
 }
 
 /* Test Page Strategies Menu */
 #menu-item-1572 .s-icon-medium {
+	-moz-transform: scale(0.15);
 	zoom:0.15;
 	margin-right: 80px;
 }
