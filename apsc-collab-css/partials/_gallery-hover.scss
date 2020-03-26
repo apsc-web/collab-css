@@ -48,7 +48,7 @@
                     bottom: 0;
                     right: 0;
 
-                    .strategy-appliaction {
+                    .strategy-application {
                         display: none;
                     }
 
@@ -83,6 +83,16 @@
                                 left: -5px;
                                 border-bottom: 3px solid #0055b7;
                                 border-left: 3px solid #0055b7;
+                            }
+
+                            ul {
+                                margin-top: 30px;
+                                list-style-type: none;
+
+                                .strategy-priority-icon {
+                                    margin-left: -200px;
+                                    margin-top: 15px;
+                                }
                             }
                         }
                         .strategy-description {
