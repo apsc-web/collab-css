@@ -301,7 +301,7 @@
 	}
 }
 
-.entry-content > .iso-nav-row {
+.page-our-journey > .row {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -311,10 +311,6 @@
     padding-right: 0px;
     margin-left: auto;
     margin-right: auto;
-
-    ul > li {
-    	margin-left: 0;
-    }
 }
 
 @media (min-width: 479px) {
