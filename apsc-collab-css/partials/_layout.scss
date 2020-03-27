@@ -548,10 +548,12 @@ h1 {
     }
 
     .priority-page-icon {
-     max-width: 70px;
-     margin-top: 15px;
-     margin-bottom: -15px;
+        max-width: 70px;
+        margin-top: 15px;
+        margin-bottom: -15px;
+        
         .s-icon-medium {
+            position: relative;
             -moz-transform: scale(0.5);
             transform-origin: left top;
             zoom: 0.5;
@@ -580,10 +582,6 @@ h1 {
             transform-origin: left top;
             zoom: 0.6;
             float: left;
-
-            @media only screen and (max-width: $break-mobile) {
-                position: relative;
-            }
         }
     }
 }
