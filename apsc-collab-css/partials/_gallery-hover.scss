@@ -96,6 +96,11 @@
                                 .strategy-priority-icon {
                                     margin-left: -200px;
                                     margin-top: 15px;
+
+                                    @-moz-document url-prefix() {
+                                        margin-left: -35px;
+                                        margin-top: 0px;
+                                    }
                                 }
                             }
                         }
