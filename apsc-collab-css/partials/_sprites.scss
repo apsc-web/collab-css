@@ -76,6 +76,7 @@
 }
 
 .sprite-icon-large {
+	position: absolute;
 	-moz-transform: scale(1);
 	transform-origin: left top;
 	zoom:1;
@@ -84,6 +85,7 @@
 }
 
 .s-icon-medium {
+	position: absolute;
 	-moz-transform: scale(0.3);
 	transform-origin: left top;
 	zoom:0.3;
@@ -92,6 +94,7 @@
 }
 
 .s-icon-small {
+	position: absolute;
 	-moz-transform: scale(0.15);
 	transform-origin: left top;
 	zoom:0.15;
