@@ -97,7 +97,7 @@
                                     margin-left: -200px;
                                     margin-top: 15px;
 
-                                    @-moz-document url-prefix() {
+                                    @include firefox-only {
                                         margin-left: -35px;
                                         margin-top: 0px;
                                     }
