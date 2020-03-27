@@ -542,18 +542,21 @@ h1 {
 }
 
 
-.priority-header-mobile{
+.priority-header-mobile {
     h1.priority-page-title {
         text-align: center;
     }
-    .priority-page-icon{
+
+    .priority-page-icon {
      max-width: 70px;
      margin-top: 15px;
      margin-bottom: -15px;
-     .s-icon-medium {
-         zoom: 0.5;
-         float: none;
-     }
+        .s-icon-medium {
+            -moz-transform: scale(0.5);
+            transform-origin: left top;
+            zoom: 0.5;
+            float: none;
+        }
     }
 }
 
@@ -570,6 +573,8 @@ h1 {
     }
     .priority-page-icon {
     .s-icon-medium{
+        -moz-transform: scale(0.6);
+        transform-origin: left top;
         zoom: 0.6;
         float: left;
     }
