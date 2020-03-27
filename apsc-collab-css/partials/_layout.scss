@@ -136,7 +136,7 @@ h1 {
 
     @include target-firefox {
         @media only screen and (max-width: $break-mobile) {
-            margin-top: -30px;
+            margin-top: -40px;
         }
     }
 }
