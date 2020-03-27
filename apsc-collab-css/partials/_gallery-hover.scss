@@ -97,7 +97,12 @@
                                     margin-left: -200px;
                                     margin-top: 15px;
 
-                                    @include firefox-only {
+                                    @include target-firefox {
+                                        margin-left: -35px;
+                                        margin-top: 0px;
+                                    }
+
+                                    @include target-internet-explorer {
                                         margin-left: -35px;
                                         margin-top: 0px;
                                     }

@@ -1,9 +1,15 @@
-@mixin firefox-only {
+@mixin target-firefox {
   @at-root {
     @-moz-document url-prefix() {
       & {
         @content;
       }
     }
+  }
+}
+
+@mixin target-internet-explorer {
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @content;
   }
 }
