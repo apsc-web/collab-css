@@ -76,39 +76,30 @@
 }
 
 .sprite-icon-large {
+	position: absolute;
 	-moz-transform: scale(1);
 	transform-origin: left top;
 	zoom:1;
 	margin-right: 15px;
 	float:left;
-
-	@media only screen and (min-width: $break-mobile) {
-        position: absolute;
-    }
 }
 
 .s-icon-medium {
+	position: absolute;
 	-moz-transform: scale(0.3);
 	transform-origin: left top;
 	zoom:0.3;
 	margin-right: 50px;
 	float:left;
-
-	@media only screen and (min-width: $break-mobile) {
-        position: absolute;
-    }
 }
 
 .s-icon-small {
+	position: absolute;
 	-moz-transform: scale(0.15);
 	transform-origin: left top;
 	zoom:0.15;
 	margin-right: 25px;
 	float:left;
-
-	@media only screen and (min-width: $break-mobile) {
-        position: absolute;
-    }
 }
 
 /* Priorities Menu */
