@@ -133,6 +133,12 @@ h1 {
     font-size: 1.5em;  
     line-height: 1.5em;
     margin-top:1.5em;
+
+    @include target-firefox {
+        @media only screen and (max-width: $break-mobile) {
+            margin-top: -30px;
+        }
+    }
 }
 
 .add-margin-top {
