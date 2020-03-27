@@ -571,10 +571,6 @@ h1 {
             max-width: $content-width;
             padding-top: 30px;
             padding-bottom: 30px;
-
-            .s-icon-medium {
-                position: relative;
-            }
         }
     }
 
@@ -584,6 +580,10 @@ h1 {
             transform-origin: left top;
             zoom: 0.6;
             float: left;
+
+            @media only screen and (max-width: $break-mobile) {
+                position: relative;
+            }
         }
     }
 }
