@@ -568,9 +568,13 @@ h1 {
 
     @media only screen and (min-width: $break-mobile) {
         .priority-page-icon {
-          max-width: $content-width;
-          padding-top: 30px;
-          padding-bottom: 30px;
+            max-width: $content-width;
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            .s-icon-medium {
+                position: relative;
+            }
         }
     }
 
