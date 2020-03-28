@@ -18,7 +18,8 @@
 }
 .banner__content
 {
-  padding: 4em 4em 0em 2em;
+  padding-left: 2em;
+  padding-right: 2em;
   line-height: 1.5em;
   color: $accent-color;
 }
@@ -30,3 +31,9 @@
   top:auto;
   bottom: -70px;
 }
+
+.featured-label::before {
+  content: "Our plan in action";
+  text-transform: uppercase;
+}
+
