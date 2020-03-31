@@ -63,7 +63,7 @@
 a[target="_blank"]::after {
     font-family: FontAwesome;
     -webkit-font-smoothing: antialiased;
-    content: "\f08e";
+    //content: "\f08e"; //need to apply this only to external links - not all links
     display: inline-block;
     margin-left: 4px;
     margin-right: 4px;
