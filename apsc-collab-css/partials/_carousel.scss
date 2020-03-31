@@ -1,10 +1,69 @@
 @import '../modules/colors';
 
-
-.carousel 
-{
-  max-width: 1170px;
+.carousel-section {
+  max-width: 100%;
+  margin: 2em -15px 2em -15px;
+  background: #efefef;
 }
+.carousel {
+max-width: 1170px;
+margin-left: auto;
+margin-right: auto;
+}
+.carousel-cell
+{ 
+  width: 100%;
+}
+.carousel-cell img{
+  width: 100%;
+}
+.carousel-content{
+  padding-top: 1em;
+  margin-left:10px;
+  margin-right:10px;
+}
+.carousel-content h4{
+  font-size: 22px;
+  text-transform: none;
+}
+.carousel-content p{
+  font-size: 1em;
+  color: #0055b7;
+  line-height: 1.5em;
+}
+
+.callout-button {
+  margin-top: 25px;
+}
+
+.flickity-prev-next-button {
+top: auto;
+bottom: -80px;
+}
+
+.featured-label::before {
+  content: "Applying the plan";
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1200px){
+  .carousel-content{
+      padding-left: 5em;
+  }
+}
+
+
+@media only screen and (max-width: 768px){
+  .carousel-section {
+      max-width: 110%;
+  }
+}
+
+
+// .carousel 
+// {
+//   max-width: 1170px;
+// }
 // .carousel-cell
 // {
 //    height: 100%;
@@ -12,29 +71,24 @@
 //   width: 100%;
 //    background-image: url(https://apsc-strategicplan2020.sites.olt.ubc.ca/files/2020/03/quotes-background.png);
 // }
-.banner__image
-{
-  margin:0;
-}
-.banner__content
-{
-  // padding-left: 2em;
-  padding-right: 10em;
-  padding-top: 1em;
-  line-height: 1.5em;
-  color: $accent-color;
-}
-.banner__content h4{
-    font-size:22px;
-    text-transform: none;
-}
-.flickity-prev-next-button {
-  top:auto;
-  bottom: -70px;
-}
-
-.featured-label::before {
-  content: "Applying the plan";
-  text-transform: uppercase;
-}
+// .banner__image
+// {
+//   margin:0;
+// }
+// .banner__content
+// {
+//   // padding-left: 2em;
+//   padding-right: 10em;
+//   padding-top: 1em;
+//   line-height: 1.5em;
+//   color: $accent-color;
+// }
+// .banner__content h4{
+//     font-size:22px;
+//     text-transform: none;
+// }
+// .flickity-prev-next-button {
+//   top:auto;
+//   bottom: -70px;
+// }
 
