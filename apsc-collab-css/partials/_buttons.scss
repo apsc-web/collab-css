@@ -92,3 +92,12 @@
         font-weight: 800;
     }
 }
+
+.callout-button::after {
+    font-family: FontAwesome;
+    -webkit-font-smoothing: antialiased;
+    content: "\f08e";
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+}
