@@ -37,6 +37,12 @@ margin-right: auto;
   margin-top: 25px;
 }
 
+.carousel.flickity-enabled.is-draggable {
+
+  height: 100% !important;
+
+}
+
 .flickity-prev-next-button {
 top: auto;
 bottom: -80px;
@@ -46,6 +52,8 @@ bottom: -80px;
   content: "Applying the plan";
   text-transform: uppercase;
 }
+
+
 
 @media only screen and (min-width: 1200px){
   .carousel-content{
