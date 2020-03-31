@@ -23,12 +23,13 @@ margin-right: auto;
   margin-right:10px;
 }
 .carousel-content h4{
+  color: $accent-color;
   font-size: 22px;
   text-transform: none;
 }
 .carousel-content p{
   font-size: 1em;
-  color: #0055b7;
+  color: $brand-color;
   line-height: 1.5em;
 }
 
