@@ -60,7 +60,7 @@
     cursor:default;
 }
 
-a[target="_blank"]::before {
+a[target="_blank"]::after {
     font-family: FontAwesome;
     -webkit-font-smoothing: antialiased;
     content: "\f08e";
