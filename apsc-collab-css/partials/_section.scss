@@ -29,6 +29,10 @@
     }
 
     @media (max-width: $break-mobile) {
+        .process-mobile .span5 {
+            display: none;
+        }
+        
         .process-block {
             margin: 0;
             padding: 0;
