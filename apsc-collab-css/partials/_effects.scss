@@ -60,12 +60,17 @@
     cursor:default;
 }
 
-// external links
-// a[target="_blank"]::after {
-//     font-family: FontAwesome;
-//     -webkit-font-smoothing: antialiased;
-//     content: "\f08e"; //need to apply this only to external links - not all links
-//     display: inline-block;
-//     margin-left: 4px;
-//     margin-right: 4px;
-// }
+.external-link::before{
+    content: "\f08e";
+    margin-left: 4px;
+    margin-right: 4px;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    
+}
