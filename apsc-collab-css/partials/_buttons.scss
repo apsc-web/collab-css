@@ -85,6 +85,11 @@
 
 .btn-next {
     float: right;
+    margin-top: 3em;
+
+    br {
+        display: none;
+    }
 
     .btn-label {
         color: $brand-color;
