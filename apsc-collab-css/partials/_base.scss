@@ -87,19 +87,25 @@ td {
     color: $accent-color;
     font-weight: bold;
     line-height: 1.5em;
-      p {
-          margin-left: auto;
-          margin-right: auto;
-          margin-bottom: 20px;
-          color: $accent-color;
-          font-weight: bold;
-          line-height: 1.5em;
-        }
-        .quotee {
-          font-weight: 600;
-          line-height: 1.5em;
-          text-transform: uppercase;
-        }
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        color: $accent-color;
+        font-weight: bold;
+        line-height: 1.5em;
+    }
+    .quotee {
+        font-weight: 600;
+        line-height: 1.5em;
+        text-transform: uppercase;
+    }
+}
+
+.parent-pageid-223 {
+    .custom-blockquote {
+        margin-bottom: 5em;
+    }
 }
 
 .strategy-title-text {
