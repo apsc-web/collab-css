@@ -290,8 +290,6 @@ h1 {
     font-family: FontAwesome;
 }
 
-
-
 .arrow-down{
     color:rgba($accent-color,0.5);
     font-size:6em;
@@ -505,6 +503,32 @@ h1 {
     }
 }
 
+.strategy-header {
+    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-content {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+
+    @media only screen and (max-width: $break-mobile) {
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 978px){
+    .parent-pageid-223 .entry-content {
+        margin-top: -200px;
+    }
+    
+    .intro-content {
+        background: #fff;
+    }
+}
+
 .drivers {
     p {
         line-height: 1.8em;
@@ -553,7 +577,6 @@ h1 {
     //     float:none;
     // }
 }
-
 
 .priority-header-mobile {
     h1.priority-page-title {
