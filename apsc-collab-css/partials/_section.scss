@@ -34,6 +34,21 @@
             &:first-of-type {
                 margin-top: 4em;
             }
+
+            .block--image-and-text-banner {
+                margin-left: -20px;
+                margin-right: -20px;
+
+                .banner__content {
+                    padding: 1em;
+                }
+            }
+        }
+
+        .bg-grey {
+            .block--image-and-text-banner {
+                background-color: $block-quote-background-color;
+            }
         }
     }
 }
