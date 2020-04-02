@@ -90,7 +90,7 @@
                             }
 
                             ul {
-                                margin-top: 30px;
+                                margin-top: 10px;
                                 list-style-type: none;
 
                                 .strategy-priority-icon {
@@ -122,7 +122,7 @@
                         -webkit-transform: translate3d(0, -0%, 0);
                         transform: translate3d(0, -0%, 0);
                         background: none;
-                        padding:10% 10% 10% 10%;
+                        padding:10%;
                         h3
                         {
                             color:#ffffff;
@@ -177,8 +177,6 @@
                         .boxey-inner
                         {
                             border: 3px solid #0055b7;
-                            background-position: center;
-                            background-size: contain;
                             background-color:#fff;
 
                             .post-title
@@ -198,17 +196,18 @@
 
                                 .strategy-application {
                                     p {
-                                        font-size: 0.9em;
+                                        font-size: 1em;
+                                        line-height: 1.5715em;
                                     }
 
                                     ul {
                                         font-size: 1em;
 
                                         > li {
-                                            margin-bottom: 0px;
                                             margin-left: 0px;
                                             font-family: $brand-font;
                                             font-size: 1em;
+                                            line-height: 1.5715em;
                                         }
                                     }
 
