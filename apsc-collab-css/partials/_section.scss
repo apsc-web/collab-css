@@ -13,6 +13,7 @@
             margin-top: 1em;
         }
     }
+
     .full-width-section__custom-width{
         max-width: 100%;
         padding: 1em;
@@ -30,6 +31,7 @@
     @media (max-width: $break-mobile) {
         .process-block {
             margin: 0;
+            padding: 0;
 
             &:first-of-type {
                 margin-top: 4em;
