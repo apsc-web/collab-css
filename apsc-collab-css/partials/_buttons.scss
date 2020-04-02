@@ -87,10 +87,9 @@
     float: right;
     margin-top: 3em;
 
-    /*
-    br {
+    br:first-of-type {
         display: none;
-    }*/
+    }
 
     .btn-label {
         color: $brand-color;
