@@ -248,7 +248,14 @@ h1 {
     }
 }
 
-#section-5, #section-9 {
+#section-5, 
+#section-9, 
+#section-10,
+#section-11,
+#section-12,
+#section-13,
+#section-14
+ {
     @media only screen and (max-width: $break-tablet) {
         margin-left: -20px;
         margin-right: -20px;
