@@ -502,7 +502,7 @@ h1 {
 }
 
 @media (width: 768px) {
-    .entry-content .process-mobile .span5 {
+    .entry-content .process-mobile .block--image-and-text-banner .span5 {
         display: block;
     }
     
@@ -510,7 +510,7 @@ h1 {
         display: none;
     }
     
-    .process-block .banner__image {
+    .process-block .block--image-and-text-banner .banner__image {
         margin: 1.5em;
     }
     
