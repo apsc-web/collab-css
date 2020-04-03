@@ -635,7 +635,13 @@ h1 {
     }
 
     @media only screen and (max-width: 1435px) {
-        .priority-icon-two-lined-title {
+        .priority-university-icon {
+            padding-bottom: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 1600px) {
+        .priority-thriving-icon {
             padding-bottom: 10px;
         }
     }
