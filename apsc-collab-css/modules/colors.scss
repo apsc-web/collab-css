@@ -8,6 +8,7 @@ $grid-tile-background-color:rgb(247,247,247);
 $alert-color: rgb(151,212,233);
 $alert-border-color: rgb(12, 35, 68);
 
+$footer-gradient: linear-gradient(to right, $brand-color, $accent-color);
 $diagonal-brand-to-accent-gradient: linear-gradient(to bottom right, $brand-color, $accent-color);
 $diagonal-link-gradient: linear-gradient(to bottom right, #ffffff, $link-color);
 
