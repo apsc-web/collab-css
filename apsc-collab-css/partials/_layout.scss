@@ -538,7 +538,7 @@ h1 {
         line-height: 1.8em;
         margin-top: 0px;
         margin-left: 20px;
-        margin-borrom: 10px;
+        margin-bottom: 10px;
     }
 
     .trend-driver {
@@ -611,7 +611,7 @@ h1 {
     @media only screen and (min-width: $break-mobile) {
         .priority-page-icon {
             max-width: $content-width;
-            padding-top: 30px;
+            padding-top: 20px;
             padding-bottom: 30px;
         }
     }
