@@ -67,8 +67,9 @@
             }
         }
     }
-    .custom-blockquote {
+    .custom-blockquote, .intro-content .custom-blockquote {
         max-width: 500px;
+        margin:0 auto;
     }
 }
 
