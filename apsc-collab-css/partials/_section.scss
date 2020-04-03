@@ -28,7 +28,7 @@
         }
     }
 
-    @media (max-width: $break-mobile) {
+    @media (max-width: $break-tablet) {
         .process-mobile .span5 {
             display: none;
         }
@@ -134,7 +134,7 @@
     h2.block-title {
         margin-top: 20px;
 
-        @media (max-width: $break-mobile) {
+        @media (max-width: $break-tablet) {
             margin-top: 1em;
         }
     }
@@ -142,12 +142,12 @@
     .banner__image {
         margin-top: 30px;
 
-        @media (max-width: $break-mobile) {
+        @media (max-width: $break-tablet) {
             margin: 0;
         }
     }
 
-    @media (max-width: $break-mobile) {
+    @media (max-width: $break-tablet) {
         margin: 0;
     }
 }
