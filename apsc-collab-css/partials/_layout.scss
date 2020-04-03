@@ -501,6 +501,24 @@ h1 {
     }
 }
 
+@media (width: 768px) {
+    .entry-content .process-mobile .span5 {
+        display: block;
+    }
+    
+    .process-mobile .span7 .show-mobile {
+        display: none;
+    }
+    
+    .process-block .banner__image {
+        margin: 1.5em;
+    }
+    
+    .show-laptop {
+        display: block;
+    }
+}
+
 @media only screen and (max-width: $break-mobile) {
     #post-420 .row-fluid .span5 {
         display: none;
