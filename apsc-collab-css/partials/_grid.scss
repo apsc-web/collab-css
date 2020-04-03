@@ -120,6 +120,10 @@ p#increase-impact, p#accelerate-solutions{
     padding-right:4%;
     padding-bottom:2%;
     margin-top: 2em;
+    background-size: 100%;
+    background-position: center center;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
     color:white;
     background-image: url(https://apsc-strategicplan2020.sites.olt.ubc.ca/files/2020/03/priority-background-cropped.jpg);
 
@@ -130,6 +134,12 @@ p#increase-impact, p#accelerate-solutions{
         height: 200px;
     }
   }
+
+.priority:hover {
+    background-size: 120%;
+    opacity: 0.85;
+}
+
    .priority-icon{
     width:15%;
     float:left;
