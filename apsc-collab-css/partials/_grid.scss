@@ -1,3 +1,5 @@
+@import '../modules/bg-images';
+
 .full-width-container .grid{
     margin-right:auto;
     margin-left:auto;
@@ -125,7 +127,26 @@ p#increase-impact, p#accelerate-solutions{
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     color:white;
-    background-image: url(https://apsc-strategicplan2020.sites.olt.ubc.ca/files/2020/03/priority-background-cropped.jpg);
+    background-size:cover;
+    .bg-processing01 {
+        background-image: url($bg-processing01);
+    }
+    .bg-processing02 {
+        background-image: url($bg-processing02);
+    }
+    .bg-processing03 {
+        background-image: url($bg-processing03);
+    }
+    .bg-processing04 {
+        background-image: url($bg-processing04);
+    }
+    .bg-processing05 {
+        background-image: url($bg-processing05);
+    }
+    .bg-processing06 {
+        background-image: url($bg-processing06);
+    }
+    
 
     @media only screen and (max-width: $break-mobile) {
         height: 170px;
