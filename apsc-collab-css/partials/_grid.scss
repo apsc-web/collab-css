@@ -148,6 +148,9 @@ p#increase-impact, p#accelerate-solutions{
     }
     
 
+    @media only screen and (max-width: $break-desktop) {
+        background-size:unset;
+    }
     @media only screen and (max-width: $break-mobile) {
         height: 170px;
     }
@@ -160,6 +163,9 @@ p#increase-impact, p#accelerate-solutions{
     //background-size: 120%;
     background-size:cover;
     opacity: 0.85;
+    @media only screen and (max-width: $break-desktop) {
+        background-size:unset;
+    }
 }
 
    .priority-icon{
