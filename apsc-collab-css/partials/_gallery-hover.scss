@@ -192,7 +192,6 @@
                                     p {
                                         font-size: 1em;
                                         line-height: 1.5715em;
-                                        margin: 12px 0 0 0;
                                     }
 
                                     ul {
@@ -216,6 +215,13 @@
                                         // &:before {
                                             // content:"APPLICATIONS OF ";
                                         // }
+                                    }
+                                    .applications
+                                    {
+                                        p
+                                        {
+                                            margin: 12px 0 0 0;
+                                        }
                                     }
                                 }   
                             }
