@@ -477,10 +477,19 @@ h1 {
 }
 
 //adding extra padding to priority menu-items
+@media only screen and (max-width: 360px) {
+    #menu-item-306 {
+        .dropdown-menu>li>a {
+            padding-left: 13px;
+            padding-right: 50px;
+        }
+    } 
+    }
+
 @media only screen and (max-width: $break-mobile) {
 #menu-item-306 {
     .dropdown-menu>li>a {
-        padding-left: 5px;
+        padding-left: 20px;
         padding-right: 50px;
     }
 } 
@@ -658,6 +667,9 @@ h1 {
 
 .priority-menu-title {
     margin-left: 35px;
+    @media only screen and (max-width: $break-mobile) {
+        margin-left:30px;
+    }
 }
 
 .priority-title-text {
