@@ -62,14 +62,18 @@ margin-right: auto;
 @media only screen and (max-width: $break-tablet){
   .carousel-section {
       max-width: 110%;
-      padding-bottom: 35px;
+      padding-bottom: 55px;
   }
   .flickity-page-dots{
       bottom: -25px;
+      position: relative;
+      width:15%;
+      margin-left:auto;
+      margin-right:auto;
   }
   .flickity-prev-next-button{
     top: auto;
-    bottom: -65px;
+    bottom: -85px;
   }
 
   .btn-next {
