@@ -160,6 +160,7 @@ p#increase-impact, p#accelerate-solutions{
     &:hover{
         @media only screen and (min-width: $break-tablet) {
             background-size:120%;
+            opacity: 0.85;
         }
     }
   }
