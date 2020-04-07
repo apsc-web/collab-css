@@ -153,6 +153,9 @@ p#increase-impact, p#accelerate-solutions{
         height: 170px;
     }
     @media only screen and (min-width: $break-mobile) {
+        height: 185px;
+    }
+    @media only screen and (min-width: $break-tablet) {
         height: 130px;
     }
     &:hover{
