@@ -116,13 +116,15 @@ p#increase-impact, p#accelerate-solutions{
 
 /* Priorities test CSS */
 .priority{
-    height:130px;
+    // height:130px;
+    height:200px;
     padding-top:4%;
     padding-left:4%;
     padding-right:4%;
     padding-bottom:2%;
     margin-top: 2em;
-    background-size: 100%;
+    // background-size: 100%;
+    background-size:cover;
     background-position: center center;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
@@ -147,26 +149,27 @@ p#increase-impact, p#accelerate-solutions{
         background-image: url($bg-processing06);
     }
     
-
-    @media only screen and (max-width: $break-desktop) {
-        background-size:unset;
-    }
-    @media only screen and (max-width: $break-mobile) {
+    @media only screen and (min-width: 320px) {
         height: 170px;
     }
-    @media only screen and (max-width: 320px) {
-        height: 200px;
+    @media only screen and (min-width: $break-mobile) {
+        height: 130px;
+    }
+    &:hover{
+        @media only screen and (min-width: $break-tablet) {
+            background-size:120%;
+        }
     }
   }
 
-.priority:hover {
-    //background-size: 120%;
-    background-size:cover;
-    opacity: 0.85;
-    @media only screen and (max-width: $break-desktop) {
-        background-size:unset;
-    }
-}
+// .priority:hover {
+//     //background-size: 120%;
+//     background-size:cover;
+//     opacity: 0.85;
+//     @media only screen and (max-width: $break-desktop) {
+//         background-size:unset;
+//     }
+// }
 
    .priority-icon{
     width:15%;
