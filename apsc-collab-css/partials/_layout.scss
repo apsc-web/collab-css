@@ -273,16 +273,16 @@ h1 {
     margin-bottom: 3em; 
 
     .alert-trends {
-        border-left: 5px solid $iso-trend-color;
+        border-left: 17px solid $iso-trend-color;
         padding-left: 2px;
-        color: $iso-trend-color;
+        // color: $iso-trend-color;
         font-weight: 600;
     }
 
     .alert-uncertainties {
-        border-left: 5px solid $iso-uncertainty-color;
+        border-left: 17px solid $iso-uncertainty-color;
         padding-left: 2px;
-        color: $iso-uncertainty-color;
+        // color: $iso-uncertainty-color;
         font-weight: 600;
     }
 }
