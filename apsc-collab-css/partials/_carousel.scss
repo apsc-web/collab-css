@@ -48,6 +48,12 @@ margin-right: auto;
   text-transform: uppercase;
 }
 
+.flickity-button {
+  background-color: transparent;
+  border: 1px solid $brand-color;
+  color:$brand-color;
+}
+
 @media only screen and (min-width: $break-desktop){
   .carousel-content{
       padding-left: 5em;
@@ -70,6 +76,9 @@ margin-right: auto;
       margin-left:auto;
       margin-right:auto;
       bottom: -30px;
+      .dot {
+        color: $accent-color;
+      }
   }
   .flickity-prev-next-button{
     top: auto;
