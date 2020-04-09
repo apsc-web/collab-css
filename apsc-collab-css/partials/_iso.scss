@@ -298,6 +298,10 @@
 			.iso-trend {
 				background-color: $iso-trend-color;
 				color: #ffffff;
+				p
+				{
+					line-height: 1.4em;
+				}
 			}
 
 			.iso-uncertainty {
