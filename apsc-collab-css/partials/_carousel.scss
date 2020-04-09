@@ -52,13 +52,16 @@ margin-right: auto;
   background-color: transparent;
   border: 1px solid $brand-color;
   color:$brand-color;
+  &:hover {
+    background-color: transparent;
+}
 }
 
 .flickity-prev-next-button {
 .flickity-button-icon {
   position: absolute;
   left: 12px;
-  top: 13px;
+  top: 14px;
   width: 16px;
   height: 14px;
 }
