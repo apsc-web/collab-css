@@ -295,18 +295,22 @@
 			padding: 0 15px;
 			display: table;
 
-			.iso-trend {
-				background-color: $iso-trend-color;
-				color: #ffffff;
+			.iso-trend, .iso-uncertainty{
 				p
 				{
 					line-height: 1.4em;
 				}
 			}
+			
+			.iso-trend {
+				background-color: $iso-trend-color;
+				color: #ffffff;
+			}
 
 			.iso-uncertainty {
 				background-color: $iso-uncertainty-color;
 			}
+			
 		}
 	}
 }
