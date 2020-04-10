@@ -471,3 +471,9 @@
     text-transform: uppercase;
 }
 
+.user-action::before{
+    content: "Tap";
+    @media (min-width: $break-desktop) {
+        content: "Hover";
+    }
+}
