@@ -471,7 +471,7 @@
     text-transform: uppercase;
 }
 
-.user-action::before{
+.user-action-hover-tap::before{
     content: "Tap";
     @media (min-width: $break-desktop) {
         content: "Hover";
