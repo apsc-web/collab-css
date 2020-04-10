@@ -106,3 +106,20 @@
     margin-left: 4px;
     margin-right: 4px;
 }
+
+a.apsc-button {
+    display: inline-block;
+    margin-top:25px;
+    padding: 8px 6px;
+    background-image: none;
+    background-size: 0;
+    border-color: #00a7e1;
+    border-width: 1px;
+    border-style: solid;
+    text-decoration: none;
+    transition: .2s ease;
+}
+a.apsc-button:hover {
+    background: #00a7e1;
+    color: #fff;
+}
