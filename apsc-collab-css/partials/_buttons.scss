@@ -63,7 +63,7 @@
         height: 2px;
         display: block;
         right: 0;
-        background: $link-color;
+        //background: $link-color;
         transition: width .2s ease;
         -webkit-transition: width .2s ease;
     }
@@ -72,7 +72,7 @@
         &:after {
             width: 100%;
             left: 0;
-            background: $link-color;
+            //background: $link-color;
         }
     }
 }
