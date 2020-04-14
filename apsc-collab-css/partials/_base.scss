@@ -6,7 +6,9 @@
 
 body {
     font-family: $brand-font;
+    // font-size: 16px;
     }
+
 
 /*how do to direct child >? */
 .entry-content  {
@@ -79,7 +81,7 @@ td {
 //     }
 // }
 
-.custom-blockquote{ 
+blockquote{ 
     margin-top: 4em;
     margin-bottom: 4em;
     // width: 500px;
