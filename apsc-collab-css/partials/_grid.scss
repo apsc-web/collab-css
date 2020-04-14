@@ -19,12 +19,12 @@
     padding: 15px;
 
      h3.strategy-title-grid {
-        margin-top:1em;
+        margin-top:0.9em;
         margin-bottom:0.8em;
-        line-height:1.4em;
-        font-size:1.7em;
+        line-height:1.2em;
+        font-size:1.5em;
         .strat-label {
-            font-size:0.6em;
+            font-size:0.5em;
         }
     }
 }
@@ -33,12 +33,12 @@
 /* This belongs to custom css */
 .titles-column {
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 600;
     height:100px;
     @media only screen and (max-width: $break-mobile) {
         height:270px;
-        margin-top:0.8em;
+        margin-top:0.7em;
     }
 }
 .commitment-title{
@@ -121,7 +121,7 @@ p#increase-impact, p#accelerate-solutions{
     padding-left:4%;
     padding-right:4%;
     padding-bottom:2%;
-    margin-top: 2em;
+    margin-top: 1.75em;
     // background-size: 100%;
     background-size:cover;
     background-position: center center;
@@ -183,7 +183,7 @@ p#increase-impact, p#accelerate-solutions{
     width:80%;
     float:left;
     margin-left:5%;
-    font-size:0.9em;
+    font-size:0.8em;
   }
   h3.priority-title{
     margin-top:0;
@@ -201,7 +201,7 @@ p#increase-impact, p#accelerate-solutions{
     margin-top:0;
     margin-bottom:5%;
     @media only screen and (max-width: $break-mobile) {
-        margin-top: 2em;
+        margin-top: 1.8em;
         margin-left: -60px;
     }
     @media only screen and (max-width: 320px) {
@@ -211,13 +211,13 @@ p#increase-impact, p#accelerate-solutions{
 
   p.two-lined-priority-title {
     @media only screen and (max-width: $break-mobile) {
-        margin-top: 1em;
+        margin-top: 0.9em;
     }
   }
   
   p.university-priority-title {
     @media only screen and (max-width: 375px) {
-        margin-top: 1em;
+        margin-top: 0.9em;
     }
   }
 

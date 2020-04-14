@@ -21,7 +21,7 @@
 
     .iso-container {
         max-width: $container-size;
-        margin-top: 2em;
+        margin-top: 1.8em;
     }
 
     .boxey-inside {
@@ -31,16 +31,16 @@
 
     .flexslider {
         max-width: $container-size;
-        margin-top: 2em;
+        margin-top: 1.8em;
 
         ul {
             list-style-type: none;
-            font-size: 1em;
+            font-size: 0.9em;
         }
 
         ul, ol {
             > li {
-                line-height: 1em;
+                line-height: 0.9em;
                 margin-left: 0px; 
                 margin-bottom: 0px;
             }
@@ -112,7 +112,7 @@
 
             @media only screen and (max-width: $break-mobile) {
                 display: block; 
-                font-size: 1em; 
+                font-size: 0.9em; 
             }
         }
     }
@@ -132,9 +132,9 @@ h1 {
 
 .lead {
     color: $accent-color;   
-    font-size: 1.5em;  
-    line-height: 1.5em;
-    margin-top:1.5em;
+    font-size: 1.3em;  
+    line-height: 1.3em;
+    margin-top:1.3em;
 
     @include target-firefox {
         @media only screen and (max-width: $break-mobile) {
@@ -144,7 +144,7 @@ h1 {
 }
 
 .add-margin-top {
-    margin-top: 2em;
+    margin-top: 1.8em;
 }
 
 .no-margin-bottom {
@@ -153,13 +153,13 @@ h1 {
 
 .subhead1 {
     text-transform: capitalize;
-    font-size:2em;
-    line-height:1.6em;
+    font-size:1.8em;
+    line-height:1.4em;
     color: $link-color;
     font-weight:600;
     @media only screen and (max-width: $break-mobile) {
-        line-height: 1em;
-        font-size:1.3em;
+        line-height: 0.9em;
+        font-size:1.13em;
         margin-bottom: 4px;
     }
 }
@@ -218,7 +218,7 @@ h1 {
 
 .cover-photo-wrapper {
     position:relative;
-    margin-bottom:2em;
+    margin-bottom:1.8em;
  }
 
  .cover-photo-wrapper .cover-title {
@@ -238,15 +238,15 @@ h1 {
 
 .cover-photo-wrapper .cover-title h1 {
     margin-top:0;
-    line-height:1.2em;
+    line-height:1.05em;
     color:white;
-    font-size:1.5em;
+    font-size:1.3em;
     @media only screen and (min-width: $break-tablet) {
     /*font-size:50px; one line*/
     font-size:60px;
     }
     @media only screen and (max-width: $break-mobile) {
-    font-size:1.8em;
+    font-size:1.6em;
     }
 }
 
@@ -269,8 +269,8 @@ h1 {
     border: 1px solid $link-color;
     border-left: 5px solid $link-color;
     padding: 20px;
-    margin-top: 3em;
-    margin-bottom: 3em; 
+    margin-top: 2.6em;
+    margin-bottom: 2.6em; 
 
     .alert-trends, .alert-uncertainties{
         padding: 2px;
@@ -301,14 +301,14 @@ h1 {
 
 .arrow-down{
     color:rgba($accent-color,0.5);
-    font-size:6em;
-    padding: 1em 0 0.7em;
+    font-size:5.25em;
+    padding: 0.9em 0 0.6em;
     &:before {
     content: "\f103";
     font-family: FontAwesome;
     }
     @media only screen and (max-width: $break-mobile) {
-        padding: 0.6em 0 0.2em;
+        padding: 0.5em 0 0.175em;
     }
 }
 
@@ -373,7 +373,7 @@ h1 {
 
     .row1 {
         .priority-icon {
-            margin: 2em 0 0 0;
+            margin: 1.75em 0 0 0;
         }
 
         .priority-icon:before {
@@ -383,12 +383,12 @@ h1 {
 
     .row2 {
         .priority-icon {
-            margin: 3em 0 0 0;
+            margin: 2.625em 0 0 0;
         }
 
         @media only screen and (max-width: $break-mobile) {
             .priority-icon {
-                margin: 2em 0 0 0;
+                margin: 1.75em 0 0 0;
             }
         }
     }
@@ -518,7 +518,7 @@ h1 {
 
     @media only screen and (max-width: $break-tablet) {
         display: block;
-        margin-top: 2em;
+        margin-top: 1.8em;
     }
 }
 
@@ -538,7 +538,7 @@ h1 {
     }
     
     .process-block .block--image-and-text-banner .banner__image {
-        margin: 1.5em;
+        margin: 1.3em;
     }
     
     .show-laptop {
@@ -580,7 +580,7 @@ h1 {
 
 .drivers {
     p {
-        line-height: 1.8em;
+        line-height: 1.4em;
         margin-top: 0px;
         margin-left: 20px;
         margin-bottom: 10px;
