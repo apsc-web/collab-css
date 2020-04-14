@@ -513,18 +513,20 @@ h1 {
         }
 }
 }
-.show-mobile {
-    display: none;
+.display-sm {
+    display: block;
+    margin-top: 1.8em;
 
-    @media only screen and (max-width: $break-tablet) {
-        display: block;
-        margin-top: 1.8em;
+    @media only screen and (min-width: $break-tablet) {
+        display: none;
     }
 }
 
-.show-laptop {
-    @media only screen and (max-width: $break-tablet) {
-        display: none;
+.display-lg {
+    display: none;
+    
+    @media only screen and (min-width: $break-tablet) {
+        display: block;
     }
 }
 
