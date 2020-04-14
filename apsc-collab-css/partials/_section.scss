@@ -99,16 +99,6 @@
     }
 }
 
-#mission-vision {
-    .column-image {
-        max-width: 115%;
-
-        @media (max-width: $break-tablet) {
-            max-width: 100%;
-        }
-    }
-}
-
 .block--image-and-text-banner {
     p:empty {
         display: none;
