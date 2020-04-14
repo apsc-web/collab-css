@@ -87,3 +87,12 @@
 .grey-background{
     background-color: $block-quote-background-color; 
 }
+
+.full-bleed {
+    padding: 0;
+
+    @media only screen and (min-width: $break-mobile) {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

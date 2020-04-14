@@ -715,10 +715,3 @@ h1 {
         display: none;
     }
 }
-
-// Full bleed on mobile
-@media only screen and (max-width: $break-mobile) {
-    .full-bleed{
-        padding: 0;
-    }
-}
