@@ -38,12 +38,7 @@ margin-right: auto;
   margin-top: 25px;
 }
 
-// .flickity-prev-next-button {
-// top: auto;
-// bottom: -80px;
-// }
-
-.featured-label::before {
+.carousel__featured-label::before {
   content: "Applying the plan";
   text-transform: uppercase;
 }
