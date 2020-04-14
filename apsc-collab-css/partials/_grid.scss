@@ -221,31 +221,15 @@ p#increase-impact, p#accelerate-solutions{
     }
   }
 
-  .vertical-bar__darkgrey{
+  .left-vertical-bar--darkgrey {
     border-left:10px solid $priority-mission-color;
   }
   
-  .vertical-bar__lightgrey{
+  .left-vertical-bar--lightgrey {
     border-left:10px solid $priority-vision-color;
   }
 
   .custom-quote-vertical-bar__darkgrey{
       border-left:5px solid $custom-quote-color;
   }
-
-//   .footer-link__underline{
-//     text-decoration: underline!important;
-//     &:hover {
-//     text-decoration: none;
-//   }
-// }
-
-//   .link__underline{
-//       border-bottom:1px solid #fff;
-//       &:hover {
-//         border-bottom:none;
-//     }
-//   }
-
-  
     
