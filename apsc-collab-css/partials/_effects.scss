@@ -26,7 +26,16 @@
     border-left:3px solid $link-color;
 }
 
-.mission-border-color {
+
+.left-vertical-bar--darkgrey {
+    border-left:10px solid $priority-mission-color;
+}
+  
+.left-vertical-bar--lightgrey {
+    border-left:10px solid $priority-vision-color;
+}
+
+.left-border-sm--darkgrey {
     position: relative;
     padding-left: 20px;
 
@@ -41,7 +50,7 @@
     }
 }
 
-.vision-border-color {
+.left-border-sm--lightgrey {
     position: relative;
     padding-left: 20px;
 
