@@ -69,7 +69,7 @@
     cursor:default;
 }
 
-.external-link::before{
+.external-link::before {
     content: "\f08e";
     margin-left: 4px;
     margin-right: 4px;
@@ -84,8 +84,15 @@
     
 }
 
-.grey-background{
+.grey-background {
     background-color: $block-quote-background-color; 
+}
+
+.background-brand-gradient {
+    background-image: $diagonal-brand-to-accent-gradient;
+    > * {
+        color:#fff; 
+    }
 }
 
 .full-bleed {
