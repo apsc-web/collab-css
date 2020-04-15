@@ -63,21 +63,6 @@
             padding: 0.9em;
         }
     }
-
-    @media (max-width: $break-tablet) {
-        .process-mobile .span5 {
-            display: none;
-        }
-        
-        .process-block {
-            margin: 0;
-            padding: 0;
-
-            &:first-of-type {
-                margin-top: 3.5em;
-            }
-        }
-    }
 }
 
 .statistic {
