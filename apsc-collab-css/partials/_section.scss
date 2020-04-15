@@ -44,7 +44,8 @@
                 margin-top: 3.5em;
             }
 
-            .block--image-and-text-banner {
+            .block-section--grey,
+            .block-section--white {
                 margin-left: -20px;
                 margin-right: -20px;
                 padding-bottom: 1.3em;
@@ -60,7 +61,7 @@
         }
 
         .grey-background {
-            .block--image-and-text-banner {
+            .block-section--grey {
                 background-color: $block-quote-background-color;
             }
         }
