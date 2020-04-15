@@ -107,15 +107,15 @@
 }
 
 .block-section__image {
-    min-height: 250px;
+    min-height: 300px;
     /*width: 600px;*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 1.3em 0 0;
 
-    @media (max-width: $break-mobile) {
-        min-height: 300px;
+    @media (min-width: $break-mobile) {
+        min-height: 250px;
     }
 }
 
