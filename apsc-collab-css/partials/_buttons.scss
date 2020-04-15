@@ -149,3 +149,23 @@ a.apsc-button:hover {
     background: #00a7e1;
     color: #fff;
 }
+
+.footer-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 12px 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+
+    /* commenting out hover until brochure is ready
+    &:hover {
+        background: #fff;
+        color: $link-color;
+        border-color: $brand-color;
+    }
+    */
+    @media only screen and (min-width: $break-tablet) {
+        margin-bottom: 0;
+    }
+}
