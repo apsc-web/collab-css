@@ -102,14 +102,17 @@
 
 .block-section__image {
     min-height: 300px;
-    /*width: 600px;*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0 1.3em 0 0;
+    margin: 0;
 
     @media (min-width: $break-mobile) {
         min-height: 250px;
+    }
+
+    @media (min-width: $break-tablet) {
+        margin-top: 30px 1.3em 0 0;
     }
 }
 
@@ -122,14 +125,6 @@
 }
 
 .process-block {
-    .block-section__image {
-        margin-top: 30px;
-
-        @media (max-width: $break-tablet) {
-            margin: 0;
-        }
-    }
-
     @media (max-width: $break-tablet) {
         margin: 0;
     }
