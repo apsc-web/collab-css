@@ -128,14 +128,6 @@
     }
 }
 
-.process-block {
-    margin: 0;
-
-    @media (min-width: $break-tablet) {
-        margin: 3.5em -15px 3.5em -15px;
-    }
-}
-
 /* Custom to strat plan*/
 @media only screen and (max-width: $break-mobile) {
     #outcomes1 {
