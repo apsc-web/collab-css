@@ -129,8 +129,10 @@
 }
 
 .process-block {
-    @media (max-width: $break-tablet) {
-        margin: 0;
+    margin: 0;
+
+    @media (min-width: $break-tablet) {
+        margin: 3.5em -15px 3.5em -15px;
     }
 }
 
