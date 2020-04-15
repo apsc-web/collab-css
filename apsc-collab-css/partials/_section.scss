@@ -49,14 +49,6 @@
                 margin-left: -20px;
                 margin-right: -20px;
                 padding-bottom: 1.3em;
-
-                .block-section__content {
-                    padding: 0 1.6em;
-
-                    @media (max-width: $break-mobile) {
-                        padding: 0 1.3em;
-                    }
-                }
             }
         }
     }
@@ -102,6 +94,18 @@
 
 .block-section--grey {
     background-color: $block-quote-background-color;
+}
+
+.block-section__content {
+    padding: 0 1.3em;
+
+    @media (min-width: $break-mobile) {
+        padding: 0 1.6em;
+    }
+
+    @media (min-width: $break-tablet) {
+        padding: 0;
+    }
 }
 
 .block-section__image {
