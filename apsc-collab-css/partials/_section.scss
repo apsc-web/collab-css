@@ -84,15 +84,15 @@
         vertical-align: bottom;
     }
 
-    .statistic-title__text--line-break{
+    .statistic-title__text--line-break {
         display:inline-block;
-        width: 30%;
+        width: 60%;
         line-height: normal;
         vertical-align:baseline;
         text-align:left;
 
-        @media (max-width: $break-mobile) {
-            width: 60%;
+        @media (min-width: $break-mobile) {
+            width: 30%;
         }
     }
     .statistic, .statistic__label {
