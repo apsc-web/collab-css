@@ -43,13 +43,6 @@
             &:first-of-type {
                 margin-top: 3.5em;
             }
-
-            .block-section--grey,
-            .block-section--white {
-                margin-left: -20px;
-                margin-right: -20px;
-                padding-bottom: 1.3em;
-            }
         }
     }
 }
@@ -83,6 +76,10 @@
 
 .block-section--grey,
 .block-section--white {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-bottom: 1.3em;
+
     p:empty {
         display: none;
     }
@@ -90,6 +87,12 @@
     br {
         display: none;
     }
+
+    @media (min-width: $break-tablet) {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    } 
 }
 
 .block-section--grey {
