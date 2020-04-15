@@ -1,31 +1,36 @@
-.accent-color{
+.accent-color {
     color: $accent-color;
 }
-.brand-color{
+
+.brand-color {
     color:$brand-color;
 }
-.link-color{
+
+.link-color {
     color:$link-color;
 }
-.text-color__white{
+
+.text-color--white {
     color:#fff;
 }
 
 %underline-shared {
     border-bottom: 3px solid;
-  }
-.underline__link-color{
+}
+
+.underline__link-color {
     @extend %underline-shared;
     border-color: $link-color;
 }
+
 .underline__brand-color{
     @extend %underline-shared;
     border-color: $brand-color;
 }
+
 .vertical-line__left{
     border-left:3px solid $link-color;
 }
-
 
 .left-vertical-bar--darkgrey {
     border-left:10px solid $priority-mission-color;
