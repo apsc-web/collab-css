@@ -95,7 +95,8 @@
     }
 }
 
-.block--image-and-text-banner {
+.block-section--grey,
+.block-section--white {
     p:empty {
         display: none;
     }
