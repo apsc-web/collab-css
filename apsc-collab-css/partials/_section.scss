@@ -100,6 +100,10 @@
     }
 }
 
+.block-section--grey {
+    background-color: $block-quote-background-color;
+}
+
 .block-section__image {
     min-height: 300px;
     background-repeat: no-repeat;
