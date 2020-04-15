@@ -42,6 +42,28 @@
         }
     }
 
+    .process-block {
+        margin: 0;
+        padding: 0;
+
+        &:first-of-type {
+            margin-top: 3.5em;
+        }
+
+        .process-mobile .span5 {
+            display: none;
+
+            @media (min-width: $break-tablet) {
+                display: block;
+            }
+        }
+
+        @media (min-width: $break-tablet) {
+            margin: 3.5em -15px 3.5em -15px;
+            padding: 0.9em;
+        }
+    }
+
     @media (max-width: $break-tablet) {
         .process-mobile .span5 {
             display: none;
