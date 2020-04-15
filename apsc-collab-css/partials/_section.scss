@@ -50,7 +50,7 @@
                 margin-right: -20px;
                 padding-bottom: 1.3em;
 
-                .banner__content {
+                .block-section__content {
                     padding: 0 1.6em;
 
                     @media (max-width: $break-mobile) {
@@ -106,7 +106,7 @@
     }
 }
 
-.banner__image {
+.block-section__image {
     min-height: 250px;
     /*width: 600px;*/
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@
         }
     }
 
-    .banner__image {
+    .block-section__image {
         margin-top: 30px;
 
         @media (max-width: $break-tablet) {
@@ -225,4 +225,4 @@
     #outcomes1{
         text-align:center;
     }
-    }
+}
