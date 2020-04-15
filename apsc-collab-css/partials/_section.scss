@@ -130,88 +130,9 @@
     }
 }
 
-.callout-block {
-    color: $accent-color;
-    background-color: $block-quote-background-color; 
-    background-image: url(https://apsc-strategicplan2020.sites.olt.ubc.ca/files/2020/03/quotes-background.png);
-    background-repeat:no-repeat;
-    background-size: cover;
-    
-    @media (max-width: $break-mobile) {
-        .row-fluid [class*="span"] {
-            min-height: 0px;
-        }
-    }
-
-    .block--image-and-text-banner {
-        max-width: 1170px;
-        margin: 0 auto;
-
-        .span5, .span7 {
-            p {
-                display: none;
-            } 
-        }
-
-        .banner__image {
-            @media (max-width: $break-mobile) {
-                margin: 0;
-            }
-        }
-
-        .banner__content {
-            padding: 20px;
-            @media (max-width: $break-mobile) {
-                padding: 0 10% 10% 10%;
-            }
-        }
-
-        .show-mobile {
-            margin-top: 0;
-        }
-
-        .show-laptop {
-            margin: 0 0 0 1.3em;
-        }
-    }
-
-    .callout-image-right {
-        .banner__content {
-            padding-right: 0;
-            margin-left: 1.3em;
-
-            @media (max-width: $break-mobile) {
-                margin-left: 0;
-                padding: 0 10% 10% 10%;
-            }
-        }
-    }
-
-    .callout-image-left {
-        .span7 {
-            margin-left: 0;
-        }
-    }
-    
-    .block__title {
-        color: $accent-color;
-        font-size: 1.6em;
-        line-height: 1.1em;
-        font-weight: 600;
-        margin: 0.9em 0; 
-    }
-}
-
-.entry-content .callout-block {
-    max-width:1161px; /*to align with the strategy boxes*/
-    /* margin: 4em -15px 4em -15px;*/
-    padding-left: 0;
-    padding-right: 0;
-}
-
 /* Custom to strat plan*/
 @media only screen and (max-width: $break-mobile) {
-    #outcomes1{
+    #outcomes1 {
         text-align:center;
     }
 }
