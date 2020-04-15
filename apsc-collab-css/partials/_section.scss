@@ -78,12 +78,13 @@
     line-height: 1.3em;
     font-weight: 600;
     color: $accent-color;
-    .statistic-title-text {
+
+    .statistic-title__text {
         font-size: 0.4em;
         vertical-align: bottom;
-        /*margin-left:4%;*/
     }
-    .statistic-title-text__line-break{
+
+    .statistic-title__text--line-break{
         display:inline-block;
         width: 30%;
         line-height: normal;
@@ -94,7 +95,7 @@
             width: 60%;
         }
     }
-    .statistic, .statistic-label {
+    .statistic, .statistic__label {
         text-align: center;
     }
 }
