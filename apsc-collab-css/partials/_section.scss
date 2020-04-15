@@ -119,6 +119,14 @@
     }
 }
 
+.block-section__title h2 {
+    margin-top: 0.9em;
+
+    @media (min-width: $break-tablet) {
+        margin-top: 20px;
+    }
+}
+
 .process-block {
     h2.block-title {
         margin-top: 20px;
