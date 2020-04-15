@@ -10,6 +10,17 @@
             margin-right:auto;
         }
 
+        .block-section--grey,
+        .block-section--white {
+            margin-left: -20px;
+            margin-right: -20px;
+
+            @media (min-width: $break-tablet) {
+                margin-left: auto;
+                margin-right: auto;
+            } 
+        }
+
         .column-header {
             margin-top: 0.9em;
         }
@@ -24,17 +35,6 @@
             max-width: 810px; /* Adjust custom width */
             margin-left:auto;
             margin-right:auto;
-        }
-
-        .block-section--grey,
-        .block-section--white {
-            margin-left: -20px;
-            margin-right: -20px;
-
-            @media (min-width: $break-tablet) {
-                margin-left: auto;
-                margin-right: auto;
-            } 
         }
 
         .column-header {
