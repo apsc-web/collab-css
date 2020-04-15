@@ -128,14 +128,6 @@
 }
 
 .process-block {
-    h2.block-title {
-        margin-top: 20px;
-
-        @media (max-width: $break-tablet) {
-            margin-top: 0.9em;
-        }
-    }
-
     .block-section__image {
         margin-top: 30px;
 
