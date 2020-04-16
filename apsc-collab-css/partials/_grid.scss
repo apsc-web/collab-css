@@ -1,15 +1,15 @@
 @import '../modules/bg-images';
 
-.full-width-container .grid{
-    margin-right:auto;
-    margin-left:auto;
+.full-width-container .grid {
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.grid{
-    max-width:1170px;
+.grid {
+    max-width: 1170px;
 }
 
-.grid-tiles{
+.grid-tiles {
     width: 218px;
     background-color: $grid-tile-background-color;
     float:left;
@@ -29,18 +29,19 @@
     }
 }
 
-
-/* This belongs to custom css */
 .titles-column {
+    height:270px;
+    margin-top:0.7em;
     text-transform: uppercase;
     font-size: 1.1em;
     font-weight: 600;
-    height:100px;
-    @media only screen and (max-width: $break-mobile) {
-        height:270px;
-        margin-top:0.7em;
+
+    @media only screen and (min-width: $break-mobile) {
+        height: 100px;
+        margin-top: 0;
     }
 }
+
 .commitment-title{
     width: 15%;
     float: left;
