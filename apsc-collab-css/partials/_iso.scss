@@ -255,21 +255,20 @@
 	width: 100%;
 
 	.iso-box-wrapper {
+		position: relative;
 		width: 100%;
 		padding: 0;
 		clear: both;
-		position: relative;
-
+		
 		.iso-box {
 			position: relative;
+			display: table;
 			min-height: 50px;
 			float: left;
-			/*overflow: hidden;*/
 			margin-bottom: 25px;
 			box-sizing: border-box;
 			padding: 0 15px;
-			display: table;
-
+			
 			.iso-trend, .iso-uncertainty{
 				p
 				{
@@ -285,7 +284,6 @@
 			.iso-uncertainty {
 				background-color: $iso-uncertainty-color;
 			}
-			
 		}
 	}
 }
@@ -294,17 +292,18 @@
 	max-width: 1170px;
 
 	.iso-grid {
+		margin: 0 auto;
 		height: 180px;
 		width: 180px;
 		padding: 10%;
 
+		@media (min-width: $break-mobile) {
+            margin: 0;
+        }
+
 		p {
 			margin-top: 0;
 		}
-
-		@media (max-width: $break-mobile) {
-            margin: 0 auto;
-        }
 
 		.iso-grid-title {
 			font-size: 0.8em;
