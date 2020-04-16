@@ -446,16 +446,7 @@ h1 {
     margin-right: auto;
 }*/
 
-.priority-page-icon {
-    max-width: 70px;
-    margin: 15px auto -15px auto;
-
-    @media only screen and (min-width: $break-mobile) {
-        max-width: $content-width;
-        padding-top: 20px;
-        padding-bottom: 30px;
-    }
-
+.priority-page__title-container {
     h1.priority-page-title {
         text-align: center;
 
@@ -464,6 +455,17 @@ h1 {
             margin-top: 0;
             margin-left: 100px;
         }
+    }
+}
+
+.priority-page-icon {
+    max-width: 70px;
+    margin: 15px auto -15px auto;
+
+    @media only screen and (min-width: $break-mobile) {
+        max-width: $content-width;
+        padding-top: 20px;
+        padding-bottom: 30px;
     }
 
     .s-icon-medium {
