@@ -541,19 +541,19 @@ h1 {
 }
 
 @media (width: 768px) {
-    .entry-content .process-mobile .block--image-and-text-banner .span5 {
+    .entry-content .process-mobile .block-section--white .span5 {
         display: block;
     }
     
-    .process-mobile .span7 .show-mobile {
+    .process-mobile .span7 .display-sm {
         display: none;
     }
     
-    .process-block .block--image-and-text-banner .banner__image {
+    .process-block .block-section__image {
         margin: 1.3em;
     }
     
-    .show-laptop {
+    .display-lg {
         display: block;
     }
 }
