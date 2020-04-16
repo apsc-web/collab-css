@@ -1,24 +1,16 @@
 @import '../modules/colors';
 @import '../modules/breakpoints';
 
-.carousel__section {
-  max-width: 100%;
-  margin: 4.4em -15px 1.8em -15px;
-  background: #efefef;
-}
-
 .carousel {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.carousel__cell { 
-  width: 100%;
-
-  img {
-    width: 100%;
-  }
+.carousel__section {
+  max-width: 100%;
+  margin: 4.4em -15px 1.8em -15px;
+  background: #efefef;
 }
 
 .carousel__content {
@@ -40,6 +32,14 @@
     color: $brand-color;
     font-size: 0.9em;
     line-height: 1.3em;
+  }
+}
+
+.carousel__cell { 
+  width: 100%;
+
+  img {
+    width: 100%;
   }
 }
 
