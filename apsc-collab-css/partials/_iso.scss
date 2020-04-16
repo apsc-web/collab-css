@@ -7,11 +7,6 @@
         display:none;
 	}
     .boxey {
-    /*
-        max-width:240px;
-        height:200px; doesn't work
-
-    */
         .launch-btn {
             display:none;
         }
@@ -25,7 +20,6 @@
 			   pointer-events:none;
 			}
 
-			/*border-top:5px #ccc solid*/
 	    	h1, h2, h3, h4, h5, h6 {
 	    		font-family: $brand-font; 
 				margin-top: 20px;
@@ -117,7 +111,6 @@
 	.boxey {
 		.boxey-inner {
 			.iso-description {
-			    /*margin:0 5px 5px;*/
 				padding-bottom:5px;
 
 				.strategy-description {
@@ -142,7 +135,6 @@
 	}
 }
 
-
 .iso_shortcode {
 	a, h1, h2, h3, h4, h5, h6 {
 		font-family: $brand-font;
@@ -165,18 +157,17 @@
 	font-family: $brand-font;
 	font-size:0.7em;
 	font-weight:600;
-	/*color:$accent-color;*/
+
 	.strat-label {
-		&:before {
-			content:"Strategy #";
-		}
 		font-size:0.56em;
 		font-weight:100;
 		text-transform: uppercase;
-		/*color:$accent-color;*/
 		color: #ffffff;
-	}
 
+		&:before {
+			content:"Strategy #";
+		}
+	}
 }
 
 .filter-wrapper {
