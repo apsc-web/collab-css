@@ -470,7 +470,7 @@ h1 {
     .priority-university-icon {
         padding-bottom: 10px;
 
-        @media only screen and (min-width: 1435px) {
+        @media only screen and (min-width: 1434px) {
             padding-bottom: 30px;
         }
     }
@@ -478,23 +478,10 @@ h1 {
     .priority-thriving-icon {
         padding-bottom: 10px;
 
-        @media only screen and (min-width: 1600px) {
+        @media only screen and (min-width: 1599px) {
             padding-bottom: 30px;
         }
     }
-
-    /*
-    @media only screen and (max-width: 1435px) {
-        .priority-university-icon {
-            padding-bottom: 10px;
-        }
-    }
-
-    @media only screen and (max-width: 1600px) {
-        .priority-thriving-icon {
-            padding-bottom: 10px;
-        }
-    }*/
 
     .priority-page-icon {
         .s-icon-medium{
