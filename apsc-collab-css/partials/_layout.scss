@@ -353,8 +353,7 @@ h1 {
     }
 }
 
-// post-420: Values & Commitments
-#post-420 .row-fluid .span5 {
+#post-420 .row-fluid .span5 { // Values & Commitments
     display: none;
 
     @media only screen and (min-width: $break-mobile) {
@@ -378,9 +377,8 @@ h1 {
     }
 }
 
-// priority pages
 @media only screen and (min-width: 978px){
-    .parent-pageid-223 .entry-content {
+    .parent-pageid-223 .entry-content { // priority pages
         margin-top: -200px;
     }
     
