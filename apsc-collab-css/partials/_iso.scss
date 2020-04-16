@@ -174,9 +174,10 @@
 	width: 100%;
 	overflow: hidden;
 	margin-left: 0px;
+	text-align: left;
 
-	@media (max-width: $break-mobile) {
-        text-align: left !important;
+	@media (min-width: $break-mobile) {
+        text-align: center;
     }
 
 	li {
