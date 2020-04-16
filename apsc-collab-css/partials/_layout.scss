@@ -157,15 +157,17 @@ h1 {
 }
 
 .subhead1 {
-    text-transform: capitalize;
-    font-size:1.8em;
-    line-height:1.4em;
-    color: $link-color;
+    margin-bottom: 4px;
+    line-height: 0.9em;
+    font-size: 1.13em;
     font-weight:600;
-    @media only screen and (max-width: $break-mobile) {
-        line-height: 0.9em;
-        font-size:1.13em;
-        margin-bottom: 4px;
+    text-transform: capitalize;
+    color: $link-color;
+    
+    @media only screen and (min-width: $break-mobile) {
+        margin-bottom: 0;
+        line-height: 1.4em;
+        font-size: 1.8em;
     }
 }
 
