@@ -505,6 +505,31 @@ h1 {
     margin-left: 26px;
 }
 
+.priority-header-desktop {
+    display: none;
+
+    @media only screen and (min-width: $break-mobile) {
+        display: block;
+    }
+}
+
+.priority-header-mobile {
+    display: block;
+
+    @media only screen and (min-width: $break-mobile) {
+        display: none;
+    }
+}
+
+.separate-page {
+    display: none;
+
+    @media only screen and (min-width: $break-mobile) {
+        display: block;
+    }
+}
+
+/*
 @media only screen and (max-width: $break-mobile) {
     .priority-header-desktop{
         display: none;
@@ -521,4 +546,4 @@ h1 {
     .separate-page{
         display: none;
     }
-}
+}*/
