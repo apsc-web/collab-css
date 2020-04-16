@@ -231,7 +231,7 @@ h1 {
     position:relative;
     margin-bottom:1.8em;
 
-    .cover-title {
+    .cover-photo__title {
         position: absolute;
         z-index: 1;
         top: 30%;
@@ -274,7 +274,7 @@ h1 {
 {
     margin-left: -20px;
     margin-right: -20px;
-    
+
     @media only screen and (min-width: $break-tablet) {
         margin: 0;
     }
