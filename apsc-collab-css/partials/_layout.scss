@@ -540,9 +540,12 @@ h1 {
     }
 }
 
-@media only screen and (max-width: $break-mobile) {
-    #post-420 .row-fluid .span5 {
-        display: none;
+// post-420: Values & Commitments
+#post-420 .row-fluid .span5 {
+    display: none;
+
+    @media only screen and (min-width: $break-mobile) {
+        display: block;
     }
 }
 
