@@ -212,18 +212,17 @@ h1 {
 }
 
 .cover-photo {
-    height: $cover-photo-height;
+    height: 200px;
     margin: 0;
     background-position: 50% 50%; /*does not work*/
     background-size: cover;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
     max-width: $break-hd;
     margin: 0 auto;
-    @media only screen and (max-width: $break-tablet) {
-        height: 200px;
-        // margin-left: -20px;
-        // margin-right: -20px;
+
+    @media only screen and (min-width: $break-tablet) {
+        height: $cover-photo-height;
     }    
 }
 
