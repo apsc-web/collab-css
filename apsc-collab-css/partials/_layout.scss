@@ -325,14 +325,17 @@ h1 {
 #menu-item-306 {
     .dropdown-menu>li>a {
         padding-right: 50px;
+
         @media only screen and (min-width: 360px) {
             padding-left: 13px;
-        }  
+        }
+          
         @media only screen and (min-width: 375px) {
             padding-left: 20px;
         }
+    }
 }
-}
+
 .display-sm {
     display: block;
     margin-top: 1.8em;
