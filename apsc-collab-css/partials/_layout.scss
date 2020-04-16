@@ -307,16 +307,18 @@ h1 {
     font-family: FontAwesome;
 }
 
-.arrow-down{
-    color:rgba($accent-color,0.5);
-    font-size:5.25em;
-    padding: 0.9em 0 0.6em;
+.arrow-down {
+    padding: 0.5em 0 0.175em;
+    color: $arrow-color;
+    font-size: 5.25em;
+    
     &:before {
     content: "\f103";
     font-family: FontAwesome;
     }
-    @media only screen and (max-width: $break-mobile) {
-        padding: 0.5em 0 0.175em;
+
+    @media only screen and (min-width: $break-mobile) {
+        padding: 0.9em 0 0.6em;
     }
 }
 
