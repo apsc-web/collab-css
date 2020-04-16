@@ -50,18 +50,18 @@
             margin-top: 3.5em;
         }
 
-        .process-mobile .span5 {
-            display: none;
-
-            @media only screen and (min-width: $break-tablet) {
-                display: block;
-            }
-        }
-
         @media only screen and (min-width: $break-tablet) {
             margin: 3.5em -15px 3.5em -15px;
             padding: 0.9em;
         }
+    }
+}
+
+.process-mobile .span5 {
+    display: none;
+
+    @media only screen and (min-width: $break-tablet) {
+        display: block;
     }
 }
 
