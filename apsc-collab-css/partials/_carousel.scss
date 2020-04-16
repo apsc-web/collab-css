@@ -26,6 +26,10 @@
   margin-right: 10px;
   padding-top: 0.9em;
 
+  @media only screen and (min-width: $break-desktop) {
+    padding-left: 4.3em;
+  }
+
   h4 {
     color: $accent-color;
     font-size: 22px;
@@ -74,11 +78,7 @@
   }
 }
 
-@media only screen and (min-width: $break-desktop){
-  .carousel-content{
-      padding-left: 4.3em;
-  }
-}
+
 
 @media only screen and (min-width: $break-desktop){
   .flickity-prev-next-button.previous {
