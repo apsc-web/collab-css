@@ -6,45 +6,47 @@
         }
         &.container_button {
             display: inline-block;
-            // background-color: white;
+            padding: 8px 6px;
+            background-size: 0px;
+            background-image: none;
             border-color: $link-color;
             border-width: 1px;
             border-style: solid;
             text-decoration: none;
-            padding: 8px 6px;
-            background-size: 0px;
             transition: .2s ease;
-            background-image: none;
+
             &:hover {
                 background-size: auto;
-                color:white;
-                background:$link-color;
+                color: white;
+                background: $link-color;
             }
+
             &.button-start {
-                float:right;
-                /*content: "Start reading >";*/
+                float: right;
                 border-width: 2px;
-                color:$link-color;
+                color: $link-color;
                 &:hover {
-                    color:white;
+                    color: white;
                 }
             }
+
             &.button-next {
-                float:right;
+                float: right;
                 content: "Next >";
                 border-width: 2px;
-                color:$link-color;
+                color: $link-color;
                 &:hover {
-                    color:white;
+                    color: white;
                 }
             }
+
             &.button-prev {
-                float:left;
+                float: left;
                 content: "< Previous";
                 border-width: 2px;
-                color:$link-color; 
+                color: $link-color; 
                 &:hover {
-                    color:white;
+                    color: white;
                 }
             }
         }
@@ -52,16 +54,16 @@
 }
 
 .link-animation-underline {
+    position: relative;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
-    position: relative;
-
+    
     &:after {
         content: '';
         position: absolute;
+        display: block;
         width: 0; 
         height: 2px;
-        display: block;
         right: 0;
         background: $link-color;
         transition: width .2s ease;
@@ -144,10 +146,11 @@ a.apsc-button {
     border-style: solid;
     text-decoration: none;
     transition: .2s ease;
-}
-a.apsc-button:hover {
-    background: #00a7e1;
-    color: #fff;
+
+    &:hover {
+        background: #00a7e1;
+        color: #fff;
+    }
 }
 
 .footer-button {
