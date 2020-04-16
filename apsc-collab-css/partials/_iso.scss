@@ -158,7 +158,7 @@
 	font-size:0.7em;
 	font-weight:600;
 
-	.strat-label {
+	.strat-label {		
 		font-size:0.56em;
 		font-weight:100;
 		text-transform: uppercase;
@@ -180,42 +180,26 @@
     }
 
 	li {
-		display: inline-block;
-		/*margin: 4px;*/
+		display: block;
 
-		@media (max-width: $break-mobile) {
-            display: block;
+		@media (min-width: $break-mobile) {
+            display: inline-block;
         }
 
 		a {
-			color: #101010;
+			display: block;
+			padding: 10px;
 		    font-size: 12px;
 		    font-weight: 400;
-		    /*letter-spacing: 2px;*/
-		    padding: 10px;
-		    /*
-		    margin-right: 2px;
-		    margin-left: 2px;
-		    */
 		    text-transform: uppercase;
-		    display: block;
 		    text-decoration: none;
+		    border-bottom: 1px solid #CCC;
+		    color: #101010;
 		    
-		    @media (max-width: $break-mobile) {
-	            border-bottom: 1px solid #CCC;
-	        }
-		    
-		    /*transition: all 0.4s ease-in-out;*/
+		    @media (min-width: $break-mobile) {
+	            border: none;
+	        }		    
 		}
-		/*
-		a:active {
-			background: #001245 !important;
-		}
-
-		a:hover, a:focus {
-			background: #001245;
-			color: #ffffff;
-		}*/
 
 		a:hover {
 			background: $brand-color;
