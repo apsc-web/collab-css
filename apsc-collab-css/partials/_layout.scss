@@ -58,10 +58,10 @@
                     line-height: 22px;
                     margin-left: 0px;
                     margin-bottom: 0px;
-                    float: left;
+                    float: none;
 
-                    @media (max-width: $break-mobile) {
-                        float: none;
+                    @media (min-width: $break-mobile) {
+                        float: left;
                     }
                 }
             }
