@@ -352,7 +352,16 @@ h1 {
     }
 }
 
-.display-lg {
+.display-lg--sm {
+    display: none;
+
+    @media only screen and (min-width: $break-mobile) {
+        display: block;
+    }
+}
+
+
+.display-lg--md {
     display: none;
 
     @media only screen and (min-width: $break-tablet) {
