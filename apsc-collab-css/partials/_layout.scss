@@ -540,20 +540,6 @@ h1 {
     }
 }
 
-@media (width: 768px) {
-    .process-mobile .span7 .display-sm {
-        display: none;
-    }
-    
-    .process-block .block-section__image {
-        margin: 1.3em;
-    }
-    
-    .display-lg {
-        display: block;
-    }
-}
-
 @media only screen and (max-width: $break-mobile) {
     #post-420 .row-fluid .span5 {
         display: none;
