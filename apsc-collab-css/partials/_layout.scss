@@ -338,7 +338,14 @@ h1 {
 
 .display-sm {
     display: block;
-    margin-top: 1.8em;
+
+    @media only screen and (min-width: $break-mobile) {
+        display: none;
+    }
+}
+
+.display-md {
+    display: block;
 
     @media only screen and (min-width: $break-tablet) {
         display: none;
