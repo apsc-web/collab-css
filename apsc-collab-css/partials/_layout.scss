@@ -271,10 +271,12 @@ h1 {
 #section-12,
 #section-13,
 #section-14
- {
-    @media only screen and (max-width: $break-tablet) {
-        margin-left: -20px;
-        margin-right: -20px;
+{
+    margin-left: -20px;
+    margin-right: -20px;
+    
+    @media only screen and (min-width: $break-tablet) {
+        margin: 0;
     }
 }
 
