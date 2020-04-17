@@ -1,13 +1,10 @@
 .gallery-hover-effect {
-    &.border-less
-    {
-        .gallery-hover
-        {
+    &.border-less {
+        .gallery-hover {
             padding:0;
-            div[id^="post"]
-            {
-                .gallery_tile_img
-                {
+
+            div[id^="post"] {
+                .gallery_tile_img {
                     top: 0%;
                     left: 0%;
                     width: 100%;
@@ -74,80 +71,84 @@
             }
         }
     }
-       /* add fade in effect, corrects ISO code display on page load
+    /* add fade in effect, corrects ISO code display on page load
        keyframes set at end of file
-     */
-     animation: fadeIn ease 2s;
-     -webkit-animation: fadeIn ease 2s;
-     -moz-animation: fadeIn ease 2s;
-     -o-animation: fadeIn ease 2s;
-     -ms-animation: fadeIn ease 2s;
+    */
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
      
-     @keyframes fadeIn{
-         0% {
-           opacity:0;
-           visibility:hidden;
-         }
-         10% {
-           opacity:0;
-           visibility:hidden;
-         }
-         100% {
-           opacity:1;
-           visibility:visible;
-         }
-       }
-       @-moz-keyframes fadeIn {
-         0% {
-           opacity:0;
-           visibility:hidden;
-         }
-         10% {
-           opacity:0;
-           visibility:hidden;
-         }
-         100% {
-           opacity:1;
-           visibility:visible;
-         }
-       }
-       @-webkit-keyframes fadeIn {
-         0% {
-           opacity:0;
-           visibility:hidden;
-         }
-         10% {
-           opacity:0;
-           visibility:hidden;
-         }
-         100% {
-           opacity:1;
-           visibility:visible;
-         }
-       }
-       @-o-keyframes fadeIn {
-         0% {
-           opacity:0;
-           visibility:hidden;
-         }
-         10% {
-           opacity:0;
-           visibility:hidden;
-         }
-         100% {
-           opacity:1;
-           visibility:visible;
-         }
-       }
-       @-ms-keyframes fadeIn {
-         0% {
-           opacity:0;
-           visibility:hidden;
-         }
-         10% {
-           opacity:0;
-           visibility:hidden;
-         }
+    @keyframes fadeIn{
+        0% {
+            opacity:0;
+            visibility:hidden;
+        }
+        10% {
+            opacity:0;
+            visibility:hidden;
+        }
+        100% {
+            opacity:1;
+            visibility:visible;
+        }
+    }
+
+    @-moz-keyframes fadeIn {
+        0% {
+            opacity:0;
+            visibility:hidden;
+        }
+        10% {
+            opacity:0;
+            visibility:hidden;
+        }
+        100% {
+            opacity:1;
+            visibility:visible;
+        }
+    }
+    
+    @-webkit-keyframes fadeIn {
+        0% {
+            opacity:0;
+            visibility:hidden;
+        }
+        10% {
+            opacity:0;
+            visibility:hidden;
+        }
+        100% {
+            opacity:1;
+            visibility:visible;
+        }
+    }
+
+    @-o-keyframes fadeIn {
+        0% {
+            opacity:0;
+            visibility:hidden;
+        }
+        10% {
+            opacity:0;
+            visibility:hidden;
+        }
+        100% {
+            opacity:1;
+            visibility:visible;
+        }
+    }
+
+    @-ms-keyframes fadeIn {
+        0% {
+            opacity:0;
+            visibility:hidden;
+        }
+        10% {
+            opacity:0;
+            visibility:hidden;
+        }
         100% {
             opacity:1;
             visibility:visible;
