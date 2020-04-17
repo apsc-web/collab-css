@@ -17,11 +17,12 @@ td {
 }
 
 .entry-content  {
-    p, ul, ol {
+    ul, ol {
         font-size: 1.05em;
     }
 
     p {
+        font-size: 1em;
         line-height: 1.5em;
         margin-top: 1.3em;
     }
@@ -32,13 +33,13 @@ td {
 
     ul, ol {
         > li {
-            line-height:1.5em;
-            margin-left:20px; 
-            margin-bottom:10px;
+            line-height: 1.5em;
+            margin-left: 20px; 
+            margin-bottom: 10px;
 
             > ul {
-                list-style-type:circle;
-                font-size:0.9em;
+                list-style-type: circle;
+                font-size: 0.9em;
 
                 > li {
                     margin-bottom: 0px;
