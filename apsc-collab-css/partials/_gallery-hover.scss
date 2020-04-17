@@ -190,35 +190,7 @@
             } //iso-description
 
             .strategy-application {
-                p {
-                    font-size: 0.9em;
-                    line-height: 1.4em;
-                }
-
-                ul {
-                    font-size: 1em;
-
-                    > li {
-                        margin-left: 0px;
-                        font-family: $brand-font;
-                        font-size: 0.9em;
-                        line-height: 1.4em;
-                    }
-                }
-
-                .strategy-application-title {
-                    color: $accent-color;
-                    font-weight: 600; 
-                    text-transform: uppercase;
-                    font-size: 1.2em;
-                    line-height: 30px;
-                }
                 
-                .applications {
-                    p {
-                        margin: 12px 0 0 0;
-                    }
-                }
             }  //strategy-application 
         } //hover
 
@@ -273,14 +245,22 @@
                         border-left: 3px solid #0055b7;
                     }
 
-                    .applications-label {
-                        margin-top: 0;
-                        padding-bottom: 3px;
+                    p {
+                        font-size: 0.9em;
+                        line-height: 1.4em;
                     }
 
                     ul {
+                        font-size: 1em;
                         margin-top: 10px;
                         list-style-type: none;
+
+                        > li {
+                            margin-left: 0px;
+                            font-family: $brand-font;
+                            font-size: 0.9em;
+                            line-height: 1.4em;
+                        }
 
                         .strategy-priority-icon {
                             margin-left: -200px;
@@ -296,6 +276,25 @@
                                 margin-top: 0px;
                             }
                         }
+                    }
+
+                    .strategy-application-title {
+                        color: $accent-color;
+                        font-weight: 600; 
+                        text-transform: uppercase;
+                        font-size: 1.2em;
+                        line-height: 30px;
+                    }
+                    
+                    .applications {
+                        p {
+                            margin: 12px 0 0 0;
+                        }
+                    }
+
+                    .applications-label {
+                        margin-top: 0;
+                        padding-bottom: 3px;
                     }
                 }
 
