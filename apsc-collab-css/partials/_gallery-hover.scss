@@ -169,12 +169,6 @@
         margin: 0 0 15px 0;
 
         &:hover {
-            /*.boxey {
-                .boxey-inside {
-                    
-                } //boxey-inside
-            } //boxey*/
-
             .boxey-inner {
                 border: 3px solid #0055b7;
                 background-color:#fff;
@@ -335,7 +329,6 @@
         }
 
         .iso-description {
-            // opacity: 0;
             p {
                 margin: 30px 0 0 0;
             }
@@ -344,7 +337,7 @@
             }
         }
     }    
-} // gallery hover
+}
 
 .item-hover-effect {
     display:block;
