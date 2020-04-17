@@ -277,20 +277,20 @@
                         font-size: 0.9em;
                         line-height: 1.4em;
                     }
+                }
 
-                    .strategy-priority-icon {
-                        margin-left: -200px;
-                        margin-top: 15px;
+                .strategy-priority-icon {
+                    margin-left: -200px;
+                    margin-top: 15px;
 
-                        @include target-firefox {
-                            margin-left: -35px;
-                            margin-top: 0px;
-                        }
+                    @include target-firefox {
+                        margin-left: -35px;
+                        margin-top: 0px;
+                    }
 
-                        @include target-internet-explorer {
-                            margin-left: -35px;
-                            margin-top: 0px;
-                        }
+                    @include target-internet-explorer {
+                        margin-left: -35px;
+                        margin-top: 0px;
                     }
                 }
             }
