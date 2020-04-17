@@ -364,14 +364,13 @@
          }
        }
 }
-.item-hover-effect
-{
+
+.item-hover-effect {
     display:block;
     overflow: hidden;
-    .item-hover
-    {
-        &:hover
-        {
+
+    .item-hover {
+        &:hover {
             opacity: 0.5;
             -webkit-transform: translate3d(0, 0, 0) scale(1.025);
             transform: translate3d(0, 0, 0) scale(1.025);
@@ -380,7 +379,8 @@
         }
     }
 }
-@keyframes fadeIn{
+
+@keyframes fadeIn {
     0% {
         opacity:0;
     }
@@ -390,7 +390,8 @@
     100% {
         opacity:1;
     }
-}      
+} 
+
 @-moz-keyframes fadeIn {
     0% {
         opacity:0;
@@ -401,7 +402,8 @@
     100% {
         opacity:1;
     }
-}      
+}
+
 @-webkit-keyframes fadeIn {
     0% {
         opacity:0;
@@ -412,7 +414,8 @@
     100% {
         opacity:1;
     }
-}      
+} 
+
 @-o-keyframes fadeIn {
     0% {
         opacity:0;
@@ -423,7 +426,8 @@
     100% {
         opacity:1;
     }
-}      
+}
+
 @-ms-keyframes fadeIn {
     0% {
         opacity:0;
@@ -436,9 +440,10 @@
     }
 }
 
-.applications-label::before{
+.applications-label::before{ 
     content: "Application of";
 }
+
 .applications-label {
     padding-top: 5px;
     padding-bottom: 5px;
