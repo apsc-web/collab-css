@@ -124,6 +124,7 @@ h1 {
         max-width: $content-width;  
         margin-left: auto;
         margin-right: auto;
+        line-height: 1em;
 
         @media only screen and (min-width: $break-mobile) {
             padding-left: 20px;
