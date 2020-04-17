@@ -175,127 +175,127 @@
 
     .boxey {
         padding-top: 100%; /* keep 1:1 aspect ration for the box */
-        margin: 0;           
-    }
+        margin: 0;
+        
+        .boxey-inside {
+            position: absolute;
+            top:0;
+            left:0;
+            bottom: 0;
+            right: 0;
 
-    .boxey-inside {
-        position: absolute;
-        top:0;
-        left:0;
-        bottom: 0;
-        right: 0;
+            &:hover {
+                z-index: 10;
 
-        &:hover {
-            z-index: 10;
+                .boxey-inner {
+                    padding: 17px;
+                    border: 3px solid #0055b7;
+                    background-color:#fff;
 
-            .boxey-inner {
-                padding: 17px;
-                border: 3px solid #0055b7;
-                background-color:#fff;
-
-                .post-title {
-                    display: none;
+                    .post-title {
+                        display: none;
+                    }
                 }
-            }
 
-            .iso-description {
-                padding: 10px;
-                letter-spacing: 0px;
-                font-weight: 500;
-                font-style: normal;
-                color: #0055b7;
-                text-rendering: optimizeLegibility;
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
+                .iso-description {
+                    padding: 10px;
+                    letter-spacing: 0px;
+                    font-weight: 500;
+                    font-style: normal;
+                    color: #0055b7;
+                    text-rendering: optimizeLegibility;
+                    opacity: 1;
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                }
 
-            .strategy-application {
-                display: block;
-                min-height: 216px;
-
-                &:after {
+                .strategy-application {
                     display: block;
-                    content: "";
-                    width: 20px;
-                    height: 20px;
-                    position: absolute;
-                    top: -5px;
-                    right: -5px;
-                    border-top: 3px solid #0055b7;
-                    border-right: 3px solid #0055b7;
-                }
+                    min-height: 216px;
 
-                &:before {
-                    display: block;
-                    content: "";
-                    width: 20px;
-                    height: 20px;
-                    position: absolute;
-                    bottom: -5px;
-                    left: -5px;
-                    border-bottom: 3px solid #0055b7;
-                    border-left: 3px solid #0055b7;
-                }
+                    &:after {
+                        display: block;
+                        content: "";
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                        top: -5px;
+                        right: -5px;
+                        border-top: 3px solid #0055b7;
+                        border-right: 3px solid #0055b7;
+                    }
 
-                p {
-                    font-size: 0.9em;
-                    line-height: 1.4em;
-                }
+                    &:before {
+                        display: block;
+                        content: "";
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                        bottom: -5px;
+                        left: -5px;
+                        border-bottom: 3px solid #0055b7;
+                        border-left: 3px solid #0055b7;
+                    }
 
-                ul {
-                    font-size: 1em;
-                    margin-top: 10px;
-                    list-style-type: none;
-
-                    > li {
-                        margin-left: 0px;
-                        font-family: $brand-font;
+                    p {
                         font-size: 0.9em;
                         line-height: 1.4em;
                     }
 
-                    .strategy-priority-icon {
-                        margin-left: -200px;
-                        margin-top: 15px;
+                    ul {
+                        font-size: 1em;
+                        margin-top: 10px;
+                        list-style-type: none;
 
-                        @include target-firefox {
-                            margin-left: -35px;
-                            margin-top: 0px;
+                        > li {
+                            margin-left: 0px;
+                            font-family: $brand-font;
+                            font-size: 0.9em;
+                            line-height: 1.4em;
                         }
 
-                        @include target-internet-explorer {
-                            margin-left: -35px;
-                            margin-top: 0px;
+                        .strategy-priority-icon {
+                            margin-left: -200px;
+                            margin-top: 15px;
+
+                            @include target-firefox {
+                                margin-left: -35px;
+                                margin-top: 0px;
+                            }
+
+                            @include target-internet-explorer {
+                                margin-left: -35px;
+                                margin-top: 0px;
+                            }
                         }
+                    }
+
+                    .strategy-application-title {
+                        color: $accent-color;
+                        font-weight: 600; 
+                        text-transform: uppercase;
+                        font-size: 1.2em;
+                        line-height: 30px;
+                    }
+                    
+                    .applications {
+                        p {
+                            margin: 12px 0 0 0;
+                        }
+                    }
+
+                    .applications-label {
+                        margin-top: 0;
+                        padding-bottom: 3px;
                     }
                 }
 
-                .strategy-application-title {
-                    color: $accent-color;
-                    font-weight: 600; 
-                    text-transform: uppercase;
-                    font-size: 1.2em;
-                    line-height: 30px;
-                }
-                
-                .applications {
-                    p {
-                        margin: 12px 0 0 0;
-                    }
-                }
-
-                .applications-label {
-                    margin-top: 0;
-                    padding-bottom: 3px;
+                .strategy-description {
+                    display: none;
                 }
             }
-
-            .strategy-description {
-                display: none;
-            }
-        }
-    } 
+        }            
+    }
 
     .boxey-inner {
         min-height: 275px;
