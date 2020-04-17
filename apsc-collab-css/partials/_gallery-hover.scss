@@ -157,211 +157,211 @@
 
 .gallery-hover {
     div[id^="post"] {
+        // background-color: #f7f7f7;
         margin: 0 0 15px 0;
-    }
 
-    .boxey {
-        padding-top: 100%; /* keep 1:1 aspect ration for the box */
-        margin: 0;
-        
-        .boxey-inside {
-            position: absolute;
-            top:0;
-            left:0;
-            bottom: 0;
-            right: 0;
-
-            .strategy-application {
-                display: none;
-            }
-
-            &:hover {
-                z-index: 10;
-
-                .iso-description {
-                    padding: 10px;
-                }
+        .boxey {
+            padding-top: 100%; /* keep 1:1 aspect ration for the box */
+            margin: 0;
+            
+            .boxey-inside {
+                position: absolute;
+                top:0;
+                left:0;
+                bottom: 0;
+                right: 0;
 
                 .strategy-application {
-                    display: block;
-                    min-height: 216px;
+                    display: none;
+                }
 
-                    &:after {
+                &:hover {
+                    z-index: 10;
+
+                    .iso-description {
+                        padding: 10px;
+                    }
+
+                    .strategy-application {
                         display: block;
-                        content: "";
-                        width: 20px;
-                        height: 20px;
-                        position: absolute;
-                        top: -5px;
-                        right: -5px;
-                        border-top: 3px solid #0055b7;
-                        border-right: 3px solid #0055b7;
-                    }
+                        min-height: 216px;
 
-                    &:before {
-                        display: block;
-                        content: "";
-                        width: 20px;
-                        height: 20px;
-                        position: absolute;
-                        bottom: -5px;
-                        left: -5px;
-                        border-bottom: 3px solid #0055b7;
-                        border-left: 3px solid #0055b7;
-                    }
+                        &:after {
+                            display: block;
+                            content: "";
+                            width: 20px;
+                            height: 20px;
+                            position: absolute;
+                            top: -5px;
+                            right: -5px;
+                            border-top: 3px solid #0055b7;
+                            border-right: 3px solid #0055b7;
+                        }
 
-                    .applications-label {
-                        margin-top: 0;
-                        padding-bottom: 3px;
-                    }
+                        &:before {
+                            display: block;
+                            content: "";
+                            width: 20px;
+                            height: 20px;
+                            position: absolute;
+                            bottom: -5px;
+                            left: -5px;
+                            border-bottom: 3px solid #0055b7;
+                            border-left: 3px solid #0055b7;
+                        }
 
-                    ul {
-                        margin-top: 10px;
-                        list-style-type: none;
+                        .applications-label {
+                            margin-top: 0;
+                            padding-bottom: 3px;
+                        }
 
-                        .strategy-priority-icon {
-                            margin-left: -200px;
-                            margin-top: 15px;
+                        ul {
+                            margin-top: 10px;
+                            list-style-type: none;
 
-                            @include target-firefox {
-                                margin-left: -35px;
-                                margin-top: 0px;
-                            }
+                            .strategy-priority-icon {
+                                margin-left: -200px;
+                                margin-top: 15px;
 
-                            @include target-internet-explorer {
-                                margin-left: -35px;
-                                margin-top: 0px;
+                                @include target-firefox {
+                                    margin-left: -35px;
+                                    margin-top: 0px;
+                                }
+
+                                @include target-internet-explorer {
+                                    margin-left: -35px;
+                                    margin-top: 0px;
+                                }
                             }
                         }
                     }
-                }
 
-                .strategy-description {
-                    display: none;
-                }
-
-                .boxey-inner {
-                    padding: 17px;
-                }
-            }
-
-            .boxey-inner {
-                min-height: 275px;
-                -webkit-transform: translate3d(0, -0%, 0);
-                transform: translate3d(0, -0%, 0);
-                background: none;
-                padding:27px;
-                border: 3px solid transparent;
-
-                h3 {
-                    color:#ffffff;
-                    font-weight: $FontWeightMedium;
-                    text-rendering: optimizeLegibility;
-                    margin: 0 0 10px 0;
-                }
-
-                .iso-description {
-                    // opacity: 0;
-                    p {
-                        margin: 30px 0 0 0;
-                    }
-                    .iso-title {
-                        height:90px;
-                    }
-                }
-
-                .launch-btn {
-                    display: none;
-                    -webkit-transition: color .2s ease,background-color .2s ease;
-                    -moz-transition: color .2s ease,background-color .2s ease;
-                    -o-transition: color .2s ease,background-color .2s ease;
-                    transition: color .2s ease,background-color .2s ease;
-                    padding: 4px 8px;
-                    border: 1px #0055b7 solid;
-                    color: #0055b7;
-                    cursor: pointer;
-                    font-size: 16px;
-                    line-height: 24px;
-                    letter-spacing: 0px;
-                    background-clip: padding-box;
-                    text-decoration: none;
-                    font-weight: 500;
-                    font-style: normal;
-                    background-color: #ffffff;
-
-                    &:hover {
-                        background-color: #0055b7;
-                        color: white;
-                    }
-                }
-            }    
-        }            
-    }
-
-    &:hover {
-        .boxey {
-            .boxey-inside {
-                .boxey-inner {
-                    border: 3px solid #0055b7;
-                    background-color:#fff;
-
-                    .post-title {
+                    .strategy-description {
                         display: none;
                     }
 
+                    .boxey-inner {
+                        padding: 17px;
+                    }
+                }
+
+                .boxey-inner {
+                    min-height: 275px;
+                    -webkit-transform: translate3d(0, -0%, 0);
+                    transform: translate3d(0, -0%, 0);
+                    background: none;
+                    padding:27px;
+                    border: 3px solid transparent;
+
+                    h3 {
+                        color:#ffffff;
+                        font-weight: $FontWeightMedium;
+                        text-rendering: optimizeLegibility;
+                        margin: 0 0 10px 0;
+                    }
+
                     .iso-description {
+                        // opacity: 0;
+                        p {
+                            margin: 30px 0 0 0;
+                        }
+                        .iso-title {
+                            height:90px;
+                        }
+                    }
+
+                    .launch-btn {
+                        display: none;
+                        -webkit-transition: color .2s ease,background-color .2s ease;
+                        -moz-transition: color .2s ease,background-color .2s ease;
+                        -o-transition: color .2s ease,background-color .2s ease;
+                        transition: color .2s ease,background-color .2s ease;
+                        padding: 4px 8px;
+                        border: 1px #0055b7 solid;
+                        color: #0055b7;
+                        cursor: pointer;
+                        font-size: 16px;
+                        line-height: 24px;
                         letter-spacing: 0px;
+                        background-clip: padding-box;
+                        text-decoration: none;
                         font-weight: 500;
                         font-style: normal;
-                        color: #0055b7;
-                        text-rendering: optimizeLegibility;
-                        opacity: 1;
-                        -webkit-transform: translate3d(0, 0, 0);
-                        transform: translate3d(0, 0, 0);
+                        background-color: #ffffff;
 
-                        .strategy-application {
-                            p {
-                                font-size: 0.9em;
-                                line-height: 1.4em;
-                            }
+                        &:hover {
+                            background-color: #0055b7;
+                            color: white;
+                        }
+                    }
+                }    
+            }            
+        }
 
-                            ul {
-                                font-size: 1em;
+        &:hover {
+            .boxey {
+                .boxey-inside {
+                    .boxey-inner {
+                        border: 3px solid #0055b7;
+                        background-color:#fff;
 
-                                > li {
-                                    margin-left: 0px;
-                                    font-family: $brand-font;
+                        .post-title {
+                            display: none;
+                        }
+
+                        .iso-description {
+                            letter-spacing: 0px;
+                            font-weight: 500;
+                            font-style: normal;
+                            color: #0055b7;
+                            text-rendering: optimizeLegibility;
+                            opacity: 1;
+                            -webkit-transform: translate3d(0, 0, 0);
+                            transform: translate3d(0, 0, 0);
+
+                            .strategy-application {
+                                p {
                                     font-size: 0.9em;
                                     line-height: 1.4em;
                                 }
-                            }
 
-                            .strategy-application-title {
-                                color: $accent-color;
-                                font-weight: 600; 
-                                text-transform: uppercase;
-                                font-size: 1.2em;
-                                line-height: 30px;
-                                // margin-bottom: 1em;
-                                // &:before {
-                                    // content:"APPLICATIONS OF ";
-                                // }
-                            }
-                            .applications {
-                                p {
-                                    margin: 12px 0 0 0;
+                                ul {
+                                    font-size: 1em;
+
+                                    > li {
+                                        margin-left: 0px;
+                                        font-family: $brand-font;
+                                        font-size: 0.9em;
+                                        line-height: 1.4em;
+                                    }
                                 }
-                            }
-                        }  //strategy-application 
-                    } //iso-description
-                } //boxey-inner
-            } //boxey-inside
-        } //boxey
-    } //hover
-    .header-tags, .date, .post-title.media-title>br {
-        display: none;
-    }
-    
+
+                                .strategy-application-title {
+                                    color: $accent-color;
+                                    font-weight: 600; 
+                                    text-transform: uppercase;
+                                    font-size: 1.2em;
+                                    line-height: 30px;
+                                    // margin-bottom: 1em;
+                                    // &:before {
+                                        // content:"APPLICATIONS OF ";
+                                    // }
+                                }
+                                .applications {
+                                    p {
+                                        margin: 12px 0 0 0;
+                                    }
+                                }
+                            }  //strategy-application 
+                        } //iso-description
+                    } //boxey-inner
+                } //boxey-inside
+            } //boxey
+        } //hover
+        .header-tags, .date, .post-title.media-title>br {
+            display: none;
+        }
+    } // div id post
 } // gallery hover
 
 .item-hover-effect {
