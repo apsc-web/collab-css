@@ -22,9 +22,14 @@ td {
     }
 
     p {
-        font-size: 1em;
-        line-height: 1.5em;
         margin-top: 1.3em;
+        font-size: 1em;
+        line-height: 1.8em;
+        
+        @media only screen and (min-width: $break-mobile) {
+            font-size: 1.1em;
+            line-height: 1.9em;
+        }
     }
 
     ul {
