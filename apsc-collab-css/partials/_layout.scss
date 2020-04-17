@@ -451,6 +451,22 @@ h1 {
         padding-top: 20px;
         padding-bottom: 30px;
     }
+
+    .s-icon-medium {
+        position: relative;
+        zoom: 0.5;
+        float: none;
+        -moz-transform: scale(0.5);
+        transform-origin: left top;
+
+        @media only screen and (min-width: $break-mobile) {
+            position: absolute;
+            zoom: 0.6;
+            float: left;
+            -moz-transform: scale(0.6);
+            transform-origin: left top;
+        }
+    }
 }
 
 .priority-header-mobile {
@@ -458,7 +474,7 @@ h1 {
     .priority-page-icon {
        /* max-width: 70px;
         margin-top: 15px;
-        margin-bottom: -15px;*/
+        margin-bottom: -15px;
         
         .s-icon-medium {
             position: relative;
@@ -466,7 +482,7 @@ h1 {
             transform-origin: left top;
             zoom: 0.5;
             float: none;
-        }
+        }*/
     }
 }
 
@@ -478,7 +494,7 @@ h1 {
             padding-top: 20px;
             padding-bottom: 30px;
         }
-    }*/
+    }
 
     .priority-page-icon {
         .s-icon-medium{
@@ -487,7 +503,7 @@ h1 {
             zoom: 0.6;
             float: left;
         }
-    }
+    }*/
 }
 
 /*
