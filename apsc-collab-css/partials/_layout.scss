@@ -443,10 +443,11 @@ h1 {
 
 
 .priority-header-mobile {
-    /*.priority-page-icon {
+    /*
+    .priority-page-icon {
         max-width: 70px;
-        margin-top: 15px;
-        margin-bottom: -15px;*/
+    margin-top: 15px;
+    margin-bottom: -15px;*/
         
         .s-icon-medium {
             position: relative;
@@ -455,7 +456,7 @@ h1 {
             zoom: 0.5;
             float: none;
         }
-    }
+    
 }
 
 .priority-header-desktop {
