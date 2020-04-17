@@ -34,19 +34,19 @@
             }
         }
 
-        .div[id^="post"] {
-            height:auto;
-
-            .boxey-inner {
-                @media (max-width: 639px) {
-                    h2 {
-                        font-size: $FontSizeMedium;
-                    }
-                    .iso-description {
-                        padding-top: 0px;
-                    }
+        .boxey-inner {
+            @media (max-width: 639px) {
+                h2 {
+                    font-size: $FontSizeMedium;
+                }
+                .iso-description {
+                    padding-top: 0px;
                 }
             }
+        }
+
+        .div[id^="post"] {
+            height:auto;
 
             &:hover {
                 .boxey-inner {
