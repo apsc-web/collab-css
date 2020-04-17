@@ -156,6 +156,14 @@
 }
 
 .gallery-hover {
+    .launch-btn {
+        display: none;
+    }
+
+    .strategy-application {
+        display: none;
+    }
+
     div[id^="post"] {
         // background-color: #f7f7f7;
         margin: 0 0 15px 0;
@@ -224,10 +232,6 @@
             display: none;
         }
     } // div id post
-
-    .strategy-application {
-        display: none;
-    }
 
     .boxey {
         padding-top: 100%; /* keep 1:1 aspect ration for the box */
@@ -334,31 +338,6 @@
             }
             .iso-title {
                 height:90px;
-            }
-        }
-
-        .launch-btn {
-            display: none;
-            -webkit-transition: color .2s ease,background-color .2s ease;
-            -moz-transition: color .2s ease,background-color .2s ease;
-            -o-transition: color .2s ease,background-color .2s ease;
-            transition: color .2s ease,background-color .2s ease;
-            padding: 4px 8px;
-            border: 1px #0055b7 solid;
-            color: #0055b7;
-            cursor: pointer;
-            font-size: 16px;
-            line-height: 24px;
-            letter-spacing: 0px;
-            background-clip: padding-box;
-            text-decoration: none;
-            font-weight: 500;
-            font-style: normal;
-            background-color: #ffffff;
-
-            &:hover {
-                background-color: #0055b7;
-                color: white;
             }
         }
     }    
