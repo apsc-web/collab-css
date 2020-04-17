@@ -33,14 +33,13 @@ td {
     }
 
     blockquote {
-        font-size: 1.3em;
-            
-        @media only screen and (min-width: $break-mobile) {
-            font-size: 1em;
-        }
-
         p {
+            font-size: 1.3em;
             line-height: 1.3em;
+
+            @media only screen and (min-width: $break-mobile) {
+                font-size: 1em;
+            }
         }
     }
 
