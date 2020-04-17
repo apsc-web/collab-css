@@ -165,19 +165,12 @@
     }
 
     div[id^="post"] {
-        // background-color: #f7f7f7;
         margin: 0 0 15px 0;
-
-        &:hover {
-            .boxey-inner {
-                
-            } //boxey-inner
-        } //hover
 
         .header-tags, .date, .post-title.media-title>br {
             display: none;
         }
-    } // div id post
+    }
 
     .boxey {
         padding-top: 100%; /* keep 1:1 aspect ration for the box */
