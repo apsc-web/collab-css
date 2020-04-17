@@ -244,6 +244,7 @@ h1 {
             color: white;
 
             @media only screen and (min-width: $break-mobile) {
+                line-height: 1em;
                 font-size: 3em;
             }
 
