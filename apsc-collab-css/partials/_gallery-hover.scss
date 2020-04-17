@@ -179,8 +179,8 @@
         
         .boxey-inside {
             position: absolute;
-            top:0;
-            left:0;
+            top: 0;
+            left: 0;
             bottom: 0;
             right: 0;
 
@@ -190,7 +190,7 @@
                 .boxey-inner {
                     padding: 17px;
                     border: 3px solid #0055b7;
-                    background-color:#fff;
+                    background-color: #fff;
 
                     .post-title {
                         display: none;
@@ -242,34 +242,6 @@
                         line-height: 1.4em;
                     }
 
-                    ul {
-                        font-size: 1em;
-                        margin-top: 10px;
-                        list-style-type: none;
-
-                        > li {
-                            margin-left: 0px;
-                            font-family: $brand-font;
-                            font-size: 0.9em;
-                            line-height: 1.4em;
-                        }
-
-                        .strategy-priority-icon {
-                            margin-left: -200px;
-                            margin-top: 15px;
-
-                            @include target-firefox {
-                                margin-left: -35px;
-                                margin-top: 0px;
-                            }
-
-                            @include target-internet-explorer {
-                                margin-left: -35px;
-                                margin-top: 0px;
-                            }
-                        }
-                    }
-
                     .strategy-application-title {
                         color: $accent-color;
                         font-weight: 600; 
@@ -292,6 +264,34 @@
 
                 .strategy-description {
                     display: none;
+                }
+
+                ul {
+                    font-size: 1em;
+                    margin-top: 10px;
+                    list-style-type: none;
+
+                    > li {
+                        margin-left: 0px;
+                        font-family: $brand-font;
+                        font-size: 0.9em;
+                        line-height: 1.4em;
+                    }
+
+                    .strategy-priority-icon {
+                        margin-left: -200px;
+                        margin-top: 15px;
+
+                        @include target-firefox {
+                            margin-left: -35px;
+                            margin-top: 0px;
+                        }
+
+                        @include target-internet-explorer {
+                            margin-left: -35px;
+                            margin-top: 0px;
+                        }
+                    }
                 }
             }
         }            
