@@ -144,21 +144,6 @@
     margin-bottom: 0px;
 }
 
-.subhead1 {
-    margin-bottom: 4px;
-    line-height: 0.9em;
-    font-size: 1.13em;
-    font-weight:600;
-    text-transform: capitalize;
-    color: $link-color;
-    
-    @media only screen and (min-width: $break-mobile) {
-        margin-bottom: 0;
-        line-height: 1.4em;
-        font-size: 1.8em;
-    }
-}
-
 .full-width .full-width-container .breadcrumb {
     max-width: $container-size;
     margin-right: -20px;

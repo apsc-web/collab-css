@@ -90,6 +90,21 @@ blockquote {
     }
 }
 
+.subhead1 {
+    margin-bottom: 4px;
+    line-height: 1.575em;
+    font-size: 1.3em;
+    font-weight:600;
+    text-transform: capitalize;
+    color: $link-color;
+    
+    @media only screen and (min-width: $break-mobile) {
+        margin-bottom: 0;
+        line-height: 1.4em;
+        font-size: 1.8em;
+    }
+}
+
 .strategy-title-text {
     font-weight: 600;
     color:$accent-color;
