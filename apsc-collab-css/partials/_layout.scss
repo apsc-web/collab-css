@@ -508,9 +508,6 @@ h1 {
 
 
 .priority-header-mobile {
-    /*h1.priority-page-title {
-        text-align: center;
-    }*/
 
     .priority-page-icon {
         max-width: 70px;
@@ -528,10 +525,6 @@ h1 {
 }
 
 .priority-header-desktop {
-    /*h1.priority-page-title {
-        margin-top: 0;
-        margin-left: 100px;
-    }*/
 
     @media only screen and (min-width: $break-mobile) {
         .priority-page-icon {
@@ -540,23 +533,6 @@ h1 {
             padding-bottom: 30px;
         }
     }
-
-    /*
-    .priority-university-icon {
-        padding-bottom: 10px;
-
-        @media only screen and (min-width: 1434px) {
-            padding-bottom: 30px;
-        }
-    }
-
-    .priority-thriving-icon {
-        padding-bottom: 10px;
-
-        @media only screen and (min-width: 1599px) {
-            padding-bottom: 30px;
-        }
-    }*/
 
     .priority-page-icon {
         .s-icon-medium{
