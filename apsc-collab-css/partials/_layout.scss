@@ -446,7 +446,6 @@ h1 {
     margin-right: auto;
 }
 
-/*
 .priority-page__title-container {
     h1.priority-page-title {
         text-align: center;
@@ -458,6 +457,9 @@ h1 {
         }
     }
 }
+
+/*
+
 
 .priority-page-icon {
     max-width: 70px;
@@ -505,9 +507,9 @@ h1 {
 
 
 .priority-header-mobile {
-    h1.priority-page-title {
+    /*h1.priority-page-title {
         text-align: center;
-    }
+    }*/
 
     .priority-page-icon {
         max-width: 70px;
@@ -525,10 +527,10 @@ h1 {
 }
 
 .priority-header-desktop {
-    h1.priority-page-title {
+    /*h1.priority-page-title {
         margin-top: 0;
         margin-left: 100px;
-    }
+    }*/
 
     @media only screen and (min-width: $break-mobile) {
         .priority-page-icon {
