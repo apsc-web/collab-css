@@ -469,10 +469,11 @@ h1 {
     }
 }
 
+/* 
 .priority-header-mobile {
     
     .priority-page-icon {
-       /* max-width: 70px;
+       max-width: 70px;
         margin-top: 15px;
         margin-bottom: -15px;
         
@@ -482,12 +483,11 @@ h1 {
             transform-origin: left top;
             zoom: 0.5;
             float: none;
-        }*/
+        }
     }
 }
 
 .priority-header-desktop {
-/*
     @media only screen and (min-width: $break-mobile) {
         .priority-page-icon {
             max-width: $content-width;
@@ -503,19 +503,6 @@ h1 {
             zoom: 0.6;
             float: left;
         }
-    }*/
-}
-
-/*
-.priority-page-icon {
-    max-width: 70px;
-    margin: 15px auto -15px auto;
-
-    @media only screen and (min-width: $break-mobile) {
-        max-width: $content-width;
-        margin: 15px 0 -15px 0;
-        padding-top: 20px;
-        padding-bottom: 30px;
     }
 }*/
 
@@ -546,36 +533,6 @@ h1 {
         }
     }
 }
-
-/*
-.priority-page-icon {
-    max-width: 70px;
-    margin: 15px auto -15px auto;
-
-    @media only screen and (min-width: $break-mobile) {
-        max-width: $content-width;
-        padding-top: 20px;
-        padding-bottom: 30px;
-    }
-
-    .s-icon-medium {
-        position: relative;
-        float: none;
-        zoom: 0.5;
-        -moz-transform: scale(0.5);
-        transform-origin: left top;
-
-        @media only screen and (min-width: $break-mobile) {
-            float: left;
-            zoom: 0.6;
-            max-width: $content-width;
-            padding-top: 20px;
-            padding-bottom: 30px;
-            -moz-transform: scale(0.6);
-        }
-    }
-}
-*/
 
 .priority-menu-title {
     margin-left: 30px;
