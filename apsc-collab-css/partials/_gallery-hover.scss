@@ -176,53 +176,53 @@
                 .post-title {
                     display: none;
                 }
+            } //boxey-inner
 
-                .iso-description {
-                    letter-spacing: 0px;
-                    font-weight: 500;
-                    font-style: normal;
-                    color: #0055b7;
-                    text-rendering: optimizeLegibility;
-                    opacity: 1;
-                    -webkit-transform: translate3d(0, 0, 0);
-                    transform: translate3d(0, 0, 0);
+            .iso-description {
+                letter-spacing: 0px;
+                font-weight: 500;
+                font-style: normal;
+                color: #0055b7;
+                text-rendering: optimizeLegibility;
+                opacity: 1;
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
 
-                    .strategy-application {
-                        p {
+                .strategy-application {
+                    p {
+                        font-size: 0.9em;
+                        line-height: 1.4em;
+                    }
+
+                    ul {
+                        font-size: 1em;
+
+                        > li {
+                            margin-left: 0px;
+                            font-family: $brand-font;
                             font-size: 0.9em;
                             line-height: 1.4em;
                         }
+                    }
 
-                        ul {
-                            font-size: 1em;
-
-                            > li {
-                                margin-left: 0px;
-                                font-family: $brand-font;
-                                font-size: 0.9em;
-                                line-height: 1.4em;
-                            }
+                    .strategy-application-title {
+                        color: $accent-color;
+                        font-weight: 600; 
+                        text-transform: uppercase;
+                        font-size: 1.2em;
+                        line-height: 30px;
+                        // margin-bottom: 1em;
+                        // &:before {
+                            // content:"APPLICATIONS OF ";
+                        // }
+                    }
+                    .applications {
+                        p {
+                            margin: 12px 0 0 0;
                         }
-
-                        .strategy-application-title {
-                            color: $accent-color;
-                            font-weight: 600; 
-                            text-transform: uppercase;
-                            font-size: 1.2em;
-                            line-height: 30px;
-                            // margin-bottom: 1em;
-                            // &:before {
-                                // content:"APPLICATIONS OF ";
-                            // }
-                        }
-                        .applications {
-                            p {
-                                margin: 12px 0 0 0;
-                            }
-                        }
-                    }  //strategy-application 
-                } //iso-description
-            } //boxey-inner
+                    }
+                }  //strategy-application 
+            } //iso-description
         } //hover
 
         .header-tags, .date, .post-title.media-title>br {
