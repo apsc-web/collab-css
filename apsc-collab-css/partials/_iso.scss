@@ -271,13 +271,17 @@
 			box-sizing: border-box;
 			padding: 0 15px;
 			
-			.iso-trend, .iso-uncertainty{
-				p
-				{
+			.iso-trend, .iso-uncertainty {
+				p {
 					line-height: 1.22em;
 				}
 			}
 			
+			.iso-grid {
+				background-color: $iso-hover-background-color;
+				color: $accent-color;
+			}
+
 			.iso-trend {
 				background-color: $iso-trend-color;
 				color: #ffffff;
@@ -285,6 +289,7 @@
 
 			.iso-uncertainty {
 				background-color: $iso-uncertainty-color;
+				color: #222;
 			}
 		}
 	}
