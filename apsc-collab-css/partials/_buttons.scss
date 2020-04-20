@@ -113,7 +113,7 @@
 
 .btn-next {
     float: right;
-    margin-top: 2.6em;
+    margin-top: 3.5em;
 
     br:first-of-type {
         display: none;
@@ -123,6 +123,10 @@
         color: $brand-color;
         font-size: 0.7em;
         font-weight: 800;
+    }
+
+    @media only screen and (min-width: $break-tablet) {
+        margin-top: 2.6em;
     }
 }
 
