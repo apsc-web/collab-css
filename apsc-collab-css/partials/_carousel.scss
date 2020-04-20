@@ -85,6 +85,19 @@
 }
 
 .flickity-page-dots {
+  position: relative;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -30px;
+
+  @media only screen and (min-width: $break-tablet){
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    bottom: -25px;
+  }
+
   .dot {
     background: $accent-color;
   }
@@ -94,14 +107,14 @@
   /*.carousel-section {
       max-width: 110%;
       padding-bottom: 55px;
-  }*/
+  }
   .flickity-page-dots {
       position: relative;
       width: 40%;
       margin-left: auto;
       margin-right: auto;
       bottom: -30px;
-  }
+  }*/
   .flickity-prev-next-button{
     top: auto;
     bottom: -85px;
