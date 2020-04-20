@@ -70,6 +70,12 @@
     width: 16px;
     height: 14px;
   }
+
+  .previous {
+    @media only screen and (min-width: $break-desktop) {
+      -70px;
+    }
+  }
 }
 
 .flickity-page-dots {
@@ -78,11 +84,12 @@
   }
 }
 
+/*
 @media only screen and (min-width: $break-desktop){
   .flickity-prev-next-button.previous {
     left: -70px;
   }
-}
+}*/
 
 @media only screen and (max-width: $break-tablet){
   .carousel-section {
