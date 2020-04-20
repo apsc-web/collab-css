@@ -299,6 +299,35 @@
 	}
 }
 
+.iso-content {
+    display: block;
+    min-height: 180px;
+
+    &:after {
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 15px;
+        right: 5px;
+        border-top: 3px solid $accent-color;
+        border-right: 3px solid $accent-color;
+    }
+
+    &:before {
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 15px;
+        left: 30px;
+        border-bottom: 3px solid $accent-color;
+        border-left: 3px solid $accent-color;
+    }
+}
+
 .iso-trends-uncertainties {
 	max-width: 1170px;
 
