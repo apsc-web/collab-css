@@ -171,6 +171,30 @@ p#increase-impact, p#accelerate-solutions{
     float: left;
     margin-left: 5%;
     font-size: 0.8em;
+
+    p.two-lined-priority-title {
+        margin-top: 0.9em;
+
+        @media only screen and (min-width: $break-mobile) {
+            margin-top: 1.8em;
+        }
+
+        @media only screen and (min-width: $break-mobile) {
+            margin-top: 0;
+        }
+    }
+
+    p.university-priority-title {
+        margin-top: 0.9em;
+        
+        @media only screen and (min-width: 375px) {
+            margin-top: 1.8em;
+        }
+
+        @media only screen and (min-width: $break-mobile) {
+            margin-top: 0;
+        }
+    }
 }
 
 h3.priority-title {
@@ -187,31 +211,21 @@ h3.priority-title {
 }
 
 p.priority-description {
-    margin-top: 0;
-    margin-bottom: 5%;
-    @media only screen and (max-width: $break-mobile) {
+    margin-left: -50px;
+
+    @media only screen and (min-width: 320px) {
         margin-top: 1.8em;
         margin-left: -60px;
     }
 
-    @media only screen and (max-width: 320px) {
-        margin-left: -50px;
+    @media only screen and (min-width: $break-mobile) {
+        margin-top: 0;
+        margin-bottom: 5%;
+        margin-left: 0;
     }
-  }
+}
 
-  p.two-lined-priority-title {
-    @media only screen and (max-width: $break-mobile) {
-        margin-top: 0.9em;
-    }
-  }
-  
-  p.university-priority-title {
-    @media only screen and (max-width: 375px) {
-        margin-top: 0.9em;
-    }
-  }
-
-  .custom-quote-vertical-bar__darkgrey{
-      border-left:5px solid $custom-quote-color;
-  }
+.custom-quote-vertical-bar__darkgrey{
+    border-left:5px solid $custom-quote-color;
+}
     
