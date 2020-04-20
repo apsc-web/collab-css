@@ -69,6 +69,14 @@
 }
 
 .flickity-prev-next-button {
+  top: auto;
+  bottom: -85px;
+
+  @media only screen and (min-width: $break-tablet) {
+    top: 50%;
+    bottom: 0;
+  }
+
   .flickity-button-icon {
     position: absolute;
     left: 12px;
@@ -78,7 +86,7 @@
   }
 }
 
-@media only screen and (min-width: $break-desktop){
+@media only screen and (min-width: $break-desktop) {
   .flickity-prev-next-button.previous {
     left: -70px;
   }
@@ -91,7 +99,7 @@
   margin-right: auto;
   bottom: -30px;
 
-  @media only screen and (min-width: $break-tablet){
+  @media only screen and (min-width: $break-tablet) {
     position: absolute;
     width: 100%;
     margin: 0;
@@ -103,7 +111,7 @@
   }
 }
 
-@media only screen and (max-width: $break-tablet){
+@media only screen and (max-width: $break-tablet) {
   /*.carousel-section {
       max-width: 110%;
       padding-bottom: 55px;
@@ -114,9 +122,9 @@
       margin-left: auto;
       margin-right: auto;
       bottom: -30px;
-  }*/
+  }
   .flickity-prev-next-button{
     top: auto;
     bottom: -85px;
-  }
+  }*/
 }
