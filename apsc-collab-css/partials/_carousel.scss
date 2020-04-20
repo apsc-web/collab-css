@@ -8,9 +8,15 @@
 }
 
 .carousel-section {
-  max-width: 100%;
+  max-width: 110%;
+  padding-bottom: 55px;
   margin: 4.4em -15px 1.8em -15px;
   background: #efefef;
+
+  @media only screen and (min-width: $break-tablet) {
+    max-width: 100%;
+    padding-bottom: 0;
+  }
 }
 
 .carousel-content {
@@ -70,11 +76,11 @@
     width: 16px;
     height: 14px;
   }
+}
 
-  .previous {
-    @media only screen and (min-width: $break-desktop) {
-      left: -70px;
-    }
+@media only screen and (min-width: $break-desktop){
+  .flickity-prev-next-button.previous {
+    left: -70px;
   }
 }
 
@@ -84,18 +90,11 @@
   }
 }
 
-/*
-@media only screen and (min-width: $break-desktop){
-  .flickity-prev-next-button.previous {
-    left: -70px;
-  }
-}*/
-
 @media only screen and (max-width: $break-tablet){
-  .carousel-section {
+  /*.carousel-section {
       max-width: 110%;
       padding-bottom: 55px;
-  }
+  }*/
   .flickity-page-dots {
       position: relative;
       width: 40%;
