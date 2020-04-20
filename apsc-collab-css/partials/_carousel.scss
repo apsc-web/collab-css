@@ -73,7 +73,7 @@
 
   .previous {
     @media only screen and (min-width: $break-desktop) {
-      -70px;
+      left: -70px;
     }
   }
 }
