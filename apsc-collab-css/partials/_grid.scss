@@ -19,19 +19,19 @@
     padding: 15px;
 
      h3.strategy-title-grid {
-        margin-top:0.9em;
-        margin-bottom:0.8em;
-        line-height:1.2em;
-        font-size:1.5em;
+        margin-top: 0.9em;
+        margin-bottom: 0.8em;
+        line-height: 1.2em;
+        font-size: 1.5em;
         .strat-label {
-            font-size:0.5em;
+            font-size: 0.5em;
         }
     }
 }
 
 .titles-column {
-    height:270px;
-    margin-top:0.7em;
+    height: 270px;
+    margin-top: 0.7em;
     text-transform: uppercase;
     font-size: 1.1em;
     font-weight: 600;
@@ -60,19 +60,19 @@
 }
 
 .title-lead-by-example__underline{
-    border-bottom:5px solid $lead-by-example-color;
+    border-bottom: 5px solid $lead-by-example-color;
 }
 .title-embrace-ambiguity__underline{
-    border-bottom:5px solid $embrace-ambiguity-color;
+    border-bottom: 5px solid $embrace-ambiguity-color;
 }
 .title-act-with-intention__underline{
-    border-bottom:5px solid $act-with-intention-color;
+    border-bottom: 5px solid $act-with-intention-color;
 }
 .title-increase-impact__underline{
-    border-bottom:5px solid $increase-impact-color;
+    border-bottom: 5px solid $increase-impact-color;
 }
 .title-accelerate-solutions__underline{
-    border-bottom:5px solid $accelerate-solutions-color; 
+    border-bottom: 5px solid $accelerate-solutions-color; 
 }
 
 .cursor-pointer {
@@ -81,58 +81,61 @@
 
 /* Test CSS for commitments title grid*/
 .title-lead-by-example__left{
-    border-left:5px solid $lead-by-example-color;
+    border-left: 5px solid $lead-by-example-color;
 }
 .title-embrace-ambiguity__left{
-    border-left:5px solid $embrace-ambiguity-color;
+    border-left: 5px solid $embrace-ambiguity-color;
 }
 .title-act-with-intention__left{
-    border-left:5px solid $act-with-intention-color;
+    border-left: 5px solid $act-with-intention-color;
 }
 .title-increase-impact__left{
-    border-left:5px solid $increase-impact-color;
+    border-left: 5px solid $increase-impact-color;
 }
 .title-accelerate-solutions__left{
-    border-left:5px solid $accelerate-solutions-color; 
+    border-left: 5px solid $accelerate-solutions-color; 
 }
 
 p#lead-by-example, p#embrace-ambiguity, p#act-with-intention,
 p#increase-impact, p#accelerate-solutions{
-    padding-left:15px;
-    margin-left:-1%;
+    padding-left: 15px;
+    margin-left: -1%;
 }
 
-/* Priorities test CSS */
-.priority{
-    // height:130px;
-    height:200px;
-    padding-top:4%;
-    padding-left:4%;
-    padding-right:4%;
-    padding-bottom:2%;
+.priority {
+    height: 200px;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
     margin-top: 1.75em;
-    // background-size: 100%;
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-    color:white;
-    background-size:cover;
+    color: white;
+    background-size: cover;
+
     &.priority-background-processing-effect-01 {
         background-image: url($bg-processing01);
     }
+
     &.priority-background-processing-effect-02 {
         background-image: url($bg-processing02);
     }
+
     &.priority-background-processing-effect-03 {
         background-image: url($bg-processing03);
     }
+
     &.priority-background-processing-effect-04 {
         background-image: url($bg-processing04);
     }
+
     &.priority-background-processing-effect-05 {
         background-image: url($bg-processing05);
     }
+
     &.priority-background-processing-effect-06 {
         background-image: url($bg-processing06);
     }
@@ -140,59 +143,59 @@ p#increase-impact, p#accelerate-solutions{
     @media only screen and (min-width: 320px) {
         height: 170px;
     }
+
     @media only screen and (min-width: $break-mobile) {
         height: 185px;
     }
+
     @media only screen and (min-width: $break-tablet) {
         height: 130px;
-        background-size:103%;
+        background-size: 103%;
     }
+
     &:hover{
         @media only screen and (min-width: $break-tablet) {
-            background-size:120%;
+            background-size: 120%;
             opacity: 0.85;
         }
     }
-  }
+}
 
-// .priority:hover {
-//     //background-size: 120%;
-//     background-size:cover;
-//     opacity: 0.85;
-//     @media only screen and (max-width: $break-desktop) {
-//         background-size:unset;
-//     }
-// }
+.priority-icon {
+    width: 15%;
+    float: left;
+}
 
-   .priority-icon{
-    width:15%;
-    float:left;
-  }
-  .priority-section{
-    width:80%;
-    float:left;
-    margin-left:5%;
-    font-size:0.8em;
-  }
-  h3.priority-title{
-    margin-top:0;
-    color:white;
+.priority-section {
+    width: 80%;
+    float: left;
+    margin-left: 5%;
+    font-size: 0.8em;
+}
+
+h3.priority-title {
+    margin-top: 0;
+    color: white;
+
     @media only screen and (max-width: $break-mobile) {
         font-size: 16px;
         line-height: normal;
         margin-top: 5px;
     }
+
     @media only screen and (max-width: $break-mobile) {
         font-size: 16px;
     }
-  }
-  p.priority-description {
-    margin-top:0;
-    margin-bottom:5%;
+}
+
+p.priority-description {
+    margin-top: 0;
+    margin-bottom: 5%;
     @media only screen and (max-width: $break-mobile) {
         margin-top: 1.8em;
         margin-left: -60px;
     }
+    
     @media only screen and (max-width: 320px) {
         margin-left: -50px;
     }
