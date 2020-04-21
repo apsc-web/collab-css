@@ -322,7 +322,7 @@
         width: 20px;
         height: 20px;
         position: absolute;
-        top: 15px;
+        top: 16px;
         right: -7px;
         border-top: 3px solid $accent-color;
         border-right: 3px solid $accent-color;
@@ -332,7 +332,7 @@
         }
 
         @media (min-width: 1150px) {
-        	right: 5px;
+        	right: 9px;
         }
     }
 
@@ -342,10 +342,14 @@
         width: 20px;
         height: 20px;
         position: absolute;
-        bottom: 15px;
-        left: 30px;
+        bottom: 14px;
+        left: 31px;
         border-bottom: 3px solid $accent-color;
         border-left: 3px solid $accent-color;
+
+        @media (min-width: $break-mobile) {
+        	bottom: 17px;
+        }
     }
 }
 
