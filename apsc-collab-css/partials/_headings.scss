@@ -19,7 +19,12 @@
       color: $accent-color; 
     }
 
-    h3, h4 {
+    h3 {
+        margin-top: 0.9em;
+        font-size: 1.5em;
+    }
+
+    h4 {
         margin-top: 0.9em;
     }
 }
