@@ -311,10 +311,11 @@
         height: 20px;
         position: absolute;
         top: 15px;
-        right: 55px;
+        right: 5px;
         border-top: 3px solid $accent-color;
         border-right: 3px solid $accent-color;
 
+        /*
         @media (min-width: $break-mobile) {
             top: 15px;
         	right: 55px;
@@ -323,7 +324,7 @@
         @media (min-width: $break-tablet) {
             top: 15px;
         	right: 5px;
-        }	
+        }	*/
     }
 
     &:before {
@@ -333,10 +334,11 @@
         height: 20px;
         position: absolute;
         bottom: 15px;
-        left: 60px;
+        left: 30px;
         border-bottom: 3px solid $accent-color;
         border-left: 3px solid $accent-color;
 
+        /*
         @media (min-width: $break-mobile) {
             bottom: 15px;
         	right: 55px;
@@ -345,7 +347,7 @@
         @media (min-width: $break-tablet) {
             bottom: 15px;
         	left: 30px;
-        }	
+        }*/	
     }
 }
 
@@ -374,6 +376,8 @@
 	}
 
 	.iso-team {
+		width: 100% !important;
+		
 		p {
 			margin-top: 1.3em;
 			font-size: 0.9em;
