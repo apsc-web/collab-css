@@ -315,16 +315,9 @@
         border-top: 3px solid $accent-color;
         border-right: 3px solid $accent-color;
 
-        /*
-        @media (min-width: $break-mobile) {
-            top: 15px;
-        	right: 55px;
+        @media (min-width: 1150px) {
+        	right: -5px;
         }
-
-        @media (min-width: $break-tablet) {
-            top: 15px;
-        	right: 5px;
-        }	*/
     }
 
     &:before {
@@ -337,17 +330,6 @@
         left: 30px;
         border-bottom: 3px solid $accent-color;
         border-left: 3px solid $accent-color;
-
-        /*
-        @media (min-width: $break-mobile) {
-            bottom: 15px;
-        	right: 55px;
-        }
-
-        @media (min-width: $break-tablet) {
-            bottom: 15px;
-        	left: 30px;
-        }*/	
     }
 }
 
