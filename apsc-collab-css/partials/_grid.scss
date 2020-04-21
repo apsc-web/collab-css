@@ -199,13 +199,14 @@ p#increase-impact, p#accelerate-solutions{
 
 h3.priority-title {
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 1.25em;
     line-height: normal;
     color: white;
 
     @media only screen and (min-width: $break-mobile) {
         margin-top: 0;
         font-size: 24px;
+        font-size: 1.9em;
         line-height: 30px;
     }
 }
