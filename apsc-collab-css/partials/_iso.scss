@@ -316,7 +316,8 @@
         border-right: 3px solid $accent-color;
 
         @media (min-width: $break-mobile) {
-            border: none;
+            top: 15px;
+        	right: 55px;
         }
 
         @media (min-width: $break-tablet) {
@@ -337,7 +338,8 @@
         border-left: 3px solid $accent-color;
 
         @media (min-width: $break-mobile) {
-            border: none;
+            top: 15px;
+        	right: 55px;
         }
 
         @media (min-width: $break-tablet) {
