@@ -276,11 +276,11 @@
                         border-bottom: 3px solid $accent-color;
                         border-left: 3px solid $accent-color;
                     }
+                }
 
-                    p {
-                        font-size: 0.9em;
-                        line-height: 1.4em;
-                    }
+                .iso-hover-title {
+                    font-size: 0.8em;
+                    line-height: 1.875em;
                 }
 
                 .strategy-application-title {
@@ -310,6 +310,8 @@
 
                 .applications {
                     p {
+                        font-size: 0.9em;
+                        line-height: 1.4em;
                         margin: 12px 0 0 0;
                     }
                 }
@@ -317,6 +319,7 @@
                 .applications-label {
                     margin-top: 0;
                     padding-bottom: 3px;
+                    font-size: 0.8em;
                     color: $accent-color;
                 }
             }
