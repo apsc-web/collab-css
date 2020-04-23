@@ -2,6 +2,16 @@
 @import '../modules/breakpoints';
 @import '../modules/container';
 
+.entry-content {
+	.iso-team__show-description {
+		margin-bottom: 2em;
+		
+		p {
+			margin: 0;
+		}
+	}
+}
+
 .iso {
     .header-tags, .date {
         display:none;
