@@ -375,11 +375,9 @@ h1 {
 
 .intro-content {
     position: relative;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-
     @media only screen and (min-width: $break-mobile) {
-        position: absolute;
+        width: 50vw;
+        min-width: 350px;
     }
 }
 
