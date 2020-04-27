@@ -10,6 +10,28 @@
                 a
                 {
                     color:$brand-color;
+                    &:hover, &:focus
+                    {
+                        background:unset;
+                    }
+                    .focus
+                    {
+                        &::after
+                        {
+
+                        font-family: FontAwesome;
+                        font-weight: 400;
+                        font-style: normal;
+                        text-decoration: inherit;
+                        -webkit-font-smoothing: antialiased;
+                        content: "\f068";
+                        text-decoration: inherit;
+                        display: inline-block;
+                        speak: none;
+                        padding-left: 4px;
+                        color:$link-color;
+                        }
+                    }
                     &::after
                     {
                         font-family: FontAwesome;
@@ -23,17 +45,6 @@
                         speak: none;
                         padding-left: 4px;
                         color:$link-color;
-                    }
-                    &:hover, &:focus
-                    {
-                        background:unset;
-                    }
-                    .focus
-                    {
-                        &::after
-                        {
-                            content: "\f068";
-                        }
                     }
                 }
             }
