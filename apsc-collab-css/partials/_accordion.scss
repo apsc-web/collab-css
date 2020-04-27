@@ -24,16 +24,16 @@
                         padding-left: 4px;
                         color:$link-color;
                     }
-                    &.focus
+                    &:hover
+                    {
+                        background:unset;
+                    }
+                    .focus
                     {
                         &::after
                         {
                             content: "\f068";
                         }
-                    }
-                    &:hover
-                    {
-                        background:unset;
                     }
                 }
             }
