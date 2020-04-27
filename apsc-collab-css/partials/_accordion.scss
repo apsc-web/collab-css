@@ -18,18 +18,14 @@
                     {
                         &::after
                         {
-
-                        font-family: FontAwesome;
-                        font-weight: 400;
-                        font-style: normal;
-                        text-decoration: inherit;
-                        -webkit-font-smoothing: antialiased;
-                        content: "\f068";
-                        text-decoration: inherit;
-                        display: inline-block;
-                        speak: none;
-                        padding-left: 4px;
-                        color:$link-color;
+                            content: "\f068";
+                        }
+                        &.collapsed
+                        {
+                            &::after
+                            {
+                                content: "\f067";
+                            }
                         }
                     }
                     &::after
