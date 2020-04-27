@@ -1,0 +1,29 @@
+.accordion
+{
+    &.style-4
+    {
+        .accordion-group
+        {
+            border:none;
+            .accordion-heading
+            {
+                a
+                {
+                    color:$brand-color;
+                    &::after
+                    {
+                        font-family: FontAwesome;
+                        font-weight: 400;
+                        font-style: normal;
+                        text-decoration: inherit;
+                        -webkit-font-smoothing: antialiased;
+                        content: "\f067";
+                        text-decoration: inherit;
+                        display: inline-block;
+                        speak: none;
+                    }
+                }
+            }
+        }
+    }
+}
