@@ -21,6 +21,12 @@
                         text-decoration: inherit;
                         display: inline-block;
                         speak: none;
+                        padding-left: 4px;
+                        color:$link-color;
+                    }
+                    &.focus
+                    {
+                        content: "\f068";
                     }
                 }
             }
