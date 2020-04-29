@@ -63,4 +63,68 @@
             }
         }
     }
+
+    /* accordion style-5 definition */
+    &.style-5
+    {
+        .accordion-group
+        {
+            border:none;
+            .accordion-heading
+            {
+                a
+                {
+                    color:$brand-color;
+                    font-size: 1em;
+                    line-height: 1.8em;
+                    padding-left: 0;
+                    
+                    @media only screen and (min-width: $break-mobile) {
+                        font-size: 1.1em;
+                        line-height: 1.9em;
+                    }
+                    &:hover, &:focus
+                    {
+                        background:unset;
+                    }
+                    &.focus
+                    {
+                        &::after
+                        {
+                            content: "\f068";
+                        }
+                        &.collapsed
+                        {
+                            &::after
+                            {
+                                content: "\f067";
+                            }
+                        }
+                    }
+                    &::after
+                    {
+                        font-family: FontAwesome;
+                        font-weight: 400;
+                        font-style: normal;
+                        text-decoration: inherit;
+                        -webkit-font-smoothing: antialiased;
+                        content: "\f067";
+                        text-decoration: inherit;
+                        display: inline-block;
+                        speak: none;
+                        padding-left: 4px;
+                        color:$link-color;
+                    }
+                }
+            }
+            .accordion-body
+            {
+                .accordion-inner
+                {
+                    padding: 0;
+                    border-bottom: 1px solid #e5e5e5;
+                }
+            }
+        }
+    }
 }
