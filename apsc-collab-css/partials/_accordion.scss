@@ -89,19 +89,19 @@
                     }
                     &.focus
                     {
-                        &::after
+                        &::before
                         {
                             content: "\f068";
                         }
                         &.collapsed
                         {
-                            &::after
+                            &::before
                             {
                                 content: "\f067";
                             }
                         }
                     }
-                    &::after
+                    &::before
                     {
                         font-family: FontAwesome;
                         font-weight: 400;
