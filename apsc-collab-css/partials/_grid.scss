@@ -197,19 +197,6 @@ p#increase-impact, p#accelerate-solutions{
     }
 }
 
-h3.priority-title {
-    margin-top: 5px;
-    font-size: 1em;
-    line-height: normal;
-    color: white;
-
-    @media only screen and (min-width: $break-mobile) {
-        margin-top: 0;
-        font-size: 1.5em;
-        line-height: 30px;
-    }
-}
-
 p.priority-description {
     margin-left: -50px;
     font-size: 0.9em;
@@ -224,6 +211,19 @@ p.priority-description {
         margin-bottom: 5%;
         margin-left: 0;
         font-size: 1em;
+    }
+}
+
+h3.priority-title {
+    margin-top: 5px;
+    font-size: 1em;
+    line-height: normal;
+    color: white;
+
+    @media only screen and (min-width: $break-mobile) {
+        margin-top: 0;
+        font-size: 1.5em;
+        line-height: 30px;
     }
 }
 
