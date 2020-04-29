@@ -69,10 +69,10 @@
     {
         .accordion-group
         {
-            border:none;
-            border-top: 1px solid #e5e5e5;
-            border-bottom: 1px solid #e5e5e5;
-            
+            border: 1px solid #e5e5e5;
+            border-left: none;
+            border-right: none;
+
             .accordion-heading
             {
                 a
@@ -125,6 +125,7 @@
                 .accordion-inner
                 {
                     padding: 0;
+                    border-top: none;
                     border-bottom: 1px solid #e5e5e5;
                 }
             }
