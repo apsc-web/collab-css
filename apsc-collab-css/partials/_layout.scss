@@ -196,10 +196,10 @@ h1 {
 .featured-image {
     height: 200px;
     width: 100%;
+    object-fit: cover;
 
     @media only screen and (min-width: $break-mobile) {
         height: 500px;
-        object-fit: cover;
     } 
 
     @media only screen and (min-width: $break-tablet) {
