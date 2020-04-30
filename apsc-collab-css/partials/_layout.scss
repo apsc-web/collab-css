@@ -67,16 +67,18 @@
             }
         }
     }
+
     blockquote, .intro-content blockquote {
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
     }
-}
 
-// left align bullets only on the homepage
-.page-id-133 .section--full-width ul {
-    margin-left: 0;
+    ul {
+        &.no-margin-left {
+            margin-left: 0;
+        }
+    }
 }
 
 .single-post {
