@@ -122,7 +122,8 @@
     }
 
     @media only screen and (min-width: $break-tablet) {
-        padding: 0.9em 0;
+        //padding: 0.9em 0;
+        padding: 0.9em 0 1.3em 0;
     }
 }
 
@@ -134,7 +135,7 @@
     margin: 0;
 
     @media only screen and (min-width: $break-mobile) {
-        min-height: 355px;
+        min-height: 382px;
     }
 
     @media only screen and (min-width: $break-tablet) {
