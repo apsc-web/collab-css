@@ -74,6 +74,11 @@
     }
 }
 
+// left align bullets only on the homepage
+.page-id-133 .section--full-width ul {
+    margin-left: 0;
+}
+
 .single-post {
     .post-title, .navigation-links {
         max-width: $content-width;
