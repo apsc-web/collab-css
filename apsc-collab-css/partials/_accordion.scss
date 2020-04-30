@@ -1,7 +1,6 @@
 .accordion
 {
-    /* accordion style-4 definition */
-    &.style-4
+    &.accordion-style__no-borders-blue-icon-right
     {
         .accordion-group
         {
@@ -64,8 +63,7 @@
         }
     }
 
-    /* accordion style-5 definition */
-    &.style-5
+    &.accordion-style__borders-black-icon-left
     {
         .accordion-group
         {
