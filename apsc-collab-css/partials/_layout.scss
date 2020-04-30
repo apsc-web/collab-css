@@ -73,12 +73,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-
-    ul {
-        &.no-margin-left {
-            margin-left: 0;
-        }
-    }
 }
 
 .single-post {
@@ -167,6 +161,10 @@ h1 {
 
 .no-margin-bottom {
     margin-bottom: 0px;
+}
+
+.no-margin-left {
+    margin-left: 0;
 }
 
 .full-width .full-width-container .breadcrumb {
