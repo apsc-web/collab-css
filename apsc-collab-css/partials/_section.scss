@@ -51,8 +51,9 @@
         }
 
         @media only screen and (min-width: $break-tablet) {
-            margin: 3.5em -15px 3.5em -15px;
+            //margin: 3.5em -15px 3.5em -15px;
             //padding: 0.9em;
+            margin: 0 -15px;
             padding: 0 0.9em;
         }
     }
