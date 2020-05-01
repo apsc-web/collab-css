@@ -56,6 +56,20 @@
             margin: 0 -15px;
             padding: 0 0.9em;
         }
+
+        .span5 p {
+            display: none;
+        }
+
+        .span7 {
+            p {
+                display: none;
+            }
+
+            .block-section__content p {
+                display: block;
+            }
+        }
     }
 }
 
