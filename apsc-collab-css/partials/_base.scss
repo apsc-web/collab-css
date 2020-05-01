@@ -18,7 +18,11 @@ td {
 
 .entry-content {
     ul, ol {
-        font-size: 1.05em;
+        font-size: 0.95em;
+
+        @media only screen and (min-width: $break-mobile) {
+            font-size: 1.05em;;
+        }
     }
 
     p {
