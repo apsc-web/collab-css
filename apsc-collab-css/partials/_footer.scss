@@ -21,13 +21,14 @@
         a {
             text-decoration: none;
             color: #ffffff;
-            font-size: 1em;
+            font-size: 14px;
             transition: all 0.2s ease-in-out;
         }
         
         .footer-apsc {
             display: inline-block;
             padding: 12px 0px;
+            font-size: 14px;
             @media only screen and (min-width: $break-laptop) {
                 float: right;
             }
