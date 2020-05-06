@@ -386,20 +386,25 @@ h1 {
     position: relative;
 
     @media only screen and (min-width: $break-tablet) {
-        width: 50vw;
+        /*width: 50vw;*/
         min-width: 350px;
-    }
-}
-
-@media only screen and (min-width: 978px){
-    .parent-pageid-223 .entry-content { // priority pages
-        margin-top: -400px;
-    }
-    
-    .intro-content {
         background: #fff;
     }
 }
+
+.parent-pageid-223 .entry-content { // priority pages
+
+    @media only screen and (min-width: $break-tablet){
+        margin-top: -400px;
+    }
+}
+
+/*
+@media only screen and (min-width: 978px){
+    .intro-content {
+        background: #fff;
+    }
+}*/
 
 .drivers {
     p {
@@ -506,12 +511,4 @@ h1 {
 
 .priority-title-text {
     margin-left: 26px;
-}
-
-.separate-page {
-    display: none;
-
-    @media only screen and (min-width: $break-mobile) {
-        display: block;
-    }
 }
