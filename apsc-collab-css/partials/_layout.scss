@@ -380,7 +380,8 @@ h1 {
 
 .intro-content {
     position: relative;
-    @media only screen and (min-width: $break-mobile) {
+
+    @media only screen and (min-width: $break-tablet) {
         width: 50vw;
         min-width: 350px;
     }
