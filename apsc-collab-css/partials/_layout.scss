@@ -275,7 +275,7 @@ h1 {
     margin-left: -20px;
     margin-right: -20px;
 
-    @media only screen and (min-width: $break-tablet) {
+    @media only screen and (min-width: 978px) {
         margin: 0;
     }
 }
@@ -392,10 +392,11 @@ h1 {
     }
 }
 
-.parent-pageid-223 .entry-content { // priority pages
+.parent-pageid-223 { // priority pages
 
-    @media only screen and (min-width: 978px) {
-        margin-top: -400px;
+    .entry-content { 
+        @media only screen and (min-width: 978px) {
+            margin-top: -400px;
     }
 }
 
