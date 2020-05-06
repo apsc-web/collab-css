@@ -218,6 +218,10 @@ h1 {
     max-width: $break-hd;
     margin: 0 auto;
 
+    @media only screen and (min-width: $break-mobile) {
+        height: 500px;
+    }  
+
     @media only screen and (min-width: $break-tablet) {
         height: $cover-photo-height;
     }    
