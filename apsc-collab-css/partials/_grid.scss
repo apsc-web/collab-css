@@ -30,32 +30,24 @@
 }
 
 .titles-column {
-    height: 270px;
-    margin-top: 0.7em;
-    text-transform: uppercase;
-    font-size: 1.1em;
-    font-weight: 600;
-
-    @media only screen and (min-width: $break-mobile) {
-        height: 100px;
-        margin-top: 0;
-    }
+    margin-top: 20px;
 }
 
 .titles-column-title {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 600;
     width: 100%;
     float: left;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 2%;
-    padding-left: 1%;
+    margin: 5% 0;
+    padding-left: 0.5em;
 
     &:hover{
         color: $link-color;
     }
 
-    @media only screen and (min-width: $break-mobile) {
-        width: 15%;
+    @media only screen and (min-width: $break-tablet) {
+        width: 18%;
     }
 }
 
