@@ -1,15 +1,7 @@
 @import '../modules/colors';
 @import '../modules/breakpoints';
 
-.carousel {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .carousel-section {
-  max-width: 110%;
-  padding-bottom: 55px;
   margin: 4.4em -15px 1.8em -15px;
   background: #efefef;
 
@@ -19,91 +11,133 @@
   }
 }
 
-.carousel-content {
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-top: 0.9em;
-
-  @media only screen and (min-width: $break-desktop) {
-    padding-left: 4.3em;
-  }
-
-  h4 {
-    color: $accent-color;
-    font-size: 22px;
-    text-transform: none; 
-  }
-
-  p {
-    color: $brand-color;
-    font-size: 0.9em;
-    line-height: 1.5em;
-  }
-}
-
-.carousel-cell { 
+.carousel-cell {
   width: 100%;
+  margin-right: 10px;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  flex-direction: column;
 
-  img {
-    width: 100%;
+  @media only screen and (min-width: $break-laptop) {
+    flex-direction: row;
   }
-}
 
-.callout-button {
-  margin-top: 25px;
-}
+  &__image {
+    height: 320px;
+    min-height: 320px;
+    width: 100%;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
 
-.carousel__featured-label::before {
-  content: "Applying the plan";
-  text-transform: uppercase;
+    @media only screen and (min-width: $break-laptop) {
+      height: 400px;
+      width: 400px;
+      min-height: 400px;
+      min-width: 400px;
+      margin: 0;
+    }
+  }
+
+  &__content {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @media only screen and (min-width: $break-laptop) {
+      padding: 20px 65px 0 40px;
+    }
+
+    &__title {
+      color: $accent-color;
+      font-size: 22px;
+      text-transform: none;
+    }
+
+    &__excerpt p {
+      color: #0c2344;
+      font-size: .9em;
+      line-height: 1.5em;
+    }
+  }
+
+  &__featured-label {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 .flickity-button {
   background-color: transparent;
-  border: 1px solid $brand-color;
-  color: $brand-color;
-
-  &:hover {
-    background-color: transparent;
-  }
+  border: 1px solid $accent-color;
+  color: $accent-color;
 }
 
 .flickity-prev-next-button {
-  top: auto;
-  bottom: -85px;
-
-  @media only screen and (min-width: $break-tablet) {
-    top: 50%;
-    bottom: 0;
+  &.previous,
+  &.next {
+    top: auto;
+    bottom: -85px;
+  }
+  
+  &.previous {
+    left: 5%;
   }
 
-  .flickity-button-icon {
-    position: absolute;
-    left: 12px;
-    top: 14px;
-    width: 16px;
-    height: 14px;
+  &.next {
+    right: 5%;
   }
-}
 
-@media only screen and (min-width: $break-desktop) {
-  .flickity-prev-next-button.previous {
-    left: -70px;
+  @media only screen and (min-width: 1024px) {
+    &.previous {
+      left: 0;
+    }
+  
+    &.next {
+      right: 0;
+    }
+  }
+
+  @media only screen and (min-width: $break-laptop) {
+    &.previous,
+    &.next {
+      top: 50%;
+      bottom: 0;
+    }
+
+    &.right {
+      right: -54px;
+    }
+  }
+
+  @media only screen and (min-width: 1460px) {
+    &.previous {
+      left: -70px;
+    }
   }
 }
 
 .flickity-page-dots {
-  position: relative;
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: -30px;
+  position: absolute;
+  width: 100%;
+  bottom: -45px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
 
-  @media only screen and (min-width: $break-tablet) {
-    position: absolute;
-    width: 100%;
-    margin: 0;
-    bottom: -25px;
+  @media only screen and (min-width: $break-laptop) {
+    position: relative;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -30px;
   }
 
   .dot {
