@@ -73,9 +73,11 @@
 }
 
 .flickity-button {
-  background-color: transparent;
   border: 1px solid $accent-color;
   color: $accent-color;
+  &, &:hover {
+    background-color: transparent;
+  }
 }
 
 .flickity-prev-next-button {
