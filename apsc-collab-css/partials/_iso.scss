@@ -157,10 +157,6 @@
 
 .iso-links {
 	text-align: center;
-
-    a {
-        text-transform:uppercase;
-    }
 }
 
 .iso-title {
@@ -173,7 +169,6 @@
 	.strat-label {
 		font-size: 0.8em;		
 		font-weight: 100;
-		text-transform: uppercase;
 		color: #ffffff;
 
 		&:before {
@@ -204,7 +199,6 @@
 			padding: 10px;
 		    font-size: 12px;
 		    font-weight: 400;
-		    text-transform: uppercase;
 		    text-decoration: none;
 		    border-bottom: 1px solid #CCC;
 		    color: #101010;
@@ -384,7 +378,6 @@
 		.iso-grid-title {
 			font-size: 0.8em;
 			font-weight: 600;
-			text-transform: uppercase;
 		}
 	}
 

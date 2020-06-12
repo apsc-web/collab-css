@@ -101,7 +101,6 @@ blockquote {
     .blockquote__quotee {
         font-weight: 600;
         line-height: 1.3em;
-        text-transform: uppercase;
     }
 }
 
@@ -110,7 +109,6 @@ blockquote {
     line-height: 0.9em;
     font-size: 1.13em;
     font-weight: 600;
-    text-transform: capitalize;
     color: $link-color;
     
     @media only screen and (min-width: $break-mobile) {
