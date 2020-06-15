@@ -39,18 +39,6 @@ td {
         }
     }
 
-    /*
-    blockquote {
-        p {
-            font-size: 1.3em;
-            line-height: 1.3em;
-
-            @media only screen and (min-width: $break-mobile) {
-                font-size: 1em;
-            }
-        }
-    }*/
-
     ul {
         list-style-type: disc;
     }
@@ -95,24 +83,24 @@ blockquote {
 
     p {
         font-weight: 700;
-        font-size: 1.3em;
-        line-height: 1.69em;
+        font-size: 1rem;
+        line-height: 1.3rem;
     }
 
     .blockquote {
         &__quote {
-            font-size: 1.3em;
+            font-size: 1rem;
             font-weight: 600;
-            line-height: 1.69em;
+            line-height: 1.3rem;
             margin-top: 0;
             margin-bottom: 30px;
             text-align: left;
         }
 
         &__quotee {
-            font-size: 1.1em;
+            font-size: 1rem;
             font-weight: normal;
-            line-height: 1.3em;
+            line-height: 1.3rem;
             text-transform: uppercase;
             text-align: right;
         }
