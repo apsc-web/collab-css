@@ -3,3 +3,10 @@
 .this--uppercase {
     text-transform: uppercase;
 }
+
+// An override for the setting the lead text to the default margin-top value
+@-moz-document url-prefix() {
+    .margin-top--default {
+          margin-top: 1.3rem;
+    }
+}

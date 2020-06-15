@@ -1,0 +1,44 @@
+.diagram {
+    display:flex;
+    flex-direction: column-reverse;
+    margin: 2em 0;
+
+    @media only screen and (min-width: 1500px) {
+        display: flex;
+        flex-direction: row;
+        margin-left: -350px;
+        margin-top: 5em;
+        margin-bottom: 5em;    
+    }
+}
+
+.diagram-image {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.diagram-caption {
+    width: 100%;
+    color: #002145;
+
+    @media only screen and (min-width: 1500px) {
+        width: 300px;
+        margin-right: 50px;
+    }
+
+    &__label {
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+    &__lead {
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+
+.future-worlds-image {
+    background-color: #F2F2F2;
+    padding: 20px;
+    margin: -20px;
+}
