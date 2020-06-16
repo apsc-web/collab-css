@@ -254,7 +254,7 @@
                 .strategy-application {
                     display: block;
                     min-height: 210px;
-
+					> h3 {display:none;}
                     /*&:after {
                         display: block;
                         content: "";
