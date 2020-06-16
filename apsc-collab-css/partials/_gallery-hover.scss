@@ -217,9 +217,12 @@
                     border: 3px solid $accent-color;
                     background-color: $iso-hover-background-color;
 
-                    .post-title {
+                    /*.post-title {
                         display: none;
-                    }
+                    }*/
+					.iso-title, .strat-label {
+						color: #0055b7;
+					}
                 }
 
                 .iso-description {
@@ -252,7 +255,7 @@
                     display: block;
                     min-height: 210px;
 
-                    &:after {
+                    /*&:after {
                         display: block;
                         content: "";
                         width: 20px;
@@ -274,7 +277,7 @@
                         left: -5px;
                         border-bottom: 3px solid $accent-color;
                         border-left: 3px solid $accent-color;
-                    }
+                    }*/
                 }
 
                 .iso-hover-title {
