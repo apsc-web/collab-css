@@ -190,7 +190,7 @@
 	li {
 		display: block;
 
-		@media (min-width: $break-mobile) {
+		@media (min-width: $break-tablet) {
             display: inline-block;
         }
 
@@ -203,7 +203,7 @@
 		    border-bottom: 1px solid #CCC;
 		    color: #101010;
 		    
-		    @media (min-width: $break-mobile) {
+		    @media (min-width: $break-tablet) {
 	            border: none;
 	        }		    
 		}
