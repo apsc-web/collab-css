@@ -167,13 +167,13 @@
 	margin-bottom: 1em;
 
 	.strat-label {
-		position: absolute;
-		right: 5%;
-		top: 45%;
-		font-size: 8em;
-		font-weight: 900;
-		color: #fff;
-		opacity: 0.25;
+		font-size: 0.8em;		
+		font-weight: 100;
+		color: #ffffff;
+
+		&:before {
+			content:"Strategy #";
+		}
 	}
 }
 
@@ -183,14 +183,14 @@
 	margin-left: 0px;
 	text-align: left;
 
-	@media (min-width: $break-tablet) {
+	@media (min-width: $break-mobile) {
         text-align: center;
     }
 
 	li {
 		display: block;
 
-		@media (min-width: $break-tablet) {
+		@media (min-width: $break-mobile) {
             display: inline-block;
         }
 
@@ -203,7 +203,7 @@
 		    border-bottom: 1px solid #CCC;
 		    color: #101010;
 		    
-		    @media (min-width: $break-tablet) {
+		    @media (min-width: $break-mobile) {
 	            border: none;
 	        }		    
 		}
@@ -294,7 +294,7 @@
 
 			.iso-uncertainty {
 				background-color: $iso-uncertainty-color;
-				color: #ffffff;
+				color: #222;
 			}
 
 			.iso-team {

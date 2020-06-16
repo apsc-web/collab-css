@@ -59,6 +59,10 @@
                     margin-left: 0px;
                     margin-bottom: 0px;
                     float: none;
+
+                    @media (min-width: $break-mobile) {
+                        float: left;
+                    }
                 }
             }
         }
@@ -299,7 +303,6 @@ h1 {
 
     .alert-uncertainties {
         background: $iso-uncertainty-color;
-        color: #fff;
     }
 }
 
