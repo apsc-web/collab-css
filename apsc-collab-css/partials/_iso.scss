@@ -183,14 +183,14 @@
 	margin-left: 0px;
 	text-align: left;
 
-	@media (min-width: $break-mobile) {
+	@media (min-width: $break-tablet) {
         text-align: center;
     }
 
 	li {
 		display: block;
 
-		@media (min-width: $break-mobile) {
+		@media (min-width: $break-tablet) {
             display: inline-block;
         }
 
@@ -203,7 +203,7 @@
 		    border-bottom: 1px solid #CCC;
 		    color: #101010;
 		    
-		    @media (min-width: $break-mobile) {
+		    @media (min-width: $break-tablet) {
 	            border: none;
 	        }		    
 		}
@@ -294,7 +294,7 @@
 
 			.iso-uncertainty {
 				background-color: $iso-uncertainty-color;
-				color: #222;
+				color: #ffffff;
 			}
 
 			.iso-team {
