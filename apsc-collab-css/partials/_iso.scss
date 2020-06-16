@@ -167,13 +167,13 @@
 	margin-bottom: 1em;
 
 	.strat-label {
-		font-size: 0.8em;		
-		font-weight: 100;
-		color: #ffffff;
-
-		&:before {
-			content:"Strategy #";
-		}
+		position: absolute;
+		right: 5%;
+		top: 45%;
+		font-size: 8em;
+		font-weight: 900;
+		color: #fff;
+		opacity: 0.25;
 	}
 }
 
