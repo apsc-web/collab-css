@@ -172,7 +172,7 @@
 		top: 115px;
 		font-size: 8em;
 		font-weight: 900;
-		color: #fff;
+		color: #ffffff;
 		opacity: 0.25;
 	}
 }
@@ -183,14 +183,14 @@
 	margin-left: 0px;
 	text-align: left;
 
-	@media (min-width: $break-tablet) {
+	@media (min-width: $break-mobile) {
         text-align: center;
     }
 
 	li {
 		display: block;
 
-		@media (min-width: $break-tablet) {
+		@media (min-width: $break-mobile) {
             display: inline-block;
         }
 
@@ -203,7 +203,7 @@
 		    border-bottom: 1px solid #CCC;
 		    color: #101010;
 		    
-		    @media (min-width: $break-tablet) {
+		    @media (min-width: $break-mobile) {
 	            border: none;
 	        }		    
 		}
@@ -294,7 +294,7 @@
 
 			.iso-uncertainty {
 				background-color: $iso-uncertainty-color;
-				color: #ffffff;
+				color: #222;
 			}
 
 			.iso-team {
