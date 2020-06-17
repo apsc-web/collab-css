@@ -216,10 +216,12 @@
                     padding: 27px;
                     border: 3px solid $accent-color;
                     background-color: $iso-hover-background-color;
-
-                    /*.post-title {
-                        display: none;
-                    }*/
+					box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+                    .post-title .media-title a {
+					  display: inline-block;  /* For IE11/ MS Edge bug */
+					  pointer-events: none;
+					  text-decoration: none;
+					}
 					.iso-title, .strat-label {
 						color: #0055b7;
 					}
@@ -253,7 +255,6 @@
 
                 .strategy-application {
                     display: block;
-                    min-height: 210px;
 					> h3 {display:none;}
                     /*&:after {
                         display: block;
