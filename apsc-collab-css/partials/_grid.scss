@@ -75,23 +75,6 @@
     cursor: pointer;
 }
 
-/* Test CSS for commitments title grid*/
-.title-lead-by-example__left{
-    border-left: 5px solid $lead-by-example-color;
-}
-.title-embrace-ambiguity__left{
-    border-left: 5px solid $embrace-ambiguity-color;
-}
-.title-act-with-intention__left{
-    border-left: 5px solid $act-with-intention-color;
-}
-.title-increase-impact__left{
-    border-left: 5px solid $increase-impact-color;
-}
-.title-accelerate-solutions__left{
-    border-left: 5px solid $accelerate-solutions-color; 
-}
-
 p#lead-by-example, p#embrace-ambiguity, p#act-with-intention,
 p#increase-impact, p#accelerate-solutions{
     padding-left: 15px;
