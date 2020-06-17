@@ -47,7 +47,7 @@
     padding-left: 0.5em;
 
     &:hover{
-        color: $link-color;
+        font-weight: $FontWeightBold;
     }
 
     @media only screen and (min-width: $break-tablet) {
