@@ -216,7 +216,7 @@
                     padding: 27px;
                     background-color: $iso-hover-background-color;
 					box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
-                    .post-title .media-title a {
+                    .post-title.media-title a {
 					  display: inline-block;  /* For IE11/ MS Edge bug */
 					  pointer-events: none;
 					  text-decoration: none;
