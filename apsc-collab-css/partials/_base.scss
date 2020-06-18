@@ -106,7 +106,7 @@ blockquote {
     }
 	&.blockquote__inverse {
 		color: $brand-color;
-		background-color: none;
+		background: none;
 		.blockquote {
 			&__quotee {
 				text-align: left;
