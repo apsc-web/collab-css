@@ -144,11 +144,10 @@ h1 {
     color: $accent-color;   
     font-size: 1.3rem;  
     font-weight: 200;
-    line-height: 1.95rem;
+    line-height: 1.5rem;
 
     @media only screen and (min-width: $break-tablet) {
-        font-size: 1.8rem;
-		line-height: 2.52rem;
+        font-size: 1.7rem;
     }
 }
 
