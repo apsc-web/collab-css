@@ -209,6 +209,17 @@ h1 {
     } 
 }
 
+.home .featured-image {
+    @media only screen and (min-width: $break-mobile) {
+        height: 33vh;
+		min-height:160px;
+    } 
+
+    @media only screen and (min-width: $break-tablet) {
+		min-height: initial;
+    } 
+}
+
 .cover-photo {
     height: 200px;
     margin: 0;
