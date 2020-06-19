@@ -238,8 +238,8 @@
                 }
 
                 .strategy-priority-icon {
-                    margin-left: -200px;
-                    margin-top: 15px;
+                    margin-left: -140px;
+                    margin-top: 5px;
 
                     @include target-firefox {
                         margin-left: -35px;
@@ -303,8 +303,8 @@
                     > li {
                         margin-left: 0px;
                         font-family: $brand-font;
-                        font-size: 0.9em;
-                        line-height: 1.4em;
+                        font-size: 1.1em;
+						line-height: 1.7em;
                     }
                 }
 
