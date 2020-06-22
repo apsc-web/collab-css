@@ -191,10 +191,6 @@ h1 {
     object-fit: cover;
 
     @media only screen and (min-width: $break-mobile) {
-        height: 500px;
-    } 
-
-    @media only screen and (min-width: $break-tablet) {
         height: auto;
         object-fit: fill;
     } 
@@ -208,7 +204,7 @@ h1 {
 
     @media only screen and (min-width: $break-tablet) {
 		min-height: initial;
-    } 
+    }
 }*/
 
 .cover-photo {
@@ -256,7 +252,7 @@ h1 {
 
             @media only screen and (min-width: $break-mobile) {
                 //line-height: 1em;
-                font-size: 1.3em;
+                font-size: 2.5em;
             }
 
             @media only screen and (min-width: $break-tablet) {
