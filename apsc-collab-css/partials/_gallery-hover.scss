@@ -181,7 +181,7 @@
             color:#ffffff;
             font-weight: $FontWeightMedium;
             text-rendering: optimizeLegibility;
-            margin: 0 0 10px 0;
+            margin: 0;
         }
 
         .iso-description {
@@ -297,7 +297,6 @@
 
                 ul {
                     font-size: 1em;
-                    margin-top: 10px;
                     list-style-type: none;
 
                     > li {
