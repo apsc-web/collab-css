@@ -1,0 +1,69 @@
+@import '../modules/breakpoints';
+@import '../modules/container';
+
+.tabbable {
+    max-width: $container-size;
+	
+	.nav-tabs {
+		&.nav {
+			@media only screen and (min-width: $break-larger) {
+				width: 900px;
+				margin:0 auto;
+			}
+		}
+		
+		.tab-pane {
+			margin: 0 10px;
+			@media only screen and (min-width: $break-tablet) {
+					margin: 0 20px;
+			}
+			@media only screen and (min-width: $break-laptop) {
+					margin: 0 40px;
+			}
+
+			a{
+				font-size: 1rem;
+				@media only screen and (min-width: $break-mobile) {
+						font-size: 1.1rem;
+				}
+				@media only screen and (min-width: $break-tablet) {
+						font-size: 1.2rem;
+				}
+			}
+			
+			.iso-trends-uncertainties {
+				position: relative;
+				z-index: 180;
+				width: $container-size;
+				margin-left: -25%;
+			}
+		}
+	}
+	
+	.tab-content {
+		position:relative;
+		z-index:1;
+		overflow:unset;
+		
+		& > div {
+			max-width: $content-width;
+			margin: 0 auto;
+		}
+		
+		/* ISO contained in tab */
+		.iso-section {
+			margin-bottom:40px;
+			@-moz-document url-prefix() {
+				width: 870px;
+				position: relative;
+				z-index: 180;
+			}
+			.filter-wrapper {
+				margin: 0 auto;
+				li {
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+}
