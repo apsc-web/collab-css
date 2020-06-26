@@ -1,50 +1,59 @@
 .entry-content  {
-    .section--full-width {
-        max-width: 100%;
-        padding: 0.9em;
-        margin: 3.5em -15px 3.5em -15px;
+    .section {
+		&--full-width {
+			max-width: 100%;
+			padding: 0.9em;
+			margin: 3.5em -15px 3.5em -15px;
 
-        > * {
-            max-width: 770px;
-            margin-left:auto;
-            margin-right:auto;
-        }
+			> * {
+				max-width: 770px;
+				margin-left:auto;
+				margin-right:auto;
+			}
 
-        .block-section--grey,
-        .block-section--white {
-            margin-left: -20px;
-            margin-right: -20px;
+			.block-section--grey,
+			.block-section--white {
+				margin-left: -20px;
+				margin-right: -20px;
 
-            @media only screen and (min-width: $break-tablet) {
-                margin-left: auto;
-                margin-right: auto;
-            } 
-        }
+				@media only screen and (min-width: $break-tablet) {
+					margin-left: auto;
+					margin-right: auto;
+				} 
+			}
 
-        .column-header {
-			color:$col-header-color;
-            margin-top: 0.9em;
-			text-transform:uppercase;
-        }
-    }
+			.column-header {
+				color:$col-header-color;
+				margin-top: 0.9em;
+				text-transform:uppercase;
+			}
+		}
+		&--custom-full-width {
+			max-width: 100%;
+			padding: 0.9em;
+			margin: 3.5em -15px 3.5em -15px;
 
-    .section--custom-full-width {
-        max-width: 100%;
-        padding: 0.9em;
-        margin: 3.5em -15px 3.5em -15px;
+			> * {
+				max-width: 810px; /* Adjust custom width */
+				margin-left:auto;
+				margin-right:auto;
+			}
 
-        > * {
-            max-width: 810px; /* Adjust custom width */
-            margin-left:auto;
-            margin-right:auto;
-        }
-
-        .column-header {
-			color:$col-header-color;
-            margin-top: 0.9em;
-			text-transform:uppercase;
-        }
-    }
+			.column-header {
+				color:$col-header-color;
+				margin-top: 0.9em;
+				text-transform:uppercase;
+			}
+		}
+		&--wide{
+			margin: 0 -20px;
+			@media only screen and (min-width: 768px) {
+					position:relative;
+					display:flex;
+					margin: 0 auto;
+			}
+		}
+	}
 
     .process-block {
         margin: 0;
