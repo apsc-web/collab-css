@@ -50,7 +50,7 @@
 			display:none;
 		}
 	}
-	&iso-center-nav {
+	&.iso-center-nav {
 		.iso-nav {
 			.services-menu {
 				a {
@@ -70,9 +70,6 @@
 			margin-right: auto;
 			@-moz-document url-prefix() {
 				 width: 930px;
-			}
-			.services-menu a {
-				font-size: 14px;
 			}
 		}
 
