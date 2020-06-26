@@ -255,12 +255,12 @@ p.lead-text {
 .alert- {
 	&trends {
 		color: #fff;
-		padding: 2px;
+		padding: 0.5rem 1rem;
 		background: $iso-trend-color;
 	}
 	&uncertainties {
 		color: #fff;
-		padding: 2px;
+		padding: 0.5rem 1rem;
 		background: $iso-uncertainty-color;
 	}
 }
