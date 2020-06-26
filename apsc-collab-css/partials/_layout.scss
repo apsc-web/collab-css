@@ -250,18 +250,19 @@ p.lead-text {
     margin-bottom: 2.6em; 
 
     .alert-trends, .alert-uncertainties{
-        padding: 2px;
     }
-
-    .alert-trends {
-        background: $iso-trend-color;
-        color: #fff;
-    }
-
-    .alert-uncertainties {
-        background: $iso-uncertainty-color;
-        color: #fff;
-    }
+}
+.alert- {
+	&trends {
+		color: #fff;
+		padding: 2px;
+		background: $iso-trend-color;
+	}
+	&uncertainties {
+		color: #fff;
+		padding: 2px;
+		background: $iso-uncertainty-color;
+	}
 }
 
 .icon-alert:before {
