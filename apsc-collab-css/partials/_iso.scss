@@ -50,16 +50,29 @@
 			display:none;
 		}
 	}
+	&iso-center-nav {
+		.iso-nav {
+			.services-menu {
+				a {
+					float: none;
+					display: inline-block;
+					border: none;
+				}
+			}
+		}
+	}
 	.iso-nav {
 		padding: 0px;
 
 		@media only screen and (min-width: $break-laptop) {
-	    	width: 815px;
+	    	width: 820px;
 			margin-left: auto;
 			margin-right: auto;
-
+			@-moz-document url-prefix() {
+				 width: 930px;
+			}
 			.services-menu a {
-				font-size: 12px;
+				font-size: 14px;
 			}
 		}
 
@@ -159,6 +172,9 @@
 
 .iso-links {
 	text-align: center;
+	a {
+		text-align: left;
+	}
 }
 
 .iso-title {
@@ -199,7 +215,7 @@
 		a {
 			display: block;
 			padding: 10px;
-		    font-size: 12px;
+		    font-size: 14px;
 		    font-weight: 400;
 		    text-decoration: none;
 		    border-bottom: 1px solid #CCC;
