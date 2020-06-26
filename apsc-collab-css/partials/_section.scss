@@ -259,4 +259,22 @@
     @media only screen and (min-width: $break-mobile) {
         text-align: left;
     }
+	.row-fluid {
+		&> div {
+			padding:0;
+		}
+	}
+	.statistic {
+		text-align: center;
+		
+		&-title__text {
+			display: block;
+			line-height: 1em;
+			margin-bottom:10px;
+		}
+		&__label {
+			text-align:center;
+			margin-bottom:20px;
+		}
+	}
 }
