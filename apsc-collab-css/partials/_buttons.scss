@@ -9,7 +9,7 @@
             padding: 8px 6px;
             background-size: 0px;
             background-image: none;
-            border-color: $link-color;
+            border-color: $brand-color;
             border-width: 1px;
             border-style: solid;
             text-decoration: none;
@@ -18,7 +18,7 @@
             &:hover {
                 background-size: auto;
                 color: white;
-                background: $link-color;
+                background: $brand-color;
             }
 
             &.button-start {

@@ -22,7 +22,9 @@
         }
 
         .column-header {
+			color:$col-header-color;
             margin-top: 0.9em;
+			text-transform:uppercase;
         }
     }
 
@@ -38,7 +40,9 @@
         }
 
         .column-header {
+			color:$col-header-color;
             margin-top: 0.9em;
+			text-transform:uppercase;
         }
     }
 

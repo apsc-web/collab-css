@@ -8,67 +8,76 @@
     text-align:center;
 }
 
-.entry-content > {
-    * {
-        max-width: $content-width;  
-        margin-left:auto;
-        margin-right:auto;
-        @media only screen and (min-width: $break-mobile) {
-            padding-left:20px;
-            padding-right:20px;    
-        }
-    }
+.entry-content {
+	&> {
+		* {
+			max-width: $content-width;  
+			margin-left:auto;
+			margin-right:auto;
+			@media only screen and (min-width: $break-mobile) {
+				padding-left:20px;
+				padding-right:20px;    
+			}
+		}
 
-    .iso-container {
-        max-width: $container-size;
-        margin-top: 1.8em;
-    }
+		.iso-container {
+			max-width: $container-size;
+			margin-top: 1.8em;
+		}
 
-    .boxey-inside {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+		.boxey-inside {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
 
-    .flexslider {
-        max-width: $container-size;
-        margin-top: 1.8em;
+		.flexslider {
+			max-width: $container-size;
+			margin-top: 1.8em;
 
-        ul {
-            list-style-type: none;
-            font-size: 0.9em;
-        }
+			ul {
+				list-style-type: none;
+				font-size: 0.9em;
+			}
 
-        ul, ol {
-            > li {
-                line-height: 0.9em;
-                margin-left: 0px; 
-                margin-bottom: 0px;
-            }
-        }
-    }
+			ul, ol {
+				> li {
+					line-height: 0.9em;
+					margin-left: 0px; 
+					margin-bottom: 0px;
+				}
+			}
+		}
 
-    .row {
-        max-width: 815px;
-        margin-left: auto;
-        margin-right: auto;
+		.row {
+			max-width: 815px;
+			margin-left: auto;
+			margin-right: auto;
 
-        .iso-section {
-            ul, ol {
-                > li {
-                    line-height: 22px;
-                    margin-left: 0px;
-                    margin-bottom: 0px;
-                    float: none;
-                }
-            }
-        }
-    }
+			.iso-section {
+				ul, ol {
+					> li {
+						line-height: 22px;
+						margin-left: 0px;
+						margin-bottom: 0px;
+						float: none;
+					}
+				}
+			}
+		}
 
-    blockquote, .intro-content blockquote {
-        max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+		blockquote, .intro-content blockquote {
+			max-width: 500px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.no-bullets 
+	{
+		list-style-type: none;
+		li {
+			margin-left: 0;
+		}
+	}
 }
 
 .single-post {
