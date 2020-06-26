@@ -10,10 +10,11 @@
     color:$link-color;
 }
 
-.text-color--white {
-    color:#fff;
+.text-color, .title {
+	&--white {
+		color:#ffffff;
+	}
 }
-
 %underline-shared {
     border-bottom: 3px solid;
 }

@@ -112,6 +112,49 @@
 				margin-right: -180px;
 			}
 		}
+		&--wide {
+			margin-right: -20px;
+			margin-left: -20px;
+			font-size:14px;
+			@media only screen and (min-width: 980px) {
+				padding:5em 8em 5em 8em;
+				margin: 6em -8em 3em -8em;
+			}
+		}
+		h2 {
+			font-size:1.2rem;
+			color:#FFFFFF;
+			margin-top:0px;
+			font-weight:100;
+			text-transform:uppercase;
+			@media only screen and (min-width: 768px) {
+				font-size: 1.5em;
+			}
+		}
+		h3 {
+			font-size:1.5rem;
+			margin-top:20px;
+			line-height: 1.5em;
+			@media only screen and (min-width: 768px) {
+				font-size: 1.8rem;
+				line-height: 2.3rem;
+			}
+		}
+		 p {
+			color: $pms-298-blue;
+			text-transform:uppercase;
+		}
+		 .title__underline-narrow{
+			margin-bottom:60px;
+			&:after{
+				display: block;
+				position: relative;
+				top: 40px;
+				width: 2.36em;
+				content: '';
+				border-bottom: 4px solid #FFF;
+			}
+		}
 	}
 }
 

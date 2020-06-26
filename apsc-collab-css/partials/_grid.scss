@@ -36,39 +36,92 @@
     display: -webkit-flex; 
     display: flex;
     flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	@media only screen and (min-width: $break-medium) {
+		  width:500px;
+	}
+	@media only screen and (min-width: $break-large) {
+		  width:auto;
+	}
 }
-
+@media screen and (min-width: $break-laptop) {
+  .commitment {
+    scroll-margin: 40px 0 0 0;
+  }
+}
 .titles-column-title {
-    font-size: 1.1em;
-    font-weight: 600;
-    width: 100%;
-    float: left;
-    margin: 5% 0;
-    padding-left: 0.5em;
+	display: flex;
+    position:relative;
+	float: left;
+	height: 140px;
+	width: 140px;
+	align-items: center;
+	justify-content: center;
+	margin: 5% 0 5% 0.5em;
+	padding:0;
+	border-radius: 50%;
+	color:$brand-color;
+	font-size: 0.9em;
+	font-weight: 400;
+	text-transform: uppercase;
 
     &:hover{
         font-weight: $FontWeightBold;
     }
-
+	
+	&:nth-child(-n+3) {
+		color:#FFFFFF;
+	}
     @media only screen and (min-width: $break-tablet) {
         width: 18%;
     }
+	&-text {
+		position:relative;
+		text-align: center;
+		width:80%;
+	}
 }
 
-.title-lead-by-example__underline{
-    border-bottom: 5px solid $lead-by-example-color;
+.title-lead-by-example {
+	&__left {
+		background-color: $brand-color;
+	}
+	&__underline{
+		border-bottom: 5px solid $lead-by-example-color;
+	}
 }
-.title-embrace-ambiguity__underline{
-    border-bottom: 5px solid $embrace-ambiguity-color;
+.title-embrace-ambiguity {
+	&__left {
+		background-color: $pms-2935-blue;
+	}
+	&__underline{
+		border-bottom: 5px solid $embrace-ambiguity-color;
+	}
 }
-.title-act-with-intention__underline{
-    border-bottom: 5px solid $act-with-intention-color;
+.title-act-with-intention {
+	&__left {
+		background-color: $pms-2995-blue;
+	}
+	&__underline{
+		border-bottom: 5px solid $act-with-intention-color;
+	}
 }
-.title-increase-impact__underline{
-    border-bottom: 5px solid $increase-impact-color;
+.title-increase-impact {
+	&__left {
+		background-color: $pms-298-blue;
+	}
+	&__underline{
+		border-bottom: 5px solid $increase-impact-color;
+	}
 }
-.title-accelerate-solutions__underline{
-    border-bottom: 5px solid $accelerate-solutions-color; 
+.title-accelerate-solutions {
+	&__left {
+		background-color: $pms-298-blue;
+	}
+	&__underline {
+		border-bottom: 5px solid $accelerate-solutions-color; 
+	}
 }
 
 .cursor-pointer {
@@ -119,7 +172,7 @@ p#increase-impact, p#accelerate-solutions{
         background-image: url($bg-processing06);
     }
     
-    @media only screen and (min-width: 320px) {
+    @media only screen and (min-width: $break-x-small) {
         height: 170px;
     }
 
@@ -166,7 +219,7 @@ p#increase-impact, p#accelerate-solutions{
     p.university-priority-title {
         margin-top: 0.9em;
         
-        @media only screen and (min-width: 375px) {
+        @media only screen and (min-width: $break-small) {
             margin-top: 1.8em;
         }
 
@@ -180,7 +233,7 @@ p.priority-description {
     margin-left: -50px;
     font-size: 0.9em;
 
-    @media only screen and (min-width: 320px) {
+    @media only screen and (min-width: $break-x-small) {
         margin-top: 1.8em;
         margin-left: -60px;
     }

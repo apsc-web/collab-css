@@ -1,8 +1,14 @@
-$brand-color: rgb(12, 35, 68);
+$brand-color: rgb(12, 35, 68); /* #002145 */
+$pms-2935-blue: rgb(0, 85, 183); /* #0055B7 */
+$pms-2995-blue: rgb(0, 167, 225); /* #00A7E1 */
+$pms-298-blue: rgb(64, 180, 229); /* #40B4E5 */
+$pms-297-blue: rgb(110, 196, 232); /* #6EC4E8 */
+$pms-2975-blue: rgb(151, 212, 233); /* #97D4E9 */
+
+
+
 $accent-color: rgb(0, 85, 183);
-$link-color:  rgb(0, 167, 225);
-$pms-2935-blue: rgb(0, 85, 183);
-$pms-2975-blue: rgb(151, 212, 233);
+$link-color:  $pms-2995-blue;
 
 $block-quote-background-color: rgb(239,239,239);
 $block-quote-border-color: rgb(80, 80, 80);
