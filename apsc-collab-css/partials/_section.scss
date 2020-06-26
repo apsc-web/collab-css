@@ -84,6 +84,35 @@
             }
         }
     }
+	
+	.emphasis_block {
+		margin-top: 3.5em;
+		margin-bottom: 3.5em;
+		padding: 60px;
+		border: none;
+		color: white;
+		background: $brand-color;
+		&-left {
+			margin-left: -5%;
+			margin-right: 20px;
+			@media only screen and (min-width: 980px) {
+				margin-left: -13%;
+			}
+			@media only screen and (min-width: 1130px) {
+				margin-left: -180px;
+			}
+		}
+		&-right {
+			margin-right: -5%;
+			margin-left: 20px;
+			@media only screen and (min-width: 980px) {
+				margin-right: -13%;
+			}
+			@media only screen and (min-width: 1130px) {
+				margin-right: -180px;
+			}
+		}
+	}
 }
 
 .process-mobile .span5 {
