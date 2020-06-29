@@ -143,11 +143,7 @@ p.lead-text {
 }
 
 .featured-header-photo {
-    max-height: $cover-photo-height;
-    overflow: hidden;
-    max-width: $break-hd;
-    margin-top: 0;
-    margin-bottom: 0;
+    max-width: $container-hd;
     margin-left: -20px;
     margin-right: -20px;
 
@@ -161,23 +157,17 @@ p.lead-text {
     height: 200px;
     width: 100%;
     object-fit: cover;
+    object-position: 50% 20%;
 
     @media only screen and (min-width: $break-mobile) {
-        height: auto;
-        object-fit: fill;
-    } 
-}
-
-/*.home .featured-image {
-    @media only screen and (min-width: $break-mobile) {
-        height: 33vh;
-		min-height:160px;
-    } 
-
-    @media only screen and (min-width: $break-tablet) {
-		min-height: initial;
+		height: 350px;
+		object-position: 50% 40%;
     }
-}*/
+	@media only screen and (min-width: $break-x-large) {
+		height: 500px;
+		object-position: 50% 40%;
+	}
+}
 
 .cover-photo {
     height: 200px;
