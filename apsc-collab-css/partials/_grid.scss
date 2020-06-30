@@ -30,7 +30,6 @@
 }
 
 .titles-column {
-    margin-top: 20px;
     display: -webkit-box;  
     display: -ms-flexbox; 
     display: -webkit-flex; 
@@ -73,9 +72,6 @@
 	&:nth-child(-n+3) {
 		color:#FFFFFF;
 	}
-    @media only screen and (min-width: $break-tablet) {
-        width: 18%;
-    }
 	&-text {
 		position:relative;
 		text-align: center;
